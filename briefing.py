@@ -13,6 +13,7 @@ Schedule:     See README.md for GitHub Actions setup
 import os
 import json
 import re
+import time
 import datetime
 import urllib.request
 import urllib.error
@@ -25,8 +26,11 @@ EMAIL_TO        = os.environ.get("BRIEFING_TO_EMAIL", "")  # where the briefing 
 # ─────────────────────────────────────────────────────────────────────────────
 
 TODAY = datetime.datetime.now().strftime("%A %d %B %Y")
-MODEL = "gemini-2.5-flash"  # free-tier model with search grounding support
-GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent?key={GEMINI_API_KEY}"
+MODEL = "gemini-2.5-flash"          # free-tier model with search grounding support
+FALLBACK_MODEL = "gemini-2.0-flash" # used on final retry if the primary model is overloaded
+
+def _gemini_url(model: str) -> str:
+    return f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={GEMINI_API_KEY}"
 
 
 WORK_PROMPT = f"""You are a professional news briefing assistant. Today is {TODAY}.
@@ -143,23 +147,42 @@ Return ONLY valid JSON, no markdown fences, no preamble.
 }}"""
 
 
-def call_gemini(prompt: str) -> dict:
-    """Calls the free-tier Gemini API with Google Search grounding enabled."""
+def call_gemini(prompt: str, max_retries: int = 4) -> dict:
+    """Calls the free-tier Gemini API with Google Search grounding enabled.
+
+    Retries on 503 (model overloaded) and 429 (rate limited) with exponential
+    backoff, since these are transient and common on the free tier during
+    busy periods.
+    """
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
         "tools": [{"google_search": {}}],
         "generationConfig": {"temperature": 0.4},
     }
     data = json.dumps(payload).encode("utf-8")
-    req = urllib.request.Request(
-        GEMINI_URL, data=data, headers={"Content-Type": "application/json"}
-    )
-    try:
-        with urllib.request.urlopen(req, timeout=90) as resp:
-            result = json.loads(resp.read().decode("utf-8"))
-    except urllib.error.HTTPError as e:
-        body = e.read().decode("utf-8", errors="ignore")
-        raise RuntimeError(f"Gemini API error {e.code}: {body[:300]}")
+
+    last_error = None
+    for attempt in range(1, max_retries + 1):
+        # On the final attempt, try the fallback model in case the primary is overloaded
+        model = FALLBACK_MODEL if attempt == max_retries else MODEL
+        req = urllib.request.Request(
+            _gemini_url(model), data=data, headers={"Content-Type": "application/json"}
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=90) as resp:
+                result = json.loads(resp.read().decode("utf-8"))
+            break  # success
+        except urllib.error.HTTPError as e:
+            body = e.read().decode("utf-8", errors="ignore")
+            last_error = RuntimeError(f"Gemini API error {e.code}: {body[:300]}")
+            if e.code in (503, 429) and attempt < max_retries:
+                wait = 2 ** attempt  # 2, 4, 8, 16 seconds
+                print(f"    (attempt {attempt}/{max_retries} got {e.code}, retrying in {wait}s…)")
+                time.sleep(wait)
+                continue
+            raise last_error
+    else:
+        raise last_error
 
     text = ""
     try:
