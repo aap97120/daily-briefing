@@ -1,0 +1,29 @@
+name: Daily Morning Briefing (Free)
+
+on:
+  schedule:
+    # 7:00 UTC = 8:00 UK (GMT) / 9:00 BST in summer
+    # Adjust to 6:00 UTC during BST (late March–late October) if you want it at exactly 8am year-round
+    - cron: '0 7 * * 1-5'   # Weekdays at 8am GMT
+    - cron: '0 6 * * 6-7'   # Weekends at 8am BST
+  workflow_dispatch:          # Allows manual trigger from the GitHub UI
+
+jobs:
+  send-briefing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run briefing script
+        env:
+          GEMINI_API_KEY:        ${{ secrets.GEMINI_API_KEY }}
+          RESEND_API_KEY:        ${{ secrets.RESEND_API_KEY }}
+          BRIEFING_FROM_EMAIL:   ${{ secrets.BRIEFING_FROM_EMAIL }}
+          BRIEFING_TO_EMAIL:     ${{ secrets.BRIEFING_TO_EMAIL }}
+        run: python briefing.py
