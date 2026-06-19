@@ -5,7 +5,7 @@ on:
     # 7:00 UTC = 8:00 UK (GMT) / 9:00 BST in summer
     # Adjust to 6:00 UTC during BST (late March–late October) if you want it at exactly 8am year-round
     - cron: '0 7 * * 1-5'   # Weekdays at 8am GMT
-    - cron: '0 6 * * 6-7'   # Weekends at 8am BST
+    - cron: '0 6 * * 0,6'   # Weekends at 8am BST
   workflow_dispatch:          # Allows manual trigger from the GitHub UI
 
 jobs:
