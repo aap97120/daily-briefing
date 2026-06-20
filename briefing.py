@@ -348,15 +348,27 @@ def save_briefing_page(html: str) -> str:
 def send_notification(title: str, message: str, url: str):
     """Sends a free push notification via ntfy.sh — no account, no API key.
     Install the ntfy app (iOS/Android) and subscribe to your topic name to
-    receive these directly on your phone."""
+    receive these directly on your phone.
+
+    HTTP headers only support latin-1 by default, so any non-ASCII
+    characters (including emoji) must be percent-encoded per RFC 5987
+    rather than passed raw — otherwise Python's http.client raises
+    UnicodeEncodeError when building the request.
+    """
     if not NTFY_TOPIC:
         print("  → NTFY_TOPIC not set, skipping notification")
         return
+
+    # Encode the title as UTF-8 then percent-encode it for safe header transport.
+    # ntfy.sh understands this encoding for the Title header automatically.
+    import urllib.parse
+    title_encoded = urllib.parse.quote(title.encode("utf-8"))
+
     req = urllib.request.Request(
         f"https://ntfy.sh/{NTFY_TOPIC}",
         data=message.encode("utf-8"),
         headers={
-            "Title": title,
+            "Title": title_encoded,
             "Click": url,
             "Tags": "sunny",
         },
@@ -393,8 +405,8 @@ def main():
     if NTFY_TOPIC and PAGES_URL:
         print("  → Sending notification…")
         send_notification(
-            title="☀️ Morning briefing ready",
-            message=f"Your briefing for {TODAY} is ready. Tap to view.",
+            title="Morning briefing ready",
+            message=f"☀️ Your briefing for {TODAY} is ready. Tap to view.",
             url=PAGES_URL,
         )
         print(f"  ✓ Notification sent to topic '{NTFY_TOPIC}'")
