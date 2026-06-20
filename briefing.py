@@ -349,7 +349,7 @@ def send_email(html: str, subject: str):
             return result
     except urllib.error.HTTPError as e:
         body = e.read().decode("utf-8", errors="ignore")
-        raise RuntimeError(f"Resend API error {e.code}: {body[:500]}")
+        raise RuntimeError(f"Resend API error {e.code}: {body}")
 
 
 def main():
@@ -357,6 +357,10 @@ def main():
 
     print("  → Fetching work news…")
     work = call_gemini(WORK_PROMPT)
+
+    # Diagnostic: confirm the Resend key length looks right (never print the key itself)
+    print(f"  (diagnostic) RESEND_API_KEY length as seen by GitHub Actions: {len(RESEND_API_KEY)} characters")
+    print(f"  (diagnostic) RESEND_API_KEY starts with: {RESEND_API_KEY[:6]}…")
 
     print("  → Fetching general AI news…")
     general_ai = call_gemini(GENERAL_AI_PROMPT)
