@@ -45,7 +45,7 @@ def call_gemini(prompt: str, response_schema: dict = None, max_retries: int = 4)
     """Calls the Gemini API with Search grounding and strict JSON Structured Outputs."""
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
-        "tools": [{"google_search_retrieval": {}}],
+        "tools": [{"google_search": {}}],
         "generationConfig": {
             "temperature": 0.4,
             "responseMimeType": "application/json"
