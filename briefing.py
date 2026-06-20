@@ -17,6 +17,7 @@ import time
 import datetime
 import urllib.request
 import urllib.error
+import socket
 
 # ── Config ────────────────────────────────────────────────────────────────────
 GEMINI_API_KEY  = os.environ.get("GEMINI_API_KEY", "")    # free from aistudio.google.com
@@ -150,9 +151,9 @@ Return ONLY valid JSON, no markdown fences, no preamble.
 def call_gemini(prompt: str, max_retries: int = 4) -> dict:
     """Calls the free-tier Gemini API with Google Search grounding enabled.
 
-    Retries on 503 (model overloaded) and 429 (rate limited) with exponential
-    backoff, since these are transient and common on the free tier during
-    busy periods.
+    Retries on 503 (overloaded), 429 (rate limited), and network timeouts
+    with exponential backoff, since these are transient and common on the
+    free tier during busy periods or when search grounding takes a while.
     """
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
@@ -169,7 +170,8 @@ def call_gemini(prompt: str, max_retries: int = 4) -> dict:
             _gemini_url(model), data=data, headers={"Content-Type": "application/json"}
         )
         try:
-            with urllib.request.urlopen(req, timeout=90) as resp:
+            # 150s timeout (was 90s) — search-grounded calls can legitimately take a while
+            with urllib.request.urlopen(req, timeout=150) as resp:
                 result = json.loads(resp.read().decode("utf-8"))
             break  # success
         except urllib.error.HTTPError as e:
@@ -178,6 +180,14 @@ def call_gemini(prompt: str, max_retries: int = 4) -> dict:
             if e.code in (503, 429) and attempt < max_retries:
                 wait = 2 ** attempt  # 2, 4, 8, 16 seconds
                 print(f"    (attempt {attempt}/{max_retries} got {e.code}, retrying in {wait}s…)")
+                time.sleep(wait)
+                continue
+            raise last_error
+        except (socket.timeout, TimeoutError, urllib.error.URLError) as e:
+            last_error = RuntimeError(f"Gemini API network error: {e}")
+            if attempt < max_retries:
+                wait = 2 ** attempt
+                print(f"    (attempt {attempt}/{max_retries} got network/timeout error, retrying in {wait}s…)")
                 time.sleep(wait)
                 continue
             raise last_error
@@ -357,10 +367,6 @@ def main():
 
     print("  → Fetching work news…")
     work = call_gemini(WORK_PROMPT)
-
-    # Diagnostic: confirm the Resend key length looks right (never print the key itself)
-    print(f"  (diagnostic) RESEND_API_KEY length as seen by GitHub Actions: {len(RESEND_API_KEY)} characters")
-    print(f"  (diagnostic) RESEND_API_KEY starts with: {RESEND_API_KEY[:6]}…")
 
     print("  → Fetching general AI news…")
     general_ai = call_gemini(GENERAL_AI_PROMPT)
