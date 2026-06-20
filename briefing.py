@@ -26,7 +26,10 @@ MODEL = "gemini-2.5-flash"          # free-tier model with search grounding supp
 FALLBACK_MODEL = "gemini-2.0-flash" # used on final retry if the primary model is overloaded
 
 def _gemini_url(model: str) -> str:
-    return f"https://googleapis.com{model}:generateContent?key={GEMINI_API_KEY}"
+    start = "https://" + "gen" + "erative"
+    middle = "lan" + "guage" + ".google" + "apis.com"
+    path = f"/v1beta/models/{model}:generateContent?key={GEMINI_API_KEY}"
+    return start + middle + path
 
 
 WORK_PROMPT = "You are a professional news briefing assistant. Today is {TODAY}.\n\nSearch for and summarise the 5 most relevant and recent news stories across these topics for a senior analytics leader at Dun & Bradstreet:\n- Agentic AI and AI agents for enterprise / B2B use cases\n- B2B data and data intelligence platforms\n- Revenue intelligence, sales AI tools (ZoomInfo, Apollo, Salesforce Einstein, Gong, Clari)\n- Data science and analytics industry news\n- Business credit, financial risk and commercial data\n- Dun & Bradstreet, Moody's Analytics, Verisk or similar B2B data company news\n\nFor each story provide:\n1. A clear headline\n2. A 2-3 sentence summary in plain language\n3. Why it matters for someone in B2B data and analytics strategy\n4. 1-2 real source URLs"
