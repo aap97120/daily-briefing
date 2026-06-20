@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-David's Daily Morning Briefing — FREE VERSION (Upgraded)
+David's Daily Morning Briefing — FREE VERSION (Unified Production Release)
 Uses Google Gemini's free-tier API (Flash models) with Structured JSON Outputs.
 Compiles results into a local responsive HTML dashboard for GitHub Pages.
 
@@ -106,7 +106,6 @@ def call_gemini(prompt: str, response_schema: dict = None, max_retries: int = 4)
         },
     }
     
-    # Enforce native structure if schema provided (Gemini v1beta feature)
     if response_schema:
         payload["generationConfig"]["responseSchema"] = response_schema
 
@@ -152,68 +151,34 @@ def call_gemini(prompt: str, response_schema: dict = None, max_retries: int = 4)
 def generate_html_dashboard(data: dict, filepath: str):
     """Generates a responsive HTML page from the briefing payload."""
     
-    # Helper to generate link blocks easily
     def make_links(links_list):
         if not links_list: return ""
         return " ".join([f'<a href="{l.get("url", "#")}" target="_blank" class="link-btn">🔗 {l.get("label", "Source")}</a>' for l in links_list])
 
-    # Build individual story components
-    work_html = "".join([f"""
-        <div class="card">
-            <span class="badge badge-work">{s.get('tag', 'B2B')}</span>
-            <h3>{s.get('headline')}</h3>
-            <p>{s.get('summary')}</p>
-            <div class="relevance"><strong>Strategy Impact:</strong> {s.get('relevance')}</div>
-            <div class="links-container">{make_links(s.get('links'))}</div>
-        </div>
-    """ for s in data['work'].get('stories', [])])
-
-    personal_html = "".join([f"""
-        <div class="card">
-            <span class="badge badge-personal">{s.get('tag', 'News')}</span>
-            <h3>{s.get('headline')}</h3>
-            <p>{s.get('summary')}</p>
-            <div class="links-container">{make_links(s.get('links'))}</div>
-        </div>
-    """ for s in data['personal'].get('stories', [])])
-
-    ai_html = "".join([f"""
-        <div class="card">
-            <span class="badge badge-ai">{s.get('tag', 'AI')}</span>
-            <h3>{s.get('headline')}</h3>
-            <p>{s.get('summary')}</p>
-            <div class="links-container">{make_links(s.get('links'))}</div>
-        </div>
-    """ for s in data['general_ai'].get('stories', [])])
+    # Build individual components
+    work_html = "".join([f'<div class="card"><span class="badge badge-work">{s.get("tag", "B2B")}</span><h3>{s.get("headline")}</h3><p>{s.get("summary")}</p><div class="relevance"><strong>Strategy Impact:</strong> {s.get("relevance")}</div><div class="links-container">{make_links(s.get("links"))}</div></div>' for s in data['work'].get('stories', [])])
+    personal_html = "".join([f'<div class="card"><span class="badge badge-personal">{s.get("tag", "News")}</span><h3>{s.get("headline")}</h3><p>{s.get("summary")}</p><div class="links-container">{make_links(s.get("links"))}</div></div>' for s in data['personal'].get('stories', [])])
+    ai_html = "".join([f'<div class="card"><span class="badge badge-ai">{s.get("tag", "AI")}</span><h3>{s.get("headline")}</h3><p>{s.get("summary")}</p><div class="links-container">{make_links(s.get("links"))}</div></div>' for s in data['general_ai'].get('stories', [])])
 
     ds = data['data_science']
-    ds_html = f"""
-        <div class="ds-hero">
-            <h2>🎓 {ds.get('topic')}</h2>
-            <p class="tagline"><em>{ds.get('tagline')}</em></p>
-            <div class="ds-grid">
-                <div><h4>What It Is</h4><p>{ds.get('what_it_is')}</p></div>
-                <div><h4>How It Works</h4><p>{ds.get('how_it_works')}</p></div>
-                <div><h4>When To Use</h4><p>{ds.get('when_to_use')}</p></div>
-            </div>
-            <div class="worked-example">
-                <h4>🎯 Concrete Worked Example (B2B Context)</h4>
-                <p>{ds.get('worked_example')}</p>
-            </div>
-            <div class="links-container" style="margin-top:1.5rem;">{make_links(ds.get('links'))}</div>
-        </div>
-    """
+    ds_html = f'<div class="ds-hero"><h2>🎓 {ds.get("topic")}</h2><p class="tagline"><em>{ds.get("tagline")}</em></p><div class="ds-grid"><div><h4>What It Is</h4><p>{ds.get("what_it_is")}</p></div><div><h4>How It Works</h4><p>{ds.get("how_it_works")}</p></div><div><h4>When To Use</h4><p>{ds.get("when_to_use")}</p></div></div><div class="worked-example"><h4>🎯 Concrete Worked Example (B2B Context)</h4><p>{ds.get("worked_example")}</p></div><div class="links-container" style="margin-top:1.5rem;">{make_links(ds.get("links"))}</div></div>'
 
-    # Final HTML assembly with built-in dark/light clean developer design
-    html_content = f"""<!DOCTYPE html>
+    # Safe layout structure using direct replacement strings
+    html_template = """<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>David's Morning Briefing</title>
     <style>
-        :root {{ --bg: #f8fafc; --surface: #ffffff; --text: #0f172a; --border: #e2e8f0; --primary: #2563eb; --work: #0ea5e9; --personal: #10b981; --ai: #8b5cf6; }}
-        body {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.5; padding: 2rem 1rem; margin: 0; }}
-        .container {{ max-width: 1100px; margin: 0 auto; }}
-        header {{ text-align: center; margin-bottom: 3rem; border-bottom: 2px solid var(--border); padding-bottom: 1.5rem; }}
-        h1 {{ margin: 0 0 0.5rem 0; font-size: 2.25rem; color: #1e293b; }}
+        :root { --bg: #f8fafc; --surface: #ffffff; --text: #0f172a; --border: #e2e8f0; --primary: #2563eb; --work: #0ea5e9; --personal: #10b981; --ai: #8b5cf6; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.5; padding: 2rem 1rem; margin: 0; }
+        .container { max-width: 1100px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 3rem; border-bottom: 2px solid var(--border); padding-bottom: 1.5rem; }
+        h1 { margin: 0 0 0.5rem 0; font-size: 2.25rem; color: #1e293b; }
+        .date { font-size: 1.1rem; color: #64748b; font-weight: 500; }
+        .section-title { font-size: 1.5rem; margin: 2.5rem 0 1rem; border-left: 4px solid var(--primary); padding-left: 0.75rem; color: #1e293b; }
+        .section-title.work-title { border-color: var(--work); }
+        .section-title.personal-title { border-color: var(--personal); }
+        .section-title.ai-title { border-color: var(--ai); }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 1.5rem; }
