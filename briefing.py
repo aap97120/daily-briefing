@@ -368,6 +368,10 @@ def main():
     print("  → Fetching work news…")
     work = call_gemini(WORK_PROMPT)
 
+    # Diagnostic: check for hidden whitespace/newline characters that could corrupt the key
+    print(f"  (diagnostic) RESEND_API_KEY length: {len(RESEND_API_KEY)} chars")
+    print(f"  (diagnostic) RESEND_API_KEY repr (shows hidden chars): {repr(RESEND_API_KEY)}")
+
     print("  → Fetching general AI news…")
     general_ai = call_gemini(GENERAL_AI_PROMPT)
 
