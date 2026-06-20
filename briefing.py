@@ -48,7 +48,6 @@ def call_gemini(prompt: str, response_schema: dict = None, max_retries: int = 4)
         "tools": [{"google_search": {}}],
         "generationConfig": {
             "temperature": 0.4,
-            "responseMimeType": "application/json"
         },
     }
     
