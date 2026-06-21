@@ -32,13 +32,13 @@ def _gemini_url(model: str) -> str:
     return f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={GEMINI_API_KEY}"
 
 
-WORK_PROMPT = "You are a professional news briefing assistant. Today is {TODAY}.\n\nSearch for and summarise the 5 most relevant and recent news stories across these topics for a senior analytics leader at Dun & Bradstreet:\n- Agentic AI and AI agents for enterprise / B2B use cases\n- B2B data and data intelligence platforms\n- Revenue intelligence, sales AI tools (ZoomInfo, Apollo, Salesforce Einstein, Gong, Clari)\n- Data science and analytics industry news\n- Business credit, financial risk and commercial data\n- Dun & Bradstreet, Moody's Analytics, Verisk or similar B2B data company news\n\nFor each story provide:\n1. A clear headline\n2. A 2-3 sentence summary in plain language\n3. Why it matters for someone in B2B data and analytics strategy\n4. 1-2 real source URLs\n\nReturn ONLY valid JSON, no markdown fences, no preamble.\n{{\"stories\":[{{\"headline\":\"string\",\"summary\":\"string\",\"relevance\":\"string\",\"tag\":\"string\",\"links\":[{{\"label\":\"string\",\"url\":\"string\"}}]}}]}}"
+WORK_PROMPT = "You are a professional news briefing assistant. Today is {TODAY}.\n\nSearch for and summarise the 5 most relevant and recent news stories across these topics for a senior analytics leader at Dun & Bradstreet:\n- Agentic AI and AI agents for enterprise / B2B use cases\n- B2B data and data intelligence platforms\n- Revenue intelligence, sales AI tools (ZoomInfo, Apollo, Salesforce Einstein, Gong, Clari)\n- Data science and analytics industry news\n- Business credit, financial risk and commercial data\n- Dun & Bradstreet, Moody's Analytics, Verisk or similar B2B data company news\n\nFor each story provide:\n1. A clear headline\n2. A 2-3 sentence summary in plain language\n3. Why it matters for someone in B2B data and analytics strategy\n4. The name of the publication/source (e.g. 'TechCrunch', 'Reuters') — NOT a URL, just the publication name\n\nReturn ONLY valid JSON, no markdown fences, no preamble.\n{{\"stories\":[{{\"headline\":\"string\",\"summary\":\"string\",\"relevance\":\"string\",\"tag\":\"string\",\"source\":\"string\"}}]}}"
 
-PERSONAL_PROMPT = "You are a personal news briefing assistant. Today is {TODAY}.\n\nSearch for and summarise the 6 most interesting recent news stories across these topics for a UK-based professional:\n- UK politics and current affairs\n- US politics and international affairs\n- Science (space, biology, physics, technology breakthroughs)\n- Golf (PGA Tour, DP World Tour, majors, Ryder Cup)\n- Football / soccer (Premier League, Champions League, international)\n- Rugby (Six Nations, Premiership, international)\n- ONE interesting story from: Formula 1, economics, or culture\n\nFor each story provide:\n1. A clear headline\n2. A 2-3 sentence summary\n3. 1-2 real source URLs\n\nReturn ONLY valid JSON, no markdown fences, no preamble.\n{{\"stories\":[{{\"headline\":\"string\",\"summary\":\"string\",\"tag\":\"string\",\"links\":[{{\"label\":\"string\",\"url\":\"string\"}}]}}]}}"
+PERSONAL_PROMPT = "You are a personal news briefing assistant. Today is {TODAY}.\n\nSearch for and summarise the 6 most interesting recent news stories across these topics for a UK-based professional:\n- UK politics and current affairs\n- US politics and international affairs\n- Science (space, biology, physics, technology breakthroughs)\n- Golf (PGA Tour, DP World Tour, majors, Ryder Cup)\n- Football / soccer (Premier League, Champions League, international)\n- Rugby (Six Nations, Premiership, international)\n- ONE interesting story from: Formula 1, economics, or culture\n\nFor each story provide:\n1. A clear headline\n2. A 2-3 sentence summary\n3. The name of the publication/source (e.g. 'BBC News', 'Sky Sports') — NOT a URL, just the publication name\n\nReturn ONLY valid JSON, no markdown fences, no preamble.\n{{\"stories\":[{{\"headline\":\"string\",\"summary\":\"string\",\"tag\":\"string\",\"source\":\"string\"}}]}}"
 
-GENERAL_AI_PROMPT = "You are an AI industry news analyst. Today is {TODAY}.\n\nSearch for and summarise the 4 most significant recent stories in the broader AI industry. Cover things like:\n- Major AI company funding, acquisitions, or M&A\n- Frontier model releases or major capability announcements (OpenAI, Anthropic, Google, Meta, xAI)\n- AI compute, chips, and infrastructure economics\n- Notable AI policy, safety, or regulatory developments\n- Notable moves by AI-native startups (coding agents, AI infrastructure, etc.)\n\nFor each story provide:\n1. A clear headline\n2. A 2-3 sentence summary explaining what happened and why it's significant\n3. 1-2 real source URLs\n\nReturn ONLY valid JSON, no markdown fences, no preamble.\n{{\"stories\":[{{\"headline\":\"string\",\"summary\":\"string\",\"tag\":\"string\",\"links\":[{{\"label\":\"string\",\"url\":\"string\"}}]}}]}}"
+GENERAL_AI_PROMPT = "You are an AI industry news analyst. Today is {TODAY}.\n\nSearch for and summarise the 4 most significant recent stories in the broader AI industry. Cover things like:\n- Major AI company funding, acquisitions, or M&A\n- Frontier model releases or major capability announcements (OpenAI, Anthropic, Google, Meta, xAI)\n- AI compute, chips, and infrastructure economics\n- Notable AI policy, safety, or regulatory developments\n- Notable moves by AI-native startups (coding agents, AI infrastructure, etc.)\n\nFor each story provide:\n1. A clear headline\n2. A 2-3 sentence summary explaining what happened and why it's significant\n3. The name of the publication/source (e.g. 'The Verge', 'Bloomberg') — NOT a URL, just the publication name\n\nReturn ONLY valid JSON, no markdown fences, no preamble.\n{{\"stories\":[{{\"headline\":\"string\",\"summary\":\"string\",\"tag\":\"string\",\"source\":\"string\"}}]}}"
 
-DS_PROMPT = "You are a data science educator. Today is {TODAY}.\n\nChoose ONE data science topic to explain in depth. Rotate broadly across:\n- Classical ML (XGBoost, Random Forests, survival analysis)\n- Deep learning (transformers, embeddings, fine-tuning)\n- MLOps (MLflow, feature stores, model monitoring)\n- Agentic AI (LangChain, LangGraph, AutoGen, MCP, multi-agent orchestration)\n- Statistical methods (Bayesian inference, causal inference, SHAP, LIME, A/B testing)\n- Emerging techniques (RAG, multimodal models, reasoning models, RLHF)\n- Data engineering (dbt, Spark, vector databases, knowledge graphs)\n\nProvide:\n1. Topic name and one-line tagline\n2. What it is — plain language explanation (3-4 sentences)\n3. How it works — slightly more technical (4-5 sentences)\n4. When to use it — practical guidance (3-4 sentences)\n5. A concrete worked example relevant to B2B analytics or sales/marketing data\n6. 2-3 real links to good resources\n\nReturn ONLY valid JSON, no markdown fences, no preamble.\n{{\"topic\":\"string\",\"tagline\":\"string\",\"what_it_is\":\"string\",\"how_it_works\":\"string\",\"when_to_use\":\"string\",\"worked_example\":\"string\",\"links\":[{{\"label\":\"string\",\"url\":\"string\"}}]}}"
+DS_PROMPT = "You are a data science educator. Today is {TODAY}.\n\nChoose ONE data science topic to explain in depth. Rotate broadly across:\n- Classical ML (XGBoost, Random Forests, survival analysis)\n- Deep learning (transformers, embeddings, fine-tuning)\n- MLOps (MLflow, feature stores, model monitoring)\n- Agentic AI (LangChain, LangGraph, AutoGen, MCP, multi-agent orchestration)\n- Statistical methods (Bayesian inference, causal inference, SHAP, LIME, A/B testing)\n- Emerging techniques (RAG, multimodal models, reasoning models, RLHF)\n- Data engineering (dbt, Spark, vector databases, knowledge graphs)\n\nProvide:\n1. Topic name and one-line tagline\n2. What it is — plain language explanation (3-4 sentences)\n3. How it works — slightly more technical (4-5 sentences)\n4. When to use it — practical guidance (3-4 sentences)\n5. A concrete worked example relevant to B2B analytics or sales/marketing data\n6. 2-3 names of good resources to look up (e.g. 'XGBoost official documentation', 'Scikit-learn survival analysis guide') — NOT URLs, just descriptive names someone could search for\n\nReturn ONLY valid JSON, no markdown fences, no preamble.\n{{\"topic\":\"string\",\"tagline\":\"string\",\"what_it_is\":\"string\",\"how_it_works\":\"string\",\"when_to_use\":\"string\",\"worked_example\":\"string\",\"resources\":[\"string\",\"string\"]}}"
 
 
 def _extract_json(text: str) -> dict:
@@ -200,13 +200,30 @@ def call_gemini(prompt: str, max_retries: int = 4) -> dict:
     raise last_error
 
 
-def make_links(links_list):
-    if not links_list:
-        return ""
-    return " ".join(
-        f'<a href="{l.get("url", "#")}" target="_blank" class="link-btn">🔗 {l.get("label", "Source")}</a>'
-        for l in links_list
-    )
+def make_source_link(headline: str, source: str) -> str:
+    """Builds a reliable Google search link from the headline and source name,
+    instead of trusting Gemini-generated URLs.
+
+    Gemini's search grounding returns temporary vertexaisearch.cloud.google.com
+    redirect links that (a) expire after a few days and (b) are frequently
+    corrupted by the model itself, since it regenerates long signed URLs
+    character-by-character rather than copying them — a single flipped or
+    dropped character breaks the link. A search link is slightly less direct
+    but never 404s and never expires."""
+    query = f"{headline} {source}".strip()
+    encoded = urllib.parse.quote_plus(query)
+    url = f"https://www.google.com/search?q={encoded}"
+    label = source if source else "Search this story"
+    return f'<a href="{url}" target="_blank" class="link-btn">🔗 {label}</a>'
+
+
+def make_resource_link(resource_name: str) -> str:
+    """Same approach for the data science 'further reading' resources —
+    builds a search link from the resource description rather than a
+    fragile direct URL."""
+    encoded = urllib.parse.quote_plus(resource_name)
+    url = f"https://www.google.com/search?q={encoded}"
+    return f'<a href="{url}" target="_blank" class="link-btn">🔗 {resource_name}</a>'
 
 
 def generate_html_dashboard(data: dict, filepath: str):
@@ -216,23 +233,24 @@ def generate_html_dashboard(data: dict, filepath: str):
         f'<div class="card"><span class="badge badge-work">{s.get("tag", "B2B")}</span>'
         f'<h3>{s.get("headline","")}</h3><p>{s.get("summary","")}</p>'
         f'<div class="relevance"><strong>Strategy Impact:</strong> {s.get("relevance","")}</div>'
-        f'<div class="links-container">{make_links(s.get("links"))}</div></div>'
+        f'<div class="links-container">{make_source_link(s.get("headline",""), s.get("source",""))}</div></div>'
         for s in data["work"].get("stories", [])
     )
     personal_html = "".join(
         f'<div class="card"><span class="badge badge-personal">{s.get("tag", "News")}</span>'
         f'<h3>{s.get("headline","")}</h3><p>{s.get("summary","")}</p>'
-        f'<div class="links-container">{make_links(s.get("links"))}</div></div>'
+        f'<div class="links-container">{make_source_link(s.get("headline",""), s.get("source",""))}</div></div>'
         for s in data["personal"].get("stories", [])
     )
     ai_html = "".join(
         f'<div class="card"><span class="badge badge-ai">{s.get("tag", "AI")}</span>'
         f'<h3>{s.get("headline","")}</h3><p>{s.get("summary","")}</p>'
-        f'<div class="links-container">{make_links(s.get("links"))}</div></div>'
+        f'<div class="links-container">{make_source_link(s.get("headline",""), s.get("source",""))}</div></div>'
         for s in data["general_ai"].get("stories", [])
     )
 
     ds = data["data_science"]
+    ds_resource_links = " ".join(make_resource_link(r) for r in ds.get("resources", []))
     ds_html = (
         f'<div class="ds-hero"><h2>🎓 {ds.get("topic","")}</h2>'
         f'<p class="tagline"><em>{ds.get("tagline","")}</em></p>'
@@ -241,7 +259,7 @@ def generate_html_dashboard(data: dict, filepath: str):
         f'<div><h4>When To Use</h4><p>{ds.get("when_to_use","")}</p></div></div>'
         f'<div class="worked-example"><h4>🎯 Concrete Worked Example (B2B Context)</h4>'
         f'<p>{ds.get("worked_example","")}</p></div>'
-        f'<div class="links-container" style="margin-top:1.5rem;">{make_links(ds.get("links"))}</div></div>'
+        f'<div class="links-container" style="margin-top:1.5rem;">{ds_resource_links}</div></div>'
     )
 
     html = f"""<!DOCTYPE html>
