@@ -24,8 +24,9 @@ PAGES_URL      = os.environ.get("PAGES_URL", "")         # the GitHub Pages URL
 # ─────────────────────────────────────────────────────────────────────────────
 
 TODAY = datetime.datetime.now().strftime("%A %d %B %Y")
-MODEL = "gemini-2.5-flash"          # free-tier model with search grounding support
-FALLBACK_MODEL = "gemini-2.0-flash" # used on final retry if the primary model is overloaded
+MODEL = "gemini-2.5-flash"              # primary free-tier model with search grounding support
+FALLBACK_MODEL = "gemini-2.5-flash-lite" # fallback if primary is overloaded — NOTE: gemini-2.0-flash was shut down June 1 2026
+INTER_CALL_SLEEP = 8                    # seconds to sleep between the 4 Gemini calls to avoid per-minute rate limits
 
 
 def _gemini_url(model: str) -> str:
@@ -356,12 +357,15 @@ def generate_briefing():
     print("Fetching work news…")
     work_data = call_gemini(WORK_PROMPT.format(TODAY=TODAY))
 
+    time.sleep(INTER_CALL_SLEEP)
     print("Fetching general AI news…")
     general_ai_data = call_gemini(GENERAL_AI_PROMPT.format(TODAY=TODAY))
 
+    time.sleep(INTER_CALL_SLEEP)
     print("Fetching personal news…")
     personal_data = call_gemini(PERSONAL_PROMPT.format(TODAY=TODAY))
 
+    time.sleep(INTER_CALL_SLEEP)
     print("Fetching data science topic…")
     ds_data = call_gemini(DS_PROMPT.format(TODAY=TODAY))
 
