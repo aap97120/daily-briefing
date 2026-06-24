@@ -202,26 +202,21 @@ def call_gemini(prompt: str, max_retries: int = 4) -> dict:
 
 
 def make_source_link(headline: str, source: str) -> str:
-    """Builds a reliable Google search link from the headline and source name,
-    instead of trusting Gemini-generated URLs.
-
-    Gemini's search grounding returns temporary vertexaisearch.cloud.google.com
-    redirect links that (a) expire after a few days and (b) are frequently
-    corrupted by the model itself, since it regenerates long signed URLs
-    character-by-character rather than copying them — a single flipped or
-    dropped character breaks the link. A search link is slightly less direct
-    but never 404s and never expires."""
-    query = f"{headline} {source}".strip()
+    """Builds a targeted Google News search link from the headline, source name,
+    and today's date. This is far more likely to surface the exact article than
+    a plain Google search, and never expires or 404s the way Gemini's own
+    vertexaisearch redirect URLs do."""
+    # Include today's date to narrow to recent results
+    date_str = datetime.datetime.now().strftime("%Y-%m-%d")
+    query = f"{headline} {source} {date_str}".strip()
     encoded = urllib.parse.quote_plus(query)
-    url = f"https://www.google.com/search?q={encoded}"
-    label = source if source else "Search this story"
-    return f'<a href="{url}" target="_blank" class="link-btn">🔗 {label}</a>'
+    url = f"https://news.google.com/search?q={encoded}&hl=en-GB&gl=GB&ceid=GB:en"
+    label = source if source else "Find this story"
+    return f'<a href="{url}" target="_blank" class="link-btn">📰 {label}</a>'
 
 
 def make_resource_link(resource_name: str) -> str:
-    """Same approach for the data science 'further reading' resources —
-    builds a search link from the resource description rather than a
-    fragile direct URL."""
+    """Builds a Google search link for a data science resource by name."""
     encoded = urllib.parse.quote_plus(resource_name)
     url = f"https://www.google.com/search?q={encoded}"
     return f'<a href="{url}" target="_blank" class="link-btn">🔗 {resource_name}</a>'
@@ -378,13 +373,24 @@ def generate_briefing():
     }
 
     output_dir = "docs"
+    archive_dir = "docs/archive"
     os.makedirs(output_dir, exist_ok=True)
+    os.makedirs(archive_dir, exist_ok=True)
 
+    date_slug = datetime.datetime.now().strftime("%Y-%m-%d")
+
+    # Always overwrite today's index (what the Pages URL shows)
     with open(f"{output_dir}/briefing.json", "w", encoding="utf-8") as f:
         json.dump(briefing_payload, f, indent=2)
 
+    # Also save a permanent date-stamped copy so past briefings accumulate
+    with open(f"{archive_dir}/{date_slug}.json", "w", encoding="utf-8") as f:
+        json.dump(briefing_payload, f, indent=2)
+
     generate_html_dashboard(briefing_payload, f"{output_dir}/index.html")
-    print("Saved briefing JSON and HTML dashboard successfully.")
+    # And a permanent dated HTML copy
+    generate_html_dashboard(briefing_payload, f"{archive_dir}/{date_slug}.html")
+    print(f"Saved briefing JSON and HTML (archive: docs/archive/{date_slug}.html)")
 
     if NTFY_TOPIC and PAGES_URL:
         print("Sending notification…")
