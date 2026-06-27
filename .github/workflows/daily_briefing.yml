@@ -2,13 +2,12 @@ name: Daily Morning Briefing (Free)
 
 on:
   schedule:
-    # 7:00 UTC = 8:00 UK (GMT) / 9:00 BST in summer
-    - cron: '0 7 * * 1-5'   # Weekdays at 8am GMT / 9am BST
-    - cron: '0 7 * * 0,6'   # Weekends, same time (kept consistent with weekdays)
-  workflow_dispatch:          # Allows manual trigger from the GitHub UI
+    - cron: '0 7 * * 1-5'   # Weekdays — 7:00 UTC = 8:00am UK (GMT) / 9:00am BST
+    - cron: '0 7 * * 0,6'   # Weekends — same time
+  workflow_dispatch:          # Manual trigger from GitHub Actions UI
 
 permissions:
-  contents: write   # needed so the workflow can commit the published page
+  contents: write             # Needed to commit the published page back to the repo
 
 jobs:
   send-briefing:
@@ -24,15 +23,15 @@ jobs:
 
       - name: Run briefing script
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          NTFY_TOPIC:     ${{ secrets.NTFY_TOPIC }}
-          PAGES_URL:      ${{ secrets.PAGES_URL }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NTFY_TOPIC:        ${{ secrets.NTFY_TOPIC }}
+          PAGES_URL:         ${{ secrets.PAGES_URL }}
         run: python briefing.py
 
       - name: Commit and publish briefing page
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/index.html
-          git commit -m "Update daily briefing $(date -u +%Y-%m-%d)" || echo "No changes to commit"
+          git add docs/
+          git commit -m "Daily briefing $(date -u +%Y-%m-%d)" || echo "No changes to commit"
           git push
