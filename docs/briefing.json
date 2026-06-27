@@ -1,0 +1,165 @@
+{
+  "date": "Saturday 27 June 2026",
+  "work": {
+    "stories": [
+      {
+        "headline": "D&B Launches Agentic AI for Compliance, Cuts Due Diligence Processing Time by Up to 90%",
+        "summary": "On June 18, 2026, Dun & Bradstreet announced new agentic capabilities inside its Risk Analytics Platform and via its MCP server, combining verified business context with AI agents to automate onboarding, screening, and due diligence \u2014 reducing processing times by 70\u201390%. The company simultaneously confirmed a series of integrations with OpenAI, Microsoft, and Anthropic, bringing the D&B Commercial Graph into ChatGPT, Microsoft 365 Copilot, and Claude. This is D&B's 'be everywhere' strategy in action: embedding verified entity data as the trusted ground-truth layer inside every major agentic platform rather than betting on one ecosystem winner.",
+        "source": "PR Newswire",
+        "tag": "D&B Company News",
+        "url": "https://www.prnewswire.com/news-releases/dun--bradstreet-introduces-agentic-ai-capabilities-to-accelerate-compliance-and-third-party-risk-workflows-from-days-to-seconds-302804723.html"
+      },
+      {
+        "headline": "Anthropic Embeds D&B, Moody's, and Verisk Data Directly into Claude Finance Agents",
+        "summary": "At a Wall Street briefing on May 5, 2026, Anthropic launched ten pre-built AI agent templates for financial services \u2014 covering KYC screening, pitchbook creation, and month-end close \u2014 and named D&B, Moody's, Verisk, and others as native data connectors. Moody's went further, launching an MCP app that embeds proprietary credit ratings and data on 600 million+ companies directly into Claude workflows. For D&B, the explicit call-out of the D-U-N-S Number as 'the global standard for business identity' in Anthropic's own materials validates D&B's entity resolution moat and the 'Explainability First' positioning \u2014 agents need verified, auditable data to operate in regulated financial workflows.",
+        "source": "Fortune",
+        "tag": "Agentic AI / D&B Ecosystem",
+        "url": "https://fortune.com/2026/05/05/anthropic-wall-street-financial-services-agents-jamie-dimon/"
+      },
+      {
+        "headline": "Agentic AI Hits 72% Enterprise Production Adoption \u2014 But Data Quality Remains the #1 Failure Driver",
+        "summary": "A June 2026 report from the Agentic AI Institute found 72% of enterprises now have agentic AI in production, while a separate analysis covering 16,000+ businesses through June 22 confirmed Gartner's forecast that 40% of enterprise applications will embed task-specific AI agents by year-end, up from under 5% in 2025. However, data hygiene consistently surfaces as the top reason projects stall \u2014 agents working from incomplete or siloed data are constrained by whatever limitations that data presents. This is a direct commercial tailwind for D&B: clean, verified, entity-resolved business data is the prerequisite infrastructure every agentic deployment needs before it can scale.",
+        "source": "First Page Sage",
+        "tag": "Agentic AI Market Trends",
+        "url": "https://firstpagesage.com/reports/agentic-ai-adoption-statistics/"
+      },
+      {
+        "headline": "Leadspace Launches GTM Data Intelligence Cloud, Targeting Fragmented B2B Data Problem",
+        "summary": "On June 10, 2026, Leadspace launched its GTM Data Intelligence Cloud, a unified system of record for go-to-market intelligence that combines identity resolution, buying-group context, and real-time buyer signals in a single platform aimed at mid-market and enterprise B2B teams. The platform explicitly positions itself as acting on data rather than just supplying it \u2014 a direct challenge to traditional data providers. This is a competitive signal worth tracking: players like Leadspace are attempting to collapse the gap between data layer and workflow layer, the exact space where D&B's 'AI Decision Intelligence' positioning and Buydex temporal analytics can differentiate on depth of commercial data that point solutions cannot replicate.",
+        "source": "Newswire",
+        "tag": "B2B Data Intelligence",
+        "url": "https://www.newswire.com/news/leadspace-introduces-gtm-data-intelligence-cloud-tm-to-power-real-time-22795757"
+      },
+      {
+        "headline": "Financial Stability Board Flags Private Credit Data Opacity as Systemic Risk in $2 Trillion Market",
+        "summary": "In a May 6, 2026 report, the Financial Stability Board warned global regulators that the private credit market's lack of standardized, transparent data \u2014 alongside opaque valuations and patchy loan-level reporting \u2014 is creating vulnerabilities in a sector now approaching $2 trillion. The FSB explicitly called for aggregation of exposures and stronger scrutiny of private ratings and liquidity mismatches. For D&B, this is a macro-level validation of the commercial credit data opportunity: as regulators pressure lenders and asset managers to improve counterparty data quality, verified business identity and payment behavior signals like Paydex become compliance infrastructure, not just sales tools.",
+        "source": "CNBC",
+        "tag": "Financial Risk / Commercial Credit",
+        "url": "https://www.cnbc.com/2026/05/06/private-credit-stress-risks-financial-stability-markets.html"
+      }
+    ]
+  },
+  "general_ai": {
+    "stories": [
+      {
+        "headline": "SpaceX Colossus Becomes the Backbone of Frontier AI Compute, Surpassing $80B in External Leases",
+        "summary": "SpaceX signed a $6.3B compute lease with Reflection AI for its Colossus 2 facility in Memphis, its fourth major external tenant after Anthropic (~$45B), Google (~$30B), and Cursor. Total committed external compute revenues now exceed $80B through 2029, transforming what began as an internal Grok training cluster into one of the largest commercial AI infrastructure platforms on the planet. The concentration of frontier lab compute under a single non-hyperscaler roof raises significant supply-chain dependency questions for any AI workflow operator.",
+        "source": "Build Fast with AI",
+        "tag": "Compute / Infrastructure Economics",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-24-2026"
+      },
+      {
+        "headline": "UAE's MGX Raises $50B War Chest to Back Global AI Infrastructure",
+        "summary": "Abu Dhabi-based MGX closed a ~$50B raise from sovereign wealth funds, global pension funds, and institutional investors, specifically targeting AI infrastructure and technology investments \u2014 one of the largest single capital formations in the sector's history. Sources indicate deployment has already begun, positioning the UAE as a major non-US node in the global AI buildout. Combined with the four hyperscalers (Alphabet, Amazon, Meta, Microsoft) expected to spend over $700B on AI infrastructure in 2026, the capital arms race for compute and data-center capacity is now a multi-continent phenomenon.",
+        "source": "Jawlah / Bloomberg",
+        "tag": "Funding / M&A",
+        "url": "https://jawlah.co/en/59174"
+      },
+      {
+        "headline": "US Government Pulls Anthropic's Claude Fable 5 Offline via Emergency Export Control Order",
+        "summary": "On June 12, a US Department of Commerce emergency export control directive forced Anthropic to take its flagship Claude Fable 5 and Mythos 5 models offline globally, leaving enterprise API customers without access for weeks. The trigger was reportedly the models' advanced code-analysis and cybersecurity capabilities, which raised dual-use concerns. The episode arrived weeks after Anthropic confidentially filed for an IPO at a ~$965B valuation, adding a new regulatory risk line to its public-markets story and demonstrating that single-model workflow dependencies are an acute operational vulnerability.",
+        "source": "DEV Community / Build Fast with AI",
+        "tag": "Policy / Regulatory",
+        "url": "https://news.google.com/search?q=US+Government+Pulls+Anthropic%27s+Claude+Fable+5+Offline+via+Emergency+Export+Control+Order+DEV+Community+%2F+Build+Fast+with+AI&hl=en-GB&gl=GB&ceid=GB:en"
+      },
+      {
+        "headline": "Trump Signs 'Promoting Advanced AI Innovation and Security' Executive Order, Mandating Pre-Release Government Model Access",
+        "summary": "On June 2, President Trump issued a third AI executive order establishing a voluntary framework under which developers of 'covered frontier models' can provide the federal government with model access up to 30 days before public release for national security and cybersecurity assessment. The EO also directs agencies to build an AI cybersecurity clearinghouse and harden federal systems against AI-enabled threats \u2014 a notable evolution from the administration's prior posture of purely cutting regulation. Separately, a bipartisan House draft of the Great American AI Act proposes the first comprehensive federal AI framework, including mandatory third-party audits and a three-year preemption of state AI laws.",
+        "source": "Holland & Knight / McDonald Hopkins",
+        "tag": "Policy / Regulatory",
+        "url": "https://news.google.com/search?q=Trump+Signs+%27Promoting+Advanced+AI+Innovation+and+Security%27+Executive+Order%2C+Mandating+Pre-Release+Government+Model+Access+Holland+%26+Knight+%2F+McDonald+Hopkins&hl=en-GB&gl=GB&ceid=GB:en"
+      }
+    ]
+  },
+  "personal": {
+    "stories": [
+      {
+        "headline": "Starmer Resists Calls to Quit as Andy Burnham Emerges as Favourite to Succeed Him",
+        "summary": "Keir Starmer is facing intensifying pressure from within the Labour Party to step down, just two years after his landslide election victory. Chancellor Rachel Reeves publicly backed Andy Burnham as the next Labour leader on 25 June, while urging continuity on her economic plan. Burnham, newly returned to Parliament, is now widely seen as the frontrunner for the leadership.",
+        "source": "Wikipedia / Al Jazeera",
+        "tag": "UK Politics",
+        "url": "https://www.aljazeera.com/news/2026/6/21/pressure-mounts-on-starmer-to-quit-after-burnhams-by-election-win"
+      },
+      {
+        "headline": "US Strikes Iran as Strait of Hormuz Tensions Escalate and Lebanon Deal Signed",
+        "summary": "The United States carried out strikes against Iran following a cargo ship attack in the Strait of Hormuz, with Oman warning there is 'no way of going back to the pre-war status quo' and floating the possibility of charging ships passage fees. Separately, Israel agreed a US-backed deal to withdraw from two areas in southern Lebanon, with Secretary of State Marco Rubio calling it 'the beginning of the beginning'. Treasury Secretary Scott Bessent said crude oil prices have already fallen below pre-conflict levels.",
+        "source": "Fox News",
+        "tag": "US Politics / International Affairs",
+        "url": "https://www.foxnews.com/live-news/iran-drone-strait-of-hormuz-israel-lebanon-conflict-june-26-2026"
+      },
+      {
+        "headline": "NASA's Cold Atom Lab Turns the ISS Into a Quantum Physics Frontier",
+        "summary": "NASA's upgraded Cold Atom Lab aboard the International Space Station is creating ultra-cold matter that behaves in extraordinary ways, opening new windows on fundamental physics and paving the way for powerful future space technologies. Separately, scientists discovered that Heliconius butterflies have evolved lifespans several times longer than closely related species, with some showing little sign of physical decline as they age \u2014 a potential key to unlocking longevity secrets. Both findings were published in the week of 22\u201323 June 2026.",
+        "source": "ScienceDaily",
+        "tag": "Science",
+        "url": "https://www.sciencedaily.com/releases/2026/06/260622091507.htm"
+      },
+      {
+        "headline": "Wyndham Clark Wins Second US Open at Shinnecock, Spoiling Scheffler's Grand Slam Bid",
+        "summary": "Wyndham Clark held on to win the 2026 US Open at Shinnecock Hills, finishing at 4-under and one shot clear of Sam Burns, after nearly surrendering a six-stroke lead in a hostile final round. The hostile New York crowd rooted openly against Clark and serenaded world No.1 Scottie Scheffler \u2014 who was chasing a career Grand Slam on his 30th birthday \u2014 but Clark ground out the victory. The PGA Tour also announced sweeping structural changes this week, splitting into a Championship Series and Challenger Series from 2028.",
+        "source": "ESPN",
+        "tag": "Golf",
+        "url": "https://www.espn.com/golf/story/_/id/49138694/wyndham-clark-holds-shinnecock-win-2nd-us-open-title"
+      },
+      {
+        "headline": "England Seal World Cup Knockout Qualification Ahead of Panama Decider",
+        "summary": "England's place in the 2026 World Cup Round of 32 was confirmed on Friday, even before their final Group L match against Panama on Saturday evening (22:00 BST). Tuchel's side sit top of Group L on four points after an impressive 4-2 win over Croatia and a hard-fought 0-0 draw with Ghana. A win over Panama tonight would seal top spot and likely set up a tie in Atlanta on 1 July.",
+        "source": "England Football / TNT Sports",
+        "tag": "World Cup 2026",
+        "url": "https://www.englandfootball.com/articles/2026/Jun/27/england-place-in-world-cup-knockout-stage-confirmed-20262706"
+      },
+      {
+        "headline": "Barbarians Face Wales in Men's and Women's Double-Header at Twickenham Today",
+        "summary": "The Barbarians host Wales in a blockbuster men's and women's double-header at Allianz Stadium, Twickenham today (27 June), with the men's kick-off at 2pm and the women's match following at 5pm. The fixture serves as an end-of-season summer festival for rugby, with Faf de Klerk among the star names lining up for the Baa-Baas. It marks Wales's first summer international of 2026, with Cardiff second-rower Teddy Williams returning from an eight-month injury absence.",
+        "source": "Allianz Stadium Twickenham / RugbyPass",
+        "tag": "Rugby",
+        "url": "https://allianzstadiumtwickenham.com/news/match-days/barbarian-fc-to-face-wales-this-summer-at-allianz-stadium-in-double-header-match"
+      },
+      {
+        "headline": "F1 Loses $200M as Middle East War Wipes Bahrain and Saudi Races From 2026 Calendar",
+        "summary": "Geopolitical fallout from the 2026 Iran conflict has cost Formula 1 an estimated $190\u2013200 million in revenue after both the Bahrain and Saudi Arabian Grands Prix were removed from this season's calendar. The Austrian Grand Prix is the current round (26-28 June), with the British Grand Prix at Silverstone next up on 3-5 July. Analysts warn the cancellations signal a structural shift in investor sentiment, with a significant portion of driver income variable and tied directly to race outcomes.",
+        "source": "Insider Sport",
+        "tag": "F1",
+        "url": "https://news.google.com/search?q=F1+Loses+%24200M+as+Middle+East+War+Wipes+Bahrain+and+Saudi+Races+From+2026+Calendar+Insider+Sport&hl=en-GB&gl=GB&ceid=GB:en"
+      }
+    ]
+  },
+  "strategy": {
+    "stories": [
+      {
+        "headline": "Benedict Evans, 'AI Eats the World' (May 2026): Enterprise Deployment Still in Pilot Phase as Capex Hits $700B",
+        "summary": "Evans' Spring 2026 flagship deck frames AI as a platform shift comparable to PCs and smartphones, organised around three buckets: Capital, Deployment, and Change. The capital numbers are stark \u2014 the Big Four are spending a guided $700B in 2026, more than double global telecom capex \u2014 yet enterprise rollouts remain mostly pilots, and consumer adoption is wide but shallow. Evans also challenges the standard job-exposure analysis, arguing it is 'mostly impossible' to predict which roles AI destroys or creates because past platform shifts routinely defied expectations. For D&B, the pilot-to-production gap is the opportunity: enterprises stuck in proof-of-concept need a trusted, explainable data layer to de-risk agent deployments, which is exactly what DUNS entity resolution and Paydex ground-truth signals provide.",
+        "source": "Benedict Evans \u2014 ben-evans.com / independent analyst",
+        "tag": "AI Strategy",
+        "url": "https://www.ben-evans.com/benedictevans/2026/5/27/ai-eats-the-world"
+      },
+      {
+        "headline": "Ben Thompson, 'Interview with Satya Nadella: Finding Core Competencies' (June 2026): Microsoft Bets on Three Agentic Domains \u2014 and the Platform Race Is Back On",
+        "summary": "Thompson's Stratechery interview with Nadella (published early June 2026) surfaces Microsoft's revised AI thesis: rather than winning purely on Azure infrastructure, Microsoft will build agent businesses in three domains \u2014 coding, security, and knowledge work \u2014 sitting on top of its infrastructure layer. Nadella frames this as 'the new apps are agents,' with ROIC justification requiring both an infrastructure tier and proprietary agent products above it. Thompson notes Microsoft is simultaneously seeking to commoditise model providers (including OpenAI) while Anthropic is carving out its own integration point, setting up a multi-platform agent ecosystem rather than a single winner. This multi-platform dynamic is D&B's thesis in practice: as no single agentic platform wins, a neutral data layer embedded across Microsoft Copilot, Salesforce Agentforce, and Google Gemini \u2014 the Visa model \u2014 becomes structurally indispensable.",
+        "source": "Ben Thompson \u2014 Stratechery",
+        "tag": "AI Strategy",
+        "url": "https://stratechery.com/2026/an-interview-with-microsoft-ceo-satya-nadella-about-finding-core-competencies/"
+      },
+      {
+        "headline": "Matt Turck, 'Bubble & Build: The 2025 MAD Landscape' (late 2025, widely recirculated in 2026): AI M&A Turns Surgical, Enterprise Market 'Warming Up but Not Boiling'",
+        "summary": "Turck's annual MAD Landscape report frames the current AI market as doing 'two things at once: bubbling and building' \u2014 valuations are stratospheric but revenue is real and unit economics are becoming legible. On M&A, Turck identifies a pattern of precision tuck-ins rather than megadeals: ServiceNow acquiring Moveworks for $2.85B to own enterprise agents, Salesforce acquiring Informatica for ~$8B to firm up the data control plane, and IBM acquiring Confluent for ~$11B to make event streaming a substrate for agentic AI. His read on the Global 2000 enterprise market is that it is 'warming up to buying and deploying AI in earnest, just not boiling yet,' with early work done on chatbots and enterprise search while the harder 90% \u2014 industry-specific, proprietary AI use cases \u2014 remains open. The Salesforce-Informatica and IBM-Confluent deals signal that data infrastructure is being treated as a strategic asset in the agentic era, validating D&B's own positioning: proprietary, hard-to-replicate data (DUNS, Paydex, 600M+ records) is precisely the control-plane asset that acquirers are paying a premium to own.",
+        "source": "Matt Turck \u2014 mattturck.com / FirstMark Capital",
+        "tag": "AI Strategy",
+        "url": "https://www.mattturck.com/mad2025"
+      }
+    ]
+  },
+  "data_science": {
+    "topic": "SHAP (SHapley Additive exPlanations)",
+    "tagline": "The mathematical backbone of 'why did the model say that?' \u2014 turning black-box predictions into auditable, feature-level explanations.",
+    "what_it_is": "SHAP is a method for explaining the output of any machine learning model by assigning each input feature a 'Shapley value' \u2014 a number that represents how much that feature contributed to a specific prediction, relative to a baseline (average prediction). Rooted in cooperative game theory, Shapley values are the only attribution method that simultaneously satisfies three fairness axioms: consistency (features that matter more always get higher values), missingness (absent features get zero credit), and efficiency (all feature contributions sum exactly to the difference between the prediction and the baseline). This makes SHAP the gold standard for explainability \u2014 not just a visual aid, but a mathematically provable, auditable accounting of a model's reasoning.",
+    "how_it_works": "1. BASELINE: Establish the expected model output across all training data (e.g., average predicted churn probability = 0.22). 2. COALITION SAMPLING: For each feature, SHAP simulates all possible subsets ('coalitions') of features \u2014 with and without the feature in question \u2014 measuring how much the prediction changes each time the feature is added. 3. SHAPLEY VALUE: Average the marginal contribution of a feature across all coalitions. This is its Shapley value. 4. SUMMATION: All Shapley values for a single prediction sum to exactly (prediction \u2212 baseline). So if the model predicts 0.61 churn for a customer and baseline is 0.22, the Shapley values for all features must sum to +0.39. 5. VISUALISATION: TreeSHAP (optimised for XGBoost/Random Forests, runs in polynomial not exponential time) and KernelSHAP (model-agnostic, slower) are the two dominant implementations. Output formats include: force plots (single prediction waterfall), beeswarm plots (global feature importance across all predictions), and dependence plots (how one feature interacts with another). Key distinction: SHAP produces LOCAL explanations (per prediction) that aggregate into reliable GLOBAL explanations \u2014 unlike traditional feature importance which only gives the global view.",
+    "when_to_use": "1. REGULATORY / AUDIT REQUIREMENTS: Any model used in credit decisioning, supplier risk, or KYC must be explainable to regulators. SHAP gives you a documented, per-decision audit trail. 2. MODEL DEBUGGING: When a model underperforms on a segment, SHAP tells you which features are misfiring \u2014 far faster than manual ablation testing. 3. SALES INTELLIGENCE: Surface the top 3 reasons a prospect scores highly so a rep understands *why* before the call \u2014 not just a score. 4. FEATURE ENGINEERING ITERATION: Low or near-zero SHAP values across all predictions signal features you can safely drop, reducing model complexity. 5. DETECTING DATA LEAKAGE: If a feature like 'customer_id' or a date field shows outsized SHAP values, you have leakage. 6. AVOID when: you need real-time explanations at sub-millisecond latency (SHAP adds compute overhead), or when stakeholders only need a single global ranking and model governance isn't a concern.",
+    "worked_example": "D&B Pipeline Risk Agent \u2014 Explainable Deal Deterioration Scoring. Scenario: D&B's Pipeline Risk & Revenue Protection agent scores every open opportunity in a customer's CRM daily using an XGBoost model trained on 600M+ business records. The model flags a $2.1M renewal at a mid-market logistics firm (DUNS: 88-421-7732) as high deterioration risk \u2014 probability rising from 0.31 to 0.67 in 72 hours. Without SHAP, the rep sees a red flag and guesses. With TreeSHAP: Baseline (average risk across portfolio): 0.29. SHAP breakdown for this account: +0.19 \u2014 Paydex score dropped from 74 to 61 (30-day payment slowdown signal). +0.12 \u2014 Corporate family tree shows parent entity filed Chapter 11 protection 11 days ago (D&B proprietary linkage). +0.08 \u2014 Buydex purchasing intent signal for 'logistics software' dropped to zero (buying window closed). \u22120.03 \u2014 Account has 14-year relationship tenure (protective factor, partially offsets). Net: 0.29 + 0.19 + 0.12 + 0.08 \u2212 0.03 = 0.65 \u2248 model's 0.67 prediction (rounding across all features). The agent surfaces this as a human-readable insight to the rep: 'Primary risk driver is parent company bankruptcy (DUNS family tree), compounded by a 13-point Paydex deterioration. Recommend executive escalation before renewal conversation.' This is D&B's Explainability First / Ground Truth principle in practice \u2014 the DUNS entity resolution and proprietary scores aren't just inputs, they become *named, auditable reasons* that a rep, a CFO, or a regulator can interrogate. Competitors using generic firmographic data can produce a risk score; only D&B can produce a risk score with this level of entity-resolved, causally-labelled attribution.",
+    "resources": [
+      "Lundberg & Lee (2017) \u2014 'A Unified Approach to Interpreting Model Predictions' \u2014 the original SHAP NeurIPS paper, foundational reading",
+      "SHAP Python Library Official Docs & Notebooks (shap.readthedocs.io) \u2014 TreeSHAP, KernelSHAP, force plots and beeswarm visualisation walkthroughs",
+      "Christoph Molnar \u2014 'Interpretable Machine Learning' Book (Chapter 9: SHAP) \u2014 free online, the clearest non-mathematical treatment of Shapley values in a predictive modelling context"
+    ]
+  }
+}
