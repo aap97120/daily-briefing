@@ -98,12 +98,20 @@ DS_PROMPT = f"""Today is {TODAY}. Choose ONE data science topic to explain in de
 Return ONLY valid JSON, no fences:
 {{"topic":"","tagline":"","what_it_is":"","how_it_works":"","when_to_use":"","worked_example":"(concrete B2B/D&B context example)","resources":["descriptive name of resource 1","descriptive name of resource 2","descriptive name of resource 3"]}}"""
 
-LINK_RESOLUTION_PROMPT = """Search for the exact article described below and return only the direct URL to the original article. If you cannot find the exact article, return the best matching URL. Return ONLY the URL, nothing else — no explanation, no punctuation, just the URL.
+LINK_RESOLUTION_PROMPT = """Search for this specific news article and return its direct URL.
 
-Article to find:
-Headline: {headline}
-Source: {source}
-Date: approximately {date}"""
+Article details:
+- Headline: {headline}
+- Publication: {source}
+- Date: approximately {date}
+
+Instructions:
+- Search for the article using the headline and publication name
+- Return ONLY the direct URL to the article on the publication's own website
+- The URL must start with https://
+- Do not include any explanation, punctuation, or other text
+- If you find the article, return its URL (e.g. https://techcrunch.com/2026/06/27/article-name/)
+- If you cannot find the exact article, return the homepage of the publication (e.g. https://techcrunch.com)"""
 
 
 def call_claude(prompt: str, system: str = SYSTEM_PROMPT, max_retries: int = 3) -> str:
@@ -235,24 +243,43 @@ def extract_json(text: str) -> dict:
 
 
 def resolve_url(headline: str, source: str) -> str:
-    """Pass 2: targeted search to find the real article URL."""
+    """Pass 2: targeted search to find the real article URL.
+    
+    Returns the best available URL in order of preference:
+    1. A real article URL found by Claude's web search
+    2. A plain Google search URL (reliable fallback, never 404s)
+    """
     prompt = LINK_RESOLUTION_PROMPT.format(
         headline=headline,
         source=source,
         date=TODAY,
     )
     try:
-        raw = call_claude(prompt, system="You are a URL resolver. Return only the direct URL to the article, nothing else.", max_retries=2)
-        # Extract URL from response — find anything that looks like a URL
-        urls = re.findall(r'https?://[^\s\'"<>]+', raw)
-        if urls:
-            url = urls[0].rstrip(".,;)")
-            return url
+        raw = call_claude(
+            prompt,
+            system="You are a URL resolver. Search for the article and return only the direct URL to it. Return ONLY the URL — no explanation, no punctuation before or after, just the bare URL starting with https://",
+            max_retries=2,
+        )
+        raw = raw.strip().rstrip(".,;)")
+
+        # Extract first valid-looking URL from the response
+        urls = re.findall(r'https?://[^\s\'"<>\]\)]+', raw)
+        for url in urls:
+            url = url.rstrip(".,;)")
+            # Reject Google News search links (these are fallbacks, not real articles)
+            # Reject overly short URLs that are probably not real articles
+            if (
+                "news.google.com/search" not in url
+                and "google.com/search" not in url
+                and len(url) > 20
+            ):
+                return url
     except Exception as e:
         print(f"    URL resolution failed for '{headline[:50]}…': {e}")
-    # Fallback: Google News search link
-    query = urllib.parse.quote_plus(f"{headline} {source}")
-    return f"https://news.google.com/search?q={query}&hl=en-GB&gl=GB&ceid=GB:en"
+
+    # Fallback: plain Google search with just the headline (short, targeted, always works)
+    query = urllib.parse.quote_plus(headline[:80])
+    return f"https://www.google.com/search?q={query}"
 
 
 def add_links_to_stories(stories: list, section_name: str) -> list:
