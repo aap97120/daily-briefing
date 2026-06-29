@@ -82,18 +82,81 @@ For each story return:
 Return ONLY valid JSON, no fences:
 {{"stories":[{{"headline":"","summary":"","source":"","tag":""}}]}}"""
 
-STRATEGY_PROMPT = f"""Today is {TODAY}. Search for 3 high-signal analytical pieces circulating on X/Substack/blogs about AI strategy, market dynamics, enterprise AI adoption, AI M&A, or technology business model shifts. Prioritise content from or referencing: Jaya Gupta (Foundation Capital, @JayaGup10), Benedict Evans (@benedictevans), Ben Thompson (Stratechery, @stratechery), Matt Turck (@mattturck), Ethan Mollick (@emollick), Andrej Karpathy (@karpathy). Also include strong pieces from other credible analysts if found.
+
+TOPICS_LOG   = "docs/ds_topics.json"       # persists recent DS topics to avoid repetition
+STRATEGY_LOG = "docs/strategy_reads.json"  # persists recent strategy pieces to avoid repetition
+
+def load_recent_topics(n: int = 14) -> list:
+    """Reads the last n data science topics covered, to pass into the prompt."""
+    try:
+        with open(TOPICS_LOG, "r") as f:
+            entries = json.load(f)
+        return [e["topic"] for e in entries[-n:]]
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+
+def save_topic(topic: str):
+    """Appends today's topic to the log file."""
+    try:
+        with open(TOPICS_LOG, "r") as f:
+            entries = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        entries = []
+    entries.append({"date": TODAY_ISO, "topic": topic})
+    entries = entries[-60:]
+    os.makedirs("docs", exist_ok=True)
+    with open(TOPICS_LOG, "w") as f:
+        json.dump(entries, f, indent=2)
+
+def load_recent_strategy_reads(n: int = 7) -> list:
+    """Reads the last n strategy piece headlines to exclude from tomorrow's prompt."""
+    try:
+        with open(STRATEGY_LOG, "r") as f:
+            entries = json.load(f)
+        return [e["headline"] for e in entries[-n:]]
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+
+def save_strategy_reads(stories: list):
+    """Saves today's strategy headlines to the log."""
+    try:
+        with open(STRATEGY_LOG, "r") as f:
+            entries = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        entries = []
+    for s in stories:
+        headline = s.get("headline", "")
+        if headline:
+            entries.append({"date": TODAY_ISO, "headline": headline})
+    entries = entries[-60:]
+    os.makedirs("docs", exist_ok=True)
+    with open(STRATEGY_LOG, "w") as f:
+        json.dump(entries, f, indent=2)
+
+def build_strategy_prompt() -> str:
+    recent = load_recent_strategy_reads()
+    exclusion = ""
+    if recent:
+        # Truncate headlines to avoid an enormous prompt
+        recent_short = [h[:80] for h in recent]
+        exclusion = f"\n\nIMPORTANT — these pieces have already been featured recently, do NOT include them again: {'; '.join(recent_short)}. Find different pieces."
+    return f"""Today is {TODAY}. Search for 3 high-signal analytical pieces published or widely circulated in the LAST 7 DAYS about AI strategy, market dynamics, enterprise AI adoption, AI M&A, or technology business model shifts. Prioritise content from or referencing: Jaya Gupta (Foundation Capital, @JayaGup10), Benedict Evans (@benedictevans), Ben Thompson (Stratechery, @stratechery), Matt Turck (@mattturck), Ethan Mollick (@emollick), Andrej Karpathy (@karpathy). Also include strong pieces from other credible analysts if found.{exclusion}
 
 For each piece return:
-- headline: title or key thesis of the piece
+- headline: title or key thesis
 - summary: 3-4 sentence summary of the argument, why it matters, and how it connects to D&B's AI positioning
-- source: author name and publication/platform — NO URLs
+- source: author name and publication — NO URLs
 - tag: "AI Strategy"
 
 Return ONLY valid JSON, no fences:
-{{"stories":[{{"headline":"","summary":"","source":"","tag":""}}]}}"""
+{{"stories":[{{"headline":"","summary":"","source":"","tag":""}}]}}\""""
 
-DS_PROMPT = f"""Today is {TODAY}. Choose ONE data science topic to explain in depth, rotating broadly across: classical ML (XGBoost, Random Forests, survival analysis), deep learning (transformers, embeddings, fine-tuning), MLOps (MLflow, feature stores, model monitoring), agentic AI (LangChain, LangGraph, MCP, multi-agent orchestration), statistical methods (Bayesian inference, causal inference, SHAP, A/B testing), emerging techniques (RAG, multimodal models, RLHF), data engineering (dbt, Spark, vector databases, knowledge graphs).
+def build_ds_prompt() -> str:
+    recent = load_recent_topics()
+    exclusion = ""
+    if recent:
+        exclusion = f"\n\nIMPORTANT — do NOT choose any of these recently covered topics: {', '.join(recent)}. Pick something different."
+    return f"""Today is {TODAY}. Choose ONE data science topic to explain in depth, rotating broadly across: classical ML (XGBoost, Random Forests, survival analysis), deep learning (transformers, embeddings, fine-tuning), MLOps (MLflow, feature stores, model monitoring), agentic AI (LangChain, LangGraph, MCP, multi-agent orchestration), statistical methods (Bayesian inference, causal inference, SHAP, A/B testing), emerging techniques (RAG, multimodal models, RLHF), data engineering (dbt, Spark, vector databases, knowledge graphs).{exclusion}
 
 Return ONLY valid JSON, no fences:
 {{"topic":"","tagline":"","what_it_is":"","how_it_works":"","when_to_use":"","worked_example":"(concrete B2B/D&B context example)","resources":["descriptive name of resource 1","descriptive name of resource 2","descriptive name of resource 3"]}}"""
@@ -387,6 +450,9 @@ def generate_html(data: dict, filepath: str):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <title>David's Morning Briefing — {TODAY}</title>
 <style>{css}</style>
 </head>
@@ -454,11 +520,23 @@ def generate_briefing():
     time.sleep(5)
 
     print("  → Fetching AI Strategy Reads…")
-    strategy = extract_json(call_claude(STRATEGY_PROMPT))
+    strategy = extract_json(call_claude(build_strategy_prompt()))
     time.sleep(5)
 
     print("  → Fetching Data Science topic…")
-    ds = extract_json(call_claude(DS_PROMPT))
+    ds = extract_json(call_claude(build_ds_prompt()))
+
+    # Save topic so it won't repeat for the next 14 days
+    topic_name = ds.get("topic", "")
+    if topic_name:
+        save_topic(topic_name)
+        print(f"  ✓ Logged DS topic: {topic_name}")
+
+    # Save strategy reads so they won't repeat for the next 7 days
+    strategy_stories = strategy.get("stories", [])
+    if strategy_stories:
+        save_strategy_reads(strategy_stories)
+        print(f"  ✓ Logged {len(strategy_stories)} strategy reads")
 
     # Pass 2: resolve real URLs for each story
     print("  → Resolving article URLs (Work)…")
