@@ -10,5 +10,9 @@
   {
     "date": "2026-07-02",
     "topic": "Survival Analysis (Time-to-Event Modeling)"
+  },
+  {
+    "date": "2026-07-03",
+    "topic": "Retrieval-Augmented Generation (RAG)"
   }
 ]
