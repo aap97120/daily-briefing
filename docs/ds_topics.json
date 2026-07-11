@@ -42,5 +42,9 @@
   {
     "date": "2026-07-10",
     "topic": "dbt (data build tool) \u2014 Analytics Engineering in Practice"
+  },
+  {
+    "date": "2026-07-11",
+    "topic": "Model Context Protocol (MCP)"
   }
 ]
