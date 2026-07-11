@@ -35,21 +35,73 @@ TODAY     = datetime.datetime.now().strftime("%A %d %B %Y")
 TODAY_ISO = datetime.datetime.now().strftime("%Y-%m-%d")
 
 # ── D&B strategic context baked into the system prompt ───────────────────────
-SYSTEM_PROMPT = """You are the daily briefing assistant for David Anderson, Global Head of Sales & Marketing Analytics at Dun & Bradstreet (D&B).
+SYSTEM_PROMPT = f"""You are the daily briefing assistant for David Anderson, Global Head of Sales & Marketing Analytics at Dun & Bradstreet (D&B).
 
 D&B's core strategic position: positioning as the trusted, neutral data layer for agentic AI workflows — "AI Decision Intelligence." D&B's proprietary assets (Paydex, Buydex, DUNS entity resolution, corporate family trees, 600M+ business records) constitute a structural moat that makes any AI agent decisively better. The "be everywhere" / Visa analogy frames D&B's neutrality as a competitive advantage — embedding into all agentic platforms (Microsoft Copilot, Salesforce Agentforce, Google Gemini, Amazon Bedrock, ServiceNow, LangChain) rather than betting on one winner.
 
 Key strategic concepts: Explainability First (Ground Truth), Temporal Analytics (buying windows), Entity Resolution as Foundation, six agent archetypes (Prospecting, Account Intelligence, Pipeline Risk & Revenue Protection, Territory & Market Planning, Account Expansion, Fleet & Asset).
 
-When writing briefing sections, apply this context naturally — note when stories validate or challenge D&B's strategy, flag competitor moves, and highlight M&A/valuation implications where relevant. Write in a direct, plain-spoken style. No jargon."""
+When writing briefing sections, apply this context naturally — note when stories validate or challenge D&B's strategy, flag competitor moves, and highlight M&A/valuation implications where relevant. Write in a direct, plain-spoken style. No jargon.
 
-# ── Section prompts ───────────────────────────────────────────────────────────
-WORK_PROMPT = f"""Today is {TODAY}. Search for the 5 most relevant and recent news stories for a senior analytics leader at Dun & Bradstreet, covering:
+CRITICAL ACCURACY RULE — READ CAREFULLY:
+Today's date is {TODAY}. Treat this as a hard, non-negotiable cutoff between the past (reportable) and the future (not yet happened).
+- Only report an event, score, result, or outcome if a search result EXPLICITLY confirms it has already concluded.
+- If a search result is a preview, prediction, betting odds, fixture announcement, or forecast of a future or in-progress event, you must NOT report it as a completed result. Describe it as upcoming/scheduled instead, with the date if known.
+- If you are not certain an event has concluded, do not guess. State that it is scheduled or ongoing rather than inventing a score, winner, or outcome.
+- This applies especially to sports fixtures, elections, product launches, and earnings — anything with a specific date attached. Fabricating a result for an event that has not yet happened is a serious factual error and is not acceptable under any circumstances."""
+
+# ── Section history logs (prevents repetition — same pattern as DS/Strategy) ──
+WORK_LOG       = "docs/work_log.json"
+GENERAL_AI_LOG = "docs/general_ai_log.json"
+PERSONAL_LOG   = "docs/personal_log.json"
+
+def load_recent_headlines(log_path: str, n: int = 10) -> list:
+    """Reads the last n headlines from a section log, to exclude from today's prompt."""
+    try:
+        with open(log_path, "r") as f:
+            entries = json.load(f)
+        return [e["headline"] for e in entries[-n:]]
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+
+def save_headlines(log_path: str, stories: list):
+    """Appends today's headlines to a section log."""
+    try:
+        with open(log_path, "r") as f:
+            entries = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        entries = []
+    for s in stories:
+        headline = s.get("headline", "")
+        if headline:
+            entries.append({"date": TODAY_ISO, "headline": headline})
+    entries = entries[-80:]
+    os.makedirs("docs", exist_ok=True)
+    with open(log_path, "w") as f:
+        json.dump(entries, f, indent=2)
+
+def _exclusion_clause(log_path: str, n: int = 10) -> str:
+    recent = load_recent_headlines(log_path, n)
+    if not recent:
+        return ""
+    recent_short = [h[:90] for h in recent]
+    return (
+        f"\n\nIMPORTANT — these stories were already covered in recent briefings, "
+        f"do NOT repeat them even if they're still the top result: {'; '.join(recent_short)}. "
+        f"Actively look for different, newer stories instead. Ongoing sagas are fine to "
+        f"revisit only if there is a genuinely new development since the last time."
+    )
+
+
+def build_work_prompt() -> str:
+    return f"""Today is {TODAY}. Search for the 5 most relevant and recent news stories for a senior analytics leader at Dun & Bradstreet, covering:
 - Agentic AI and AI agents for enterprise/B2B use cases
 - B2B data and data intelligence platforms
 - Revenue intelligence, sales AI tools (ZoomInfo, Apollo, Salesforce Einstein, Gong, Clari)
 - Business credit, financial risk and commercial data
 - D&B, Moody's Analytics, Verisk or similar B2B data company news
+
+Only include a story if search results confirm it as genuinely current news (published recently, not a prediction of something that hasn't happened).{_exclusion_clause(WORK_LOG)}
 
 For each story return:
 - headline: clear headline
@@ -60,7 +112,11 @@ For each story return:
 Return ONLY valid JSON, no fences:
 {{"stories":[{{"headline":"","summary":"","source":"","tag":""}}]}}"""
 
-GENERAL_AI_PROMPT = f"""Today is {TODAY}. Search for the 4 most significant recent stories in the broader AI industry — funding/M&A, frontier model releases, compute/infrastructure economics, notable policy or regulatory developments, AI-native startup moves.
+
+def build_general_ai_prompt() -> str:
+    return f"""Today is {TODAY}. Search for the 4 most significant recent stories in the broader AI industry — funding/M&A, frontier model releases, compute/infrastructure economics, notable policy or regulatory developments, AI-native startup moves.
+
+Only include a story if search results confirm it as genuinely current news, not a rumour, prediction, or something scheduled for the future that hasn't happened yet.{_exclusion_clause(GENERAL_AI_LOG)}
 
 For each story return:
 - headline: clear headline
@@ -71,7 +127,11 @@ For each story return:
 Return ONLY valid JSON, no fences:
 {{"stories":[{{"headline":"","summary":"","source":"","tag":""}}]}}"""
 
-PERSONAL_PROMPT = f"""Today is {TODAY}. Search for 6 interesting recent news stories for a UK-based professional across: UK politics, US politics/international affairs, science (space/biology/physics), golf (PGA/DP World Tour), football/soccer (Premier League/World Cup), rugby (Six Nations/Premiership), plus ONE from F1/economics/culture.
+
+def build_personal_prompt() -> str:
+    return f"""Today is {TODAY}. Search for 6 interesting recent news stories for a UK-based professional across: UK politics, US politics/international affairs, science (space/biology/physics), golf (PGA/DP World Tour), football/soccer (Premier League/World Cup), rugby (Six Nations/Premiership), plus ONE from F1/economics/culture.
+
+SPORTS RESULTS — CRITICAL: for any match, race, or tournament, only report a final score or result if search results explicitly confirm the event has already been played and concluded as of {TODAY}. If you find a preview, prediction, or fixture announcement for an event that hasn't happened yet, report it as an upcoming fixture with the scheduled date — never invent or infer a score. Double-check the event date against today's date before stating any result.{_exclusion_clause(PERSONAL_LOG)}
 
 For each story return:
 - headline: clear headline
@@ -137,10 +197,9 @@ def build_strategy_prompt() -> str:
     recent = load_recent_strategy_reads()
     exclusion = ""
     if recent:
-        # Truncate headlines to avoid an enormous prompt
         recent_short = [h[:80] for h in recent]
         exclusion = f"\n\nIMPORTANT — these pieces have already been featured recently, do NOT include them again: {'; '.join(recent_short)}. Find different pieces."
-    return f"""Today is {TODAY}. Search for 3 high-signal analytical pieces published or widely circulated in the LAST 7 DAYS about AI strategy, market dynamics, enterprise AI adoption, AI M&A, or technology business model shifts. Prioritise content from or referencing: Jaya Gupta (Foundation Capital, @JayaGup10), Benedict Evans (@benedictevans), Ben Thompson (Stratechery, @stratechery), Matt Turck (@mattturck), Ethan Mollick (@emollick), Andrej Karpathy (@karpathy). Also include strong pieces from other credible analysts if found.{exclusion}
+    return f"""Today is {TODAY}. Search for 3 high-signal analytical pieces published or widely circulated in the LAST 7 DAYS about AI strategy, market dynamics, enterprise AI adoption, AI M&A, or technology business model shifts. Prioritise content from or referencing: Jaya Gupta (Foundation Capital, @JayaGup10), Benedict Evans (@benedictevans), Ben Thompson (Stratechery, @stratechery), Matt Turck (@mattturck), Ethan Mollick (@emollick), Andrej Karpathy (@karpathy). Also include strong pieces from other credible analysts if found. Only include a piece if search results confirm it was actually published — do not infer or guess at its contents.{exclusion}
 
 For each piece return:
 - headline: title or key thesis
@@ -149,7 +208,7 @@ For each piece return:
 - tag: "AI Strategy"
 
 Return ONLY valid JSON, no fences:
-{{"stories":[{{"headline":"","summary":"","source":"","tag":""}}]}}\""""
+{{"stories":[{{"headline":"","summary":"","source":"","tag":""}}]}}"""
 
 def build_ds_prompt() -> str:
     recent = load_recent_topics()
@@ -177,13 +236,21 @@ Instructions:
 - If you cannot find the exact article, return the homepage of the publication (e.g. https://techcrunch.com)"""
 
 
-def call_claude(prompt: str, system: str = SYSTEM_PROMPT, max_retries: int = 3) -> str:
-    """Calls the Anthropic API with web search enabled. Returns raw text response."""
+def call_claude(prompt: str, system: str = SYSTEM_PROMPT, max_retries: int = 3,
+                 max_tokens: int = 2000, search_max_uses: int = 5) -> str:
+    """Calls the Anthropic API with web search enabled. Returns raw text response.
+
+    search_max_uses caps how many searches Claude can run per call — without
+    this, a single "find 5 stories" request can trigger 10+ searches, and each
+    search is billed separately ($10/1,000) on top of token costs. Main section
+    calls need room to research multiple stories (default 5); URL resolution
+    calls only need one targeted lookup and should pass a much lower value.
+    """
     payload = {
         "model": MODEL,
-        "max_tokens": 2000,
+        "max_tokens": max_tokens,
         "system": system,
-        "tools": [{"type": "web_search_20250305", "name": "web_search"}],
+        "tools": [{"type": "web_search_20250305", "name": "web_search", "max_uses": search_max_uses}],
         "messages": [{"role": "user", "content": prompt}],
     }
     data = json.dumps(payload).encode("utf-8")
@@ -307,10 +374,15 @@ def extract_json(text: str) -> dict:
 
 def resolve_url(headline: str, source: str) -> str:
     """Pass 2: targeted search to find the real article URL.
-    
+
     Returns the best available URL in order of preference:
     1. A real article URL found by Claude's web search
     2. A plain Google search URL (reliable fallback, never 404s)
+
+    Deliberately capped at max_uses=2 and max_tokens=300 — this call only
+    needs to return a single URL, not conduct research. Uncapped, this was
+    a major driver of search-fee cost (one full API call per story, every
+    story, every day).
     """
     prompt = LINK_RESOLUTION_PROMPT.format(
         headline=headline,
@@ -322,15 +394,14 @@ def resolve_url(headline: str, source: str) -> str:
             prompt,
             system="You are a URL resolver. Search for the article and return only the direct URL to it. Return ONLY the URL — no explanation, no punctuation before or after, just the bare URL starting with https://",
             max_retries=2,
+            max_tokens=300,
+            search_max_uses=2,
         )
         raw = raw.strip().rstrip(".,;)")
 
-        # Extract first valid-looking URL from the response
         urls = re.findall(r'https?://[^\s\'"<>\]\)]+', raw)
         for url in urls:
             url = url.rstrip(".,;)")
-            # Reject Google News search links (these are fallbacks, not real articles)
-            # Reject overly short URLs that are probably not real articles
             if (
                 "news.google.com/search" not in url
                 and "google.com/search" not in url
@@ -340,19 +411,31 @@ def resolve_url(headline: str, source: str) -> str:
     except Exception as e:
         print(f"    URL resolution failed for '{headline[:50]}…': {e}")
 
-    # Fallback: plain Google search with just the headline (short, targeted, always works)
     query = urllib.parse.quote_plus(headline[:80])
     return f"https://www.google.com/search?q={query}"
 
 
-def add_links_to_stories(stories: list, section_name: str) -> list:
-    """For each story, resolve a real URL via targeted search."""
+def fallback_search_link(headline: str, source: str) -> str:
+    """Zero-cost link — used for sections where we skip the API-based
+    resolution pass entirely (General AI, Personal) to control cost."""
+    query = urllib.parse.quote_plus(f"{headline} {source}".strip())
+    return f"https://www.google.com/search?q={query}"
+
+
+def add_links_to_stories(stories: list, section_name: str, resolve: bool = True) -> list:
+    """For each story, attach a URL. If resolve=True, spends one API call per
+    story to find the real article link. If resolve=False, uses a zero-cost
+    Google search link instead — used for lower-priority sections to control
+    total API spend."""
     for i, story in enumerate(stories):
         headline = story.get("headline", "")
         source = story.get("source", "")
-        print(f"    Resolving link {i+1}/{len(stories)}: {headline[:60]}…")
-        story["url"] = resolve_url(headline, source)
-        time.sleep(2)  # brief pause between resolution calls
+        if resolve:
+            print(f"    Resolving link {i+1}/{len(stories)}: {headline[:60]}…")
+            story["url"] = resolve_url(headline, source)
+            time.sleep(2)
+        else:
+            story["url"] = fallback_search_link(headline, source)
     return stories
 
 
@@ -508,48 +591,68 @@ def generate_briefing():
     print(f"Starting briefing for {TODAY}…")
 
     print("  → Fetching Work section…")
-    work = extract_json(call_claude(WORK_PROMPT))
+    work = extract_json(call_claude(build_work_prompt(), search_max_uses=5))
     time.sleep(5)
 
     print("  → Fetching General AI section…")
-    general_ai = extract_json(call_claude(GENERAL_AI_PROMPT))
+    general_ai = extract_json(call_claude(build_general_ai_prompt(), search_max_uses=5))
     time.sleep(5)
 
     print("  → Fetching Personal section…")
-    personal = extract_json(call_claude(PERSONAL_PROMPT))
+    personal = extract_json(call_claude(build_personal_prompt(), search_max_uses=6))
     time.sleep(5)
 
     print("  → Fetching AI Strategy Reads…")
-    strategy = extract_json(call_claude(build_strategy_prompt()))
+    strategy = extract_json(call_claude(build_strategy_prompt(), search_max_uses=5))
     time.sleep(5)
 
     print("  → Fetching Data Science topic…")
-    ds = extract_json(call_claude(build_ds_prompt()))
+    ds = extract_json(call_claude(build_ds_prompt(), search_max_uses=3))
 
-    # Save topic so it won't repeat for the next 14 days
+    # Save all section histories now that content generation succeeded —
+    # done here (not deferred to the end) so a failure during link
+    # resolution doesn't leave the exclusion logs out of sync with what
+    # was actually generated.
     topic_name = ds.get("topic", "")
     if topic_name:
         save_topic(topic_name)
         print(f"  ✓ Logged DS topic: {topic_name}")
 
-    # Save strategy reads so they won't repeat for the next 7 days
     strategy_stories = strategy.get("stories", [])
     if strategy_stories:
         save_strategy_reads(strategy_stories)
         print(f"  ✓ Logged {len(strategy_stories)} strategy reads")
 
-    # Pass 2: resolve real URLs for each story
+    work_stories = work.get("stories", [])
+    if work_stories:
+        save_headlines(WORK_LOG, work_stories)
+        print(f"  ✓ Logged {len(work_stories)} work headlines")
+
+    general_ai_stories = general_ai.get("stories", [])
+    if general_ai_stories:
+        save_headlines(GENERAL_AI_LOG, general_ai_stories)
+        print(f"  ✓ Logged {len(general_ai_stories)} general AI headlines")
+
+    personal_stories = personal.get("stories", [])
+    if personal_stories:
+        save_headlines(PERSONAL_LOG, personal_stories)
+        print(f"  ✓ Logged {len(personal_stories)} personal headlines")
+
+    # Pass 2: resolve real URLs — only for Work and Strategy, the sections
+    # most likely to be forwarded or acted on. General AI and Personal get
+    # a zero-cost Google search link instead. This roughly halves the
+    # number of URL-resolution API calls (and their search fees) per run.
     print("  → Resolving article URLs (Work)…")
-    work["stories"] = add_links_to_stories(work.get("stories", []), "Work")
+    work["stories"] = add_links_to_stories(work_stories, "Work", resolve=True)
 
-    print("  → Resolving article URLs (General AI)…")
-    general_ai["stories"] = add_links_to_stories(general_ai.get("stories", []), "General AI")
+    print("  → Adding search links (General AI)…")
+    general_ai["stories"] = add_links_to_stories(general_ai_stories, "General AI", resolve=False)
 
-    print("  → Resolving article URLs (Personal)…")
-    personal["stories"] = add_links_to_stories(personal.get("stories", []), "Personal")
+    print("  → Adding search links (Personal)…")
+    personal["stories"] = add_links_to_stories(personal_stories, "Personal", resolve=False)
 
     print("  → Resolving article URLs (Strategy)…")
-    strategy["stories"] = add_links_to_stories(strategy.get("stories", []), "Strategy")
+    strategy["stories"] = add_links_to_stories(strategy_stories, "Strategy", resolve=True)
 
     payload = {
         "date": TODAY,
