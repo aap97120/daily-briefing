@@ -46,5 +46,9 @@
   {
     "date": "2026-07-11",
     "topic": "Model Context Protocol (MCP)"
+  },
+  {
+    "date": "2026-07-12",
+    "topic": "MLflow \u2014 Experiment Tracking & Model Registry"
   }
 ]
