@@ -680,7 +680,8 @@ def generate_briefing():
 
     if NTFY_TOPIC and PAGES_URL:
         print("  → Sending notification…")
-        send_notification(f"☀️ Your briefing for {TODAY} is ready. Tap to view.", PAGES_URL)
+        archive_url = f"{PAGES_URL.rstrip('/')}/archive/{TODAY_ISO}.html"
+        send_notification(f"☀️ Your briefing for {TODAY} is ready. Tap to view.", archive_url)
         print(f"  ✓ Notification sent")
     else:
         print("  (NTFY_TOPIC or PAGES_URL not set — skipping notification)")
