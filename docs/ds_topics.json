@@ -74,5 +74,9 @@
   {
     "date": "2026-07-19",
     "topic": "Random Forests"
+  },
+  {
+    "date": "2026-07-20",
+    "topic": "RAG \u2014 Retrieval-Augmented Generation"
   }
 ]
