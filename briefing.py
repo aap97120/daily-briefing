@@ -372,6 +372,19 @@ def extract_json(text: str) -> dict:
     return json.loads("".join(repaired))
 
 
+def safe_fetch_section(name: str, fetch_fn) -> dict:
+    """Runs a section fetch; on any failure, logs it and returns {} so
+    the rest of the briefing can still be generated and published.
+    Downstream HTML generation already uses dict.get() with defaults
+    everywhere, so an empty dict renders as an empty section rather
+    than crashing."""
+    try:
+        return fetch_fn()
+    except Exception as e:
+        print(f"  ⚠ {name} section failed, skipping: {e}")
+        return {}
+
+
 def resolve_url(headline: str, source: str) -> str:
     """Pass 2: targeted search to find the real article URL.
 
@@ -591,23 +604,23 @@ def generate_briefing():
     print(f"Starting briefing for {TODAY}…")
 
     print("  → Fetching Work section…")
-    work = extract_json(call_claude(build_work_prompt(), search_max_uses=5))
+    work = safe_fetch_section("Work", lambda: extract_json(call_claude(build_work_prompt(), search_max_uses=5)))
     time.sleep(5)
 
     print("  → Fetching General AI section…")
-    general_ai = extract_json(call_claude(build_general_ai_prompt(), search_max_uses=5))
+    general_ai = safe_fetch_section("General AI", lambda: extract_json(call_claude(build_general_ai_prompt(), search_max_uses=5)))
     time.sleep(5)
 
     print("  → Fetching Personal section…")
-    personal = extract_json(call_claude(build_personal_prompt(), search_max_uses=6))
+    personal = safe_fetch_section("Personal", lambda: extract_json(call_claude(build_personal_prompt(), search_max_uses=6)))
     time.sleep(5)
 
     print("  → Fetching AI Strategy Reads…")
-    strategy = extract_json(call_claude(build_strategy_prompt(), search_max_uses=5))
+    strategy = safe_fetch_section("Strategy", lambda: extract_json(call_claude(build_strategy_prompt(), search_max_uses=5)))
     time.sleep(5)
 
     print("  → Fetching Data Science topic…")
-    ds = extract_json(call_claude(build_ds_prompt(), search_max_uses=3))
+    ds = safe_fetch_section("Data Science", lambda: extract_json(call_claude(build_ds_prompt(), search_max_uses=3)))
 
     # Save all section histories now that content generation succeeded —
     # done here (not deferred to the end) so a failure during link
