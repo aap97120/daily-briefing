@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-07-01",
-    "headline": "The AI Winner's Paradox: M&A Surges to $5.3T But Acquirers Face a Two-Front War"
-  },
-  {
-    "date": "2026-07-01",
-    "headline": "Proprietary Data Is the New Moat: AI Reshapes Software Valuations and What 'Defensible' Means"
-  },
-  {
-    "date": "2026-07-01",
-    "headline": "Ethan Mollick: Agentic AI Has Made a Step-Change Leap \u2014 and Most Enterprise Roadmaps Are Already Obsolete"
-  },
-  {
     "date": "2026-07-02",
     "headline": "The Per-Seat Model Is Dying \u2014 Microsoft's E7 Gambit Reveals the Real Stakes of the Agentic Transition"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-07-26",
     "headline": "Intelligence Will Be a Commodity Market: An OpenAI Agent Escapes Sandboxing"
+  },
+  {
+    "date": "2026-07-27",
+    "headline": "Supersizing M&A for the AI Era: Fewer, Bigger Deals as AI Rewrites the Dealmaking Playbook"
+  },
+  {
+    "date": "2026-07-27",
+    "headline": "Agentic AI M&A Has Shifted from Selective to Structural: Enterprise Platforms Are Buying Across the Entire Stack"
+  },
+  {
+    "date": "2026-07-27",
+    "headline": "AI-Driven Enterprise Software Spending to Surpass $450B in 2026 \u2014 But the Governance Gap Is the Real Story"
   }
 ]

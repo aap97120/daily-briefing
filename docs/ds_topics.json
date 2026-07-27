@@ -82,5 +82,9 @@
   {
     "date": "2026-07-26",
     "topic": "Bayesian Inference"
+  },
+  {
+    "date": "2026-07-27",
+    "topic": "Feature Stores"
   }
 ]
