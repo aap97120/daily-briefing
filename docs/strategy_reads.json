@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-07-06",
-    "headline": "Gartner Puts a $234 Billion Price Tag on 'Agentic Arbitrage' \u2014 One Dollar in Five of Enterprise SaaS Spend Is Now at Risk"
-  },
-  {
-    "date": "2026-07-06",
-    "headline": "Ethan Mollick: Your Best AI Users Are Already Inside Your Company \u2014 And They're Hiding From You"
-  },
-  {
-    "date": "2026-07-06",
-    "headline": "Benedict Evans: $700 Billion in AI Capex and Still No Settled Answer on Where Value Will Land"
-  },
-  {
     "date": "2026-07-07",
     "headline": "Gartner: Who Owns What the System Learns? The $234B 'Knowledge Retention' Clause That Will Define the Next Decade of Enterprise AI Contracts"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-07-31",
     "headline": "Ben Thompson on Stratechery: Model Commoditisation, the Chinese Model Conundrum, and What It Means for U.S. AI Strategy"
+  },
+  {
+    "date": "2026-08-01",
+    "headline": "Benedict Evans: Ways to Think About Token Pricing \u2014 From Supply Crunch to Commodity Infrastructure"
+  },
+  {
+    "date": "2026-08-01",
+    "headline": "'Pacing the Frontier': 1,178 AI Staff from OpenAI, Anthropic, Meta, and Google DeepMind Sign Joint Letter Calling for a Government-Backed AI Slowdown Mechanism"
+  },
+  {
+    "date": "2026-08-01",
+    "headline": "The Open Weights War: Jensen Huang's Coalition Letter Exposes the AI Industry's Deepest Fault Line \u2014 Control vs. Openness"
   }
 ]
