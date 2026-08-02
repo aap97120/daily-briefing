@@ -106,5 +106,9 @@
   {
     "date": "2026-08-01",
     "topic": "Transformer Embeddings & Semantic Search"
+  },
+  {
+    "date": "2026-08-02",
+    "topic": "dbt (data build tool) \u2014 Analytics Engineering in Practice"
   }
 ]

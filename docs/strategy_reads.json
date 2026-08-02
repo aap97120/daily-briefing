@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-07-07",
-    "headline": "Gartner: Who Owns What the System Learns? The $234B 'Knowledge Retention' Clause That Will Define the Next Decade of Enterprise AI Contracts"
-  },
-  {
-    "date": "2026-07-07",
-    "headline": "SaaSpocalypse: Six-Month Damage Report \u2014 $2 Trillion in Market Cap Wiped, and Gartner Says the Structural Shift Is Just Beginning"
-  },
-  {
-    "date": "2026-07-07",
-    "headline": "BetterCloud Midyear SaaS Report: The Age of the AI-Native App Has Arrived \u2014 but Only 6% of Companies Fully Trust Agents to Run Core Processes"
-  },
-  {
     "date": "2026-07-08",
     "headline": "Microsoft Frontier Co.: The Deployment Layer Is Now the Product \u2014 And Every Major AI Vendor Is Racing to Own It"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-08-01",
     "headline": "The Open Weights War: Jensen Huang's Coalition Letter Exposes the AI Industry's Deepest Fault Line \u2014 Control vs. Openness"
+  },
+  {
+    "date": "2026-08-02",
+    "headline": "The Copium Wars: Chinese Models, Frontier Futures, and What Actually Changed in AI"
+  },
+  {
+    "date": "2026-08-02",
+    "headline": "The Battle for Verifiable Data Is Increasingly Defining the AI Race"
+  },
+  {
+    "date": "2026-08-02",
+    "headline": "Agentic AI Adoption 2026: SMBs Outpacing Enterprises as Turnkey Platforms Drive the Next Wave"
   }
 ]
