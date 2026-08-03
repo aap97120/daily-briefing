@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-07-12",
-    "headline": "D&B Launches Risk Analytics Plugin for Cursor, Embedding Commercial Graph into Agentic Developer Workflows"
-  },
-  {
-    "date": "2026-07-12",
-    "headline": "Anthropic Embeds D&B, Moody's, and Verisk as Native Data Connectors in Claude for Financial Services"
-  },
-  {
-    "date": "2026-07-12",
-    "headline": "ZoomInfo Launches Self-Graded AI Sales Benchmark \u2014 Moody's Revises Outlook to Negative on Revenue Concerns"
-  },
-  {
-    "date": "2026-07-12",
-    "headline": "Apollo Acquires Pocus as Sales Tech Consolidation Wave Accelerates"
-  },
-  {
-    "date": "2026-07-12",
-    "headline": "Financial Stability Board Sounds Alarm on Private Credit Data Gaps in Near-$2 Trillion Market"
-  },
-  {
     "date": "2026-07-14",
     "headline": "Salesforce Launches Agentforce Help Agent with Pay-Per-Resolution Pricing, Goes GA July 2026"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-08-02",
     "headline": "FSB Warns of Hidden Data Gaps in Private Credit Markets as Exposures May Be More Than Twice Official Estimates"
+  },
+  {
+    "date": "2026-08-03",
+    "headline": "ZoomInfo Executes Eight-Day Blitz to Become the 'Ground Truth' Data Layer Beneath All GTM Agents"
+  },
+  {
+    "date": "2026-08-03",
+    "headline": "Gong Launches 'Mission Big Dipper' \u2014 Adds Agentic Execution Layer Across Its Full Revenue AI OS"
+  },
+  {
+    "date": "2026-08-03",
+    "headline": "Moody's Wins 2026 Risk Technology Awards for Both Credit Data and AI \u2014 Sharpening Its Edge Over Pure-Play Data Rivals"
+  },
+  {
+    "date": "2026-08-03",
+    "headline": "Forrester: One-Third of B2B Transactions Will Involve Autonomous Agents Managing Invoicing and Reconciliation by End of 2026"
+  },
+  {
+    "date": "2026-08-03",
+    "headline": "B2B Buyer Self-Research Now Reaches 60\u201370% Completion Before First Vendor Contact \u2014 Upending Traditional Sales Motion"
   }
 ]

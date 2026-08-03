@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-07-08",
-    "headline": "Microsoft Frontier Co.: The Deployment Layer Is Now the Product \u2014 And Every Major AI Vendor Is Racing to Own It"
-  },
-  {
-    "date": "2026-07-08",
-    "headline": "PwC Global M&A Midyear 2026: Capital Is Concentrating Around 'Defensible Data and Embedded Workflows' \u2014 Everything Else Faces Re-Rating"
-  },
-  {
-    "date": "2026-07-08",
-    "headline": "AlixPartners: 24% of 500+ Enterprise Software Companies Lack the Data or Vertical Moats to Survive Agentic AI \u2014 and the Two Moats That Matter Are Exactly What D&B Has"
-  },
-  {
     "date": "2026-07-09",
     "headline": "Ethan Mollick (Wharton): Prompting Tricks Are Dead \u2014 The New Skill Is Specification, Not Sorcery"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-08-02",
     "headline": "Agentic AI Adoption 2026: SMBs Outpacing Enterprises as Turnkey Platforms Drive the Next Wave"
+  },
+  {
+    "date": "2026-08-03",
+    "headline": "96% of Enterprises Run AI Agents \u2014 Only 12% Can Govern Them: The Real Contest in the Agentic Platform Wars"
+  },
+  {
+    "date": "2026-08-03",
+    "headline": "88% of Enterprise Agentic AI Pilots Never Reach Production \u2014 Cognizant EMEA Launch Targets the Execution Gap"
+  },
+  {
+    "date": "2026-08-03",
+    "headline": "Snowflake's Cortex AI Gateway: The Infrastructure Stack Bets on a 'Trusted Agentic Enterprise' Layer"
   }
 ]
