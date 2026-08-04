@@ -114,5 +114,9 @@
   {
     "date": "2026-08-03",
     "topic": "MLflow \u2014 Experiment Tracking & Model Lifecycle Management"
+  },
+  {
+    "date": "2026-08-04",
+    "topic": "Reinforcement Learning from Human Feedback (RLHF)"
   }
 ]
