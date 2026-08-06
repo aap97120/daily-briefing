@@ -122,5 +122,9 @@
   {
     "date": "2026-08-05",
     "topic": "SHAP \u2014 Shapley Additive Explanations"
+  },
+  {
+    "date": "2026-08-06",
+    "topic": "Causal Inference \u2014 Moving from Correlation to Causation"
   }
 ]
