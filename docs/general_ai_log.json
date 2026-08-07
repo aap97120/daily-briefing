@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-07-12",
-    "headline": "Global VC Hits Record $510B in H1 2026, Driven Almost Entirely by AI \u2014 SpaceX Acquires Cursor for $60B"
-  },
-  {
-    "date": "2026-07-12",
-    "headline": "Abu Dhabi's MGX Closes $49B AI Fund \u2014 One of the Largest Dedicated AI Investment Vehicles in History"
-  },
-  {
-    "date": "2026-07-12",
-    "headline": "Illinois Signs Landmark AI Safety Measures Act \u2014 Independent Audits Now Required for Large AI Developers"
-  },
-  {
-    "date": "2026-07-12",
-    "headline": "EU AI Act Full Enforcement Looms August 2, as Commission Launches Cybersecurity & AI Action Plan"
-  },
-  {
     "date": "2026-07-14",
     "headline": "Meta Launches 'Meta Compute' Cloud Business, Triggering $200B Chip Stock Selloff"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-08-06",
     "headline": "Asana Acquires StackAI and Autodesk Eyes MaintainX \u2014 Workflow SaaS Giants Race to Bundle Agentic AI"
+  },
+  {
+    "date": "2026-08-07",
+    "headline": "EU AI Act Fully Live \u2014 High-Risk System Obligations Now Enforceable After August 2 Deadline"
+  },
+  {
+    "date": "2026-08-07",
+    "headline": "Anthropic Overtakes OpenAI as Most Valuable Private AI Company \u2014 Files Confidentially for October IPO"
+  },
+  {
+    "date": "2026-08-07",
+    "headline": "NSF Launches $100M AI Infrastructure Hubs to Expand Scientific Compute Access"
+  },
+  {
+    "date": "2026-08-07",
+    "headline": "Forbes AI 50 2026: OpenAI and Anthropic Hold 80% of Top Private AI Funding \u2014 Vertical Specialists Now Generating Real Revenue"
   }
 ]

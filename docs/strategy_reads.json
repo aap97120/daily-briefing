@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-07-12",
-    "headline": "Ethan Mollick (Wharton): 'Prompting Tricks Are Dead \u2014 Managing AI Like an Employee Is the Core Skill Now'"
-  },
-  {
-    "date": "2026-07-12",
-    "headline": "Databricks: '2026 State of AI Agents' \u2014 Governance and Evaluation Tools Are Now the Real Enterprise AI Differentiator"
-  },
-  {
-    "date": "2026-07-12",
-    "headline": "Deloitte Insights: Most Agentic AI Deployments Are Failing Because Enterprises Automate Old Workflows Rather Than Redesign for Agents"
-  },
-  {
     "date": "2026-07-14",
     "headline": "AI Reshapes Software Dealmaking as the Market Splinters Into Tiers of Disruption"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-08-06",
     "headline": "2026 State of AI Agents: Multi-Agent Systems Grew 327% in Four Months \u2014 But Governance Is the Gap"
+  },
+  {
+    "date": "2026-08-07",
+    "headline": "Who's Afraid of Chinese Models? Frontier Labs Still Have the Advantage \u2014 But U.S. Policy Is the Real Risk"
+  },
+  {
+    "date": "2026-08-07",
+    "headline": "Intelligence Will Be a Commodity Market \u2014 Frontier Model Valuations Face a Price-War Reckoning"
+  },
+  {
+    "date": "2026-08-07",
+    "headline": "The Model Is Now the Commodity \u2014 What Six B2B Verticals Agreed Was the Actual Moat at SaaStr AI Annual 2026"
   }
 ]
