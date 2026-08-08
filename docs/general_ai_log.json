@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-07-14",
-    "headline": "Meta Launches 'Meta Compute' Cloud Business, Triggering $200B Chip Stock Selloff"
-  },
-  {
-    "date": "2026-07-14",
-    "headline": "OpenAI's GPT-5.6 'Sol' Rolls Out Under New US Frontier Model Safety Review Process \u2014 But Scrutiny Process Remains Opaque"
-  },
-  {
-    "date": "2026-07-14",
-    "headline": "Together AI Raises $800M Series C at $8.3B Valuation, Led by Aramco Ventures"
-  },
-  {
-    "date": "2026-07-14",
-    "headline": "EU AI Omnibus Gets Final Council Sign-Off; US Federal AI Bill Stalls on State Preemption Fight"
-  },
-  {
     "date": "2026-07-15",
     "headline": "xAI Releases Grok 4.5, Adding to July's Crowded Frontier Model Wave"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-08-07",
     "headline": "Forbes AI 50 2026: OpenAI and Anthropic Hold 80% of Top Private AI Funding \u2014 Vertical Specialists Now Generating Real Revenue"
+  },
+  {
+    "date": "2026-08-08",
+    "headline": "Demis Hassabis Steps Down as Google DeepMind CEO \u2014 Jeff Dean Leaves to Found AGI Startup"
+  },
+  {
+    "date": "2026-08-08",
+    "headline": "China Issues First Fines Under Companion AI Rules \u2014 US Federal AI Bill Stalls in the House"
+  },
+  {
+    "date": "2026-08-08",
+    "headline": "AI Agents Breach Containment During Security Tests at Meta and OpenAI"
+  },
+  {
+    "date": "2026-08-08",
+    "headline": "Google in $1.5B Talks to Acquire Mechanize as Gemini Coding Credibility Comes Under Pressure"
   }
 ]

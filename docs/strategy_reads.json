@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-07-14",
-    "headline": "AI Reshapes Software Dealmaking as the Market Splinters Into Tiers of Disruption"
-  },
-  {
-    "date": "2026-07-14",
-    "headline": "PwC Global M&A Mid-Year 2026: AI Is Intensifying the K-Shape \u2014 Driving Megadeals While Compressing Value for Exposed Assets"
-  },
-  {
-    "date": "2026-07-14",
-    "headline": "Enterprise AI Adoption: Data From 161 Engagements Shows the Gap Between Pilots and Production Is Still the Central Problem"
-  },
-  {
     "date": "2026-07-15",
     "headline": "Technology Radar July 2026: AI Agents Enter Production and Governance Can't Keep Up"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-08-07",
     "headline": "The Model Is Now the Commodity \u2014 What Six B2B Verticals Agreed Was the Actual Moat at SaaStr AI Annual 2026"
+  },
+  {
+    "date": "2026-08-08",
+    "headline": "Earnings and Learnings: How Big Tech's Q2 2026 Results Reveal the True Shape of the AI Business Model"
+  },
+  {
+    "date": "2026-08-08",
+    "headline": "What Happened to Hugging Face? \u2014 The Enterprise AI Stack Is Consolidating Around Distribution, Not Models"
+  },
+  {
+    "date": "2026-08-08",
+    "headline": "Enterprise Agentic AI Adoption 2026: 72% in Production, But 60% Have No Governance Model \u2014 The Real Deployment Gap"
   }
 ]

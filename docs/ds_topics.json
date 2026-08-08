@@ -130,5 +130,9 @@
   {
     "date": "2026-08-07",
     "topic": "Survival Analysis"
+  },
+  {
+    "date": "2026-08-08",
+    "topic": "LangGraph \u2014 Stateful Multi-Agent Orchestration"
   }
 ]

@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-07-18",
-    "headline": "Gartner: $234 Billion in Enterprise SaaS Spend at Risk from Agentic AI 'Arbitrage' by 2030"
-  },
-  {
-    "date": "2026-07-18",
-    "headline": "Zoom Acquires Common Room \u2014 Third Major GTM Intelligence Consolidation in Eight Months Reshapes Sales Stack"
-  },
-  {
-    "date": "2026-07-18",
-    "headline": "Moody's Partners with Intapp to Embed Credit Risk and Ownership Data Directly into AI-Powered Workflows"
-  },
-  {
-    "date": "2026-07-18",
-    "headline": "D&B Launches Agentic Compliance Capabilities \u2014 Verified Business Context Now Automates Onboarding, Screening, and Due Diligence"
-  },
-  {
-    "date": "2026-07-18",
-    "headline": "B2B Data Market Heading to $15 Billion by 2030, but New Analysis Finds the Competitive Edge Is Shifting from Owning Data to Acting on It"
-  },
-  {
     "date": "2026-07-19",
     "headline": "Microsoft Copilot Faces Paid Adoption Crisis \u2014 Pivots to Autonomous 'Autopilot' Agents and a Unified App by August"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-08-07",
     "headline": "Moody's Downgrades ZoomInfo Outlook to Negative as Jefferies Cuts to Hold \u2014 AI Disruption Pressure Intensifies on Legacy B2B Data Model"
+  },
+  {
+    "date": "2026-08-08",
+    "headline": "Agentic Enterprise Goes Mainstream for GTM Teams \u2014 Forbes Declares 'New Phase' of AI-Driven Business Execution"
+  },
+  {
+    "date": "2026-08-08",
+    "headline": "Federal Reserve's 2026 Small Business Credit Survey: Tariff Costs Hit 4-in-10 Firms, Revenue Expectations Fall"
+  },
+  {
+    "date": "2026-08-08",
+    "headline": "D&B and Finquest Launch 'Cofinder' \u2014 AI-Powered Deal Sourcing Platform for Investment Firms"
+  },
+  {
+    "date": "2026-08-08",
+    "headline": "B2B Buyers in August 2026 Demand Proof Over Promise \u2014 Generic AI Tools Face Stack Scrutiny"
+  },
+  {
+    "date": "2026-08-08",
+    "headline": "Agentforce Data Dependency Problem Becomes Visible \u2014 Enterprise Buyers Warned That CRM Data Gaps Cripple AI Agent Quality"
   }
 ]
