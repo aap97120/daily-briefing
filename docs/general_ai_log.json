@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-07-15",
-    "headline": "xAI Releases Grok 4.5, Adding to July's Crowded Frontier Model Wave"
-  },
-  {
-    "date": "2026-07-15",
-    "headline": "Anthropic Signs 20-Year, ~$19B Compute Lease with TeraWulf \u2014 AI Labs Now Locking in Decade-Scale Infrastructure"
-  },
-  {
-    "date": "2026-07-15",
-    "headline": "FTC Proposes AI Accuracy Policy Statement \u2014 Suppressing Truthful AI Outputs Could Violate Section 5"
-  },
-  {
-    "date": "2026-07-15",
-    "headline": "DeepSeek Developing Its Own Inference Chip \u2014 China's AI Stack Push Goes Deeper Into Silicon"
-  },
-  {
     "date": "2026-07-16",
     "headline": "Global Venture Funding Hits Record $510B in H1 2026 \u2014 AI Accounts for 80% of Q2 Capital"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-08-08",
     "headline": "Google in $1.5B Talks to Acquire Mechanize as Gemini Coding Credibility Comes Under Pressure"
+  },
+  {
+    "date": "2026-08-09",
+    "headline": "Meta Releases Muse Spark 1.2 \u2014 Most Recent Frontier Model Drop as Release Cadence Hits New High"
+  },
+  {
+    "date": "2026-08-09",
+    "headline": "UK AI Regulation and Safety Bill Clears House of Commons \u2014 Royal Assent Expected by October"
+  },
+  {
+    "date": "2026-08-09",
+    "headline": "China's Agentic AI Rules Now Enforceable \u2014 First National Framework to Regulate AI Agents as a Distinct Category"
+  },
+  {
+    "date": "2026-08-09",
+    "headline": "Hyperscaler AI Capex Hits $775\u2013800B Combined in 2026 \u2014 Q2 Earnings Confirm Infrastructure Buildout Is Demand-Constrained, Not Supply-Led"
   }
 ]

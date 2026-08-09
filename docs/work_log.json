@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-07-19",
-    "headline": "Microsoft Copilot Faces Paid Adoption Crisis \u2014 Pivots to Autonomous 'Autopilot' Agents and a Unified App by August"
-  },
-  {
-    "date": "2026-07-19",
-    "headline": "Gartner: 70% of Enterprises Discover Data Infrastructure Gaps Only After Launching AI Agent Initiatives"
-  },
-  {
-    "date": "2026-07-19",
-    "headline": "Moody's Analytics: US Corporate Default Risk Easing on Average but 'Fragmented and Fragile' Beneath the Surface"
-  },
-  {
-    "date": "2026-07-19",
-    "headline": "Microsoft Retires Legacy Dynamics Certifications \u2014 Replaces Them with 'Agentic AI Business Solutions Architect' Credential"
-  },
-  {
-    "date": "2026-07-19",
-    "headline": "Future B2B Launches 'Affinity' \u2014 First-Party Audience Intelligence Platform Built on Real-Time Engagement Signals"
-  },
-  {
     "date": "2026-07-20",
     "headline": "Salesforce Agentforce Crosses $1.2 Billion ARR \u2014 Up 205% Year-over-Year \u2014 as Agentic Work Units Hit 3.8 Billion"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-08-08",
     "headline": "Agentforce Data Dependency Problem Becomes Visible \u2014 Enterprise Buyers Warned That CRM Data Gaps Cripple AI Agent Quality"
+  },
+  {
+    "date": "2026-08-09",
+    "headline": "Apollo Acquires Pocus to Deepen AI Signal Intelligence Inside Its GTM Platform"
+  },
+  {
+    "date": "2026-08-09",
+    "headline": "B2B Sales Stack Consolidation Accelerates in 2026: HubSpot Takes Warmly, Zoom Takes Common Room, Salesforce Closes Qualified"
+  },
+  {
+    "date": "2026-08-09",
+    "headline": "Moody's Launches Maxsight Unified Risk Platform as It Embeds Full Credit Data into Anthropic's Claude"
+  },
+  {
+    "date": "2026-08-09",
+    "headline": "Tariff Volatility and Rising Delinquencies Are Forcing Lenders to Lean Harder on Alternative Commercial Data"
+  },
+  {
+    "date": "2026-08-09",
+    "headline": "AI Sales Agents Cut Prospect Research Time by 34% But Enterprises Keep Humans at the Wheel"
   }
 ]
