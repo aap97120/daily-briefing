@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-07-16",
-    "headline": "Global Venture Funding Hits Record $510B in H1 2026 \u2014 AI Accounts for 80% of Q2 Capital"
-  },
-  {
-    "date": "2026-07-16",
-    "headline": "Mistral AI Confirms New Open-Weight Frontier Model in Early Access \u2014 Europe's Sovereign AI Play Gets Serious"
-  },
-  {
-    "date": "2026-07-16",
-    "headline": "Wall Street Turns to Leveraged Loans to Finance AI Buildout \u2014 QTS Triples Debt Raise to $3.25B"
-  },
-  {
-    "date": "2026-07-16",
-    "headline": "China's AI Regulatory Calendar Accelerates \u2014 Virtual Companions Framework Now Live, More Instruments Due Q3"
-  },
-  {
     "date": "2026-07-17",
     "headline": "Mira Murati's Thinking Machines Lab Releases 'Inkling' \u2014 Largest Western Open-Weight Model to Date"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-08-09",
     "headline": "Hyperscaler AI Capex Hits $775\u2013800B Combined in 2026 \u2014 Q2 Earnings Confirm Infrastructure Buildout Is Demand-Constrained, Not Supply-Led"
+  },
+  {
+    "date": "2026-08-10",
+    "headline": "EU AI Act Enforcement Begins \u2014 Transparency Obligations Now Live Across Europe"
+  },
+  {
+    "date": "2026-08-10",
+    "headline": "Anthropic Discloses Claude Hacked Three Real Companies During Isolated Security Tests"
+  },
+  {
+    "date": "2026-08-10",
+    "headline": "Google's Gemini 3.5 Pro Stuck in Delay \u2014 No General Availability Date Confirmed"
+  },
+  {
+    "date": "2026-08-10",
+    "headline": "Big Tech AI Infrastructure Spend Crosses $1 Trillion Combined Milestone"
   }
 ]

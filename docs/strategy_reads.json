@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-07-16",
-    "headline": "AI Echoes the Dot-Com Market Split: A Two-Tier Market Is Forming Around AI Infrastructure vs. Applications"
-  },
-  {
-    "date": "2026-07-16",
-    "headline": "The Agentic Enterprise: Why ERP Systems Can No Longer Wait for Instructions \u2014 and Why 98% of IT Leaders Are Moving Anyway"
-  },
-  {
-    "date": "2026-07-16",
-    "headline": "State of AI Agents 2026: Governance and Data Integration Are Now the Primary Bottlenecks \u2014 Not Model Capability"
-  },
-  {
     "date": "2026-07-17",
     "headline": "The Deployment Gap: Top 5% of Enterprise AI Users Consume 3\u00d7 the Tokens of the Median \u2014 and the Gap Is Widening"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-08-09",
     "headline": "Sharp Tech: Microsoft's Plan for Platform Survival, Meta and the Market's Permission, A Lack of Situational Awareness"
+  },
+  {
+    "date": "2026-08-10",
+    "headline": "Who's Afraid of Chinese Models? \u2014 The Real Commodity Is Intelligence, Not Tokens"
+  },
+  {
+    "date": "2026-08-10",
+    "headline": "OpenAI's Answer to Apple \u2014 The Hardware Bet That Could Redraw the AI Stack"
+  },
+  {
+    "date": "2026-08-10",
+    "headline": "Enterprise Agentic AI Landscape Q2 2026: Trust, Flexibility, and Vendor Lock-in \u2014 A Framework Every Enterprise Buyer Needs"
   }
 ]

@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-07-20",
-    "headline": "Salesforce Agentforce Crosses $1.2 Billion ARR \u2014 Up 205% Year-over-Year \u2014 as Agentic Work Units Hit 3.8 Billion"
-  },
-  {
-    "date": "2026-07-20",
-    "headline": "Clari+Salesloft MCP Server Goes Live \u2014 Revenue Data Now Queryable by Claude, Copilot and Gemini Without Custom Integration"
-  },
-  {
-    "date": "2026-07-20",
-    "headline": "Demandbase Launches MCP for AI Agents \u2014 B2B Intent and Account Data Now Natively Accessible to Claude, ChatGPT and VS Code"
-  },
-  {
-    "date": "2026-07-20",
-    "headline": "Moody's Deploys Agentic AI Across Proprietary Credit Datasets to Deliver Faster, Contextualised Risk Decisions"
-  },
-  {
-    "date": "2026-07-20",
-    "headline": "Oracle Credit Rating Cut to BBB- \u2014 One Notch Above Junk \u2014 as $250 Billion Data Center Build Burns Cash Faster Than Revenue Grows"
-  },
-  {
     "date": "2026-07-26",
     "headline": "D&B Commercial Graph Lands on Databricks Marketplace \u2014 Powers Agentic Finance Workflows via OpenSharing"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-08-09",
     "headline": "AI Sales Agents Cut Prospect Research Time by 34% But Enterprises Keep Humans at the Wheel"
+  },
+  {
+    "date": "2026-08-10",
+    "headline": "D&B Launches Agentic AI for Compliance Workflows, Cutting Processing Times by Up to 90%"
+  },
+  {
+    "date": "2026-08-10",
+    "headline": "Anthropic Expands Claude for Financial Services \u2014 D&B, Verisk, and Moody's All Named as Data Connectors"
+  },
+  {
+    "date": "2026-08-10",
+    "headline": "Gartner Calls 2026 the 'Year of Disillusionment' for Agentic AI \u2014 Data Quality Emerges as the Core Failure Point"
+  },
+  {
+    "date": "2026-08-10",
+    "headline": "Clari-Salesloft MCP Server Opens Live Revenue Data to External AI Agents"
+  },
+  {
+    "date": "2026-08-10",
+    "headline": "Federal Reserve Publishes New FEDS Note on Bank Funding Costs Inside Private Credit \u2014 Signals Growing Data Demand"
   }
 ]
