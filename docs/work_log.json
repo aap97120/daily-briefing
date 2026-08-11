@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-07-26",
-    "headline": "D&B Commercial Graph Lands on Databricks Marketplace \u2014 Powers Agentic Finance Workflows via OpenSharing"
-  },
-  {
-    "date": "2026-07-26",
-    "headline": "D&B Launches Risk Analytics Plugin for Cursor \u2014 Brings Commercial Graph into AI Developer Workflows via MCP"
-  },
-  {
-    "date": "2026-07-26",
-    "headline": "McKinsey 2026 B2B Pulse Survey: High-Growth Companies 3x More Likely to Have Doubled AI Investment \u2014 and They're Redesigning Workflows, Not Just Adding Tools"
-  },
-  {
-    "date": "2026-07-26",
-    "headline": "Zoom Revenue Accelerator Goes GA with AI Deal Guidance, Natural Language Conversation Queries and Sales Roleplay \u2014 Enters Gong/Clari Territory"
-  },
-  {
-    "date": "2026-07-26",
-    "headline": "Anthropic Embeds D&B, Verisk, Experian and Moody's as Native Data Connectors in Claude for Financial Services"
-  },
-  {
     "date": "2026-07-27",
     "headline": "Mastercard & Sunrate Define 'Agentic Global Payments' at World AI Conference \u2014 Maps 13 B2B Agent Use Cases"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-08-10",
     "headline": "Federal Reserve Publishes New FEDS Note on Bank Funding Costs Inside Private Credit \u2014 Signals Growing Data Demand"
+  },
+  {
+    "date": "2026-08-11",
+    "headline": "EU AI Act High-Risk Provisions Go Live \u2014 Agentic AI Deployments Become a Compliance Matter Overnight"
+  },
+  {
+    "date": "2026-08-11",
+    "headline": "Moody's Posts 15.1% Revenue Growth in Q2 2026, Validates AI-Powered Risk Data Premium"
+  },
+  {
+    "date": "2026-08-11",
+    "headline": "Alibaba's Accio Platform Gains Autonomous Sourcing Agents, Putting Entity and Supplier Data at the Centre of B2B Commerce"
+  },
+  {
+    "date": "2026-08-11",
+    "headline": "Federal Reserve's 2026 Small Business Credit Survey Finds Tariff Costs Hit 4-in-10 Firms, Revenue Outlook Falls"
+  },
+  {
+    "date": "2026-08-11",
+    "headline": "Salesforce Frames Dreamforce 2026 Around the 'Agentic Enterprise' \u2014 Agentforce and Data 360 Take Centre Stage"
   }
 ]

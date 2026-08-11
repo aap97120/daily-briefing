@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-07-17",
-    "headline": "Mira Murati's Thinking Machines Lab Releases 'Inkling' \u2014 Largest Western Open-Weight Model to Date"
-  },
-  {
-    "date": "2026-07-17",
-    "headline": "Illinois Signs Landmark AI Safety Measures Act \u2014 State-Level Frontier Model Regulation Gains Ground"
-  },
-  {
-    "date": "2026-07-17",
-    "headline": "Meta Launches 'Meta Compute' \u2014 Excess AI Capacity Enters the Open Market, Rattling Chip Stocks"
-  },
-  {
-    "date": "2026-07-17",
-    "headline": "China's AI Agent Rules Take Effect July 15 \u2014 World's First Dedicated Regulatory Framework for AI Agents"
-  },
-  {
     "date": "2026-07-18",
     "headline": "China's Moonshot AI Drops Kimi K3 \u2014 The World's Largest Open-Weight Model at 2.8 Trillion Parameters"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-08-10",
     "headline": "Big Tech AI Infrastructure Spend Crosses $1 Trillion Combined Milestone"
+  },
+  {
+    "date": "2026-08-11",
+    "headline": "Meta Releases Muse Glimmer \u2014 Open-Weight Agent Model That Runs on a Single Laptop GPU"
+  },
+  {
+    "date": "2026-08-11",
+    "headline": "EU AI Act High-Risk Enforcement Now Live \u2014 Article 50 Transparency Obligations Took Effect August 2"
+  },
+  {
+    "date": "2026-08-11",
+    "headline": "US Federal AI Preemption Bill Stalls in House \u2014 State-Level Patchwork Accelerates"
+  },
+  {
+    "date": "2026-08-11",
+    "headline": "NVIDIA Launches New Business Model to Broaden Compute Access for AI Startups and Regional Players"
   }
 ]

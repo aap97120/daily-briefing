@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-07-17",
-    "headline": "The Deployment Gap: Top 5% of Enterprise AI Users Consume 3\u00d7 the Tokens of the Median \u2014 and the Gap Is Widening"
-  },
-  {
-    "date": "2026-07-17",
-    "headline": "Bubble & Build: The 2025 MAD Landscape \u2014 Agents and the Data/Control Plane Now Define the AI Market's Centre of Gravity"
-  },
-  {
-    "date": "2026-07-17",
-    "headline": "Agentic AI Adoption 2026: Data Hygiene Is the Universal Failure Mode \u2014 and Enterprises Are Still Mostly in Experimentation"
-  },
-  {
     "date": "2026-07-18",
     "headline": "Supersizing M&A for the AI Era: Fewer, Much Larger Deals as AI Rewrites the Dealmaking Playbook"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-08-10",
     "headline": "Enterprise Agentic AI Landscape Q2 2026: Trust, Flexibility, and Vendor Lock-in \u2014 A Framework Every Enterprise Buyer Needs"
+  },
+  {
+    "date": "2026-08-11",
+    "headline": "The Battle for Verifiable Data Is Defining the AI Race \u2014 Ben Thompson, Stratechery (July 9, 2026)"
+  },
+  {
+    "date": "2026-08-11",
+    "headline": "Dithering: 'Vibe-Porting and Meta Enterprise' \u2014 Ben Thompson & John Gruber (August 4, 2026)"
+  },
+  {
+    "date": "2026-08-11",
+    "headline": "AI Eats the World: Distribution and Product Wrapping Matter More Than Raw Model Capability \u2014 Benedict Evans (May 2026, widely recirculated August 2026)"
   }
 ]
