@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-07-18",
-    "headline": "China's Moonshot AI Drops Kimi K3 \u2014 The World's Largest Open-Weight Model at 2.8 Trillion Parameters"
-  },
-  {
-    "date": "2026-07-18",
-    "headline": "EU Fuses AI and Cybersecurity Regulation Into a Single Action Plan \u2014 Full AI Act Transparency Rules Land in August"
-  },
-  {
-    "date": "2026-07-18",
-    "headline": "NVIDIA Launches Revenue-Sharing Model to Democratize AI Compute Access for Startups and Regional Players"
-  },
-  {
-    "date": "2026-07-18",
-    "headline": "Anthropic Signs 20-Year, $19 Billion Compute Lease with TeraWulf \u2014 AI Labs Lock In Decade-Scale Infrastructure"
-  },
-  {
     "date": "2026-07-19",
     "headline": "SpaceX Acquires AI Coding Tool Cursor for $60 Billion \u2014 Largest Startup Acquisition Ever"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-08-11",
     "headline": "NVIDIA Launches New Business Model to Broaden Compute Access for AI Startups and Regional Players"
+  },
+  {
+    "date": "2026-08-12",
+    "headline": "OpenAI Acquires AI Presentation Startup NextSlide \u2014 ChatGPT Eyes the Office Suite"
+  },
+  {
+    "date": "2026-08-12",
+    "headline": "OpenAI Releases GPT-5.6-Cyber \u2014 A Specialist Security-Focused Model"
+  },
+  {
+    "date": "2026-08-12",
+    "headline": "UK Appoints First Dedicated Cabinet-Level Minister for AI \u2014 Signals Regulatory Shift"
+  },
+  {
+    "date": "2026-08-12",
+    "headline": "China Issues First Fines Under Companion AI Rules \u2014 Enforcement Teeth Now Visible"
   }
 ]

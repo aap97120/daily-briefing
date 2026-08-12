@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-07-18",
-    "headline": "Supersizing M&A for the AI Era: Fewer, Much Larger Deals as AI Rewrites the Dealmaking Playbook"
-  },
-  {
-    "date": "2026-07-18",
-    "headline": "Software Is Being Re-Rated: Buyers Now Sort Targets Into AI-Native, AI-Resilient, or AI-Exposed \u2014 and the Middle Is Collapsing"
-  },
-  {
-    "date": "2026-07-18",
-    "headline": "Enterprise AI Has a Scaling Problem, Not an Adoption Problem: 97% Deploy Agents, Only 29% See Organizational ROI"
-  },
-  {
     "date": "2026-07-19",
     "headline": "$234 Billion in Enterprise SaaS Is at Risk from Agentic Arbitrage \u2014 Gartner, July 2026"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-08-11",
     "headline": "AI Eats the World: Distribution and Product Wrapping Matter More Than Raw Model Capability \u2014 Benedict Evans (May 2026, widely recirculated August 2026)"
+  },
+  {
+    "date": "2026-08-12",
+    "headline": "Nvidia Is Now a Bank: The $500 Billion Bet That Turns Compute Into an Asset Class"
+  },
+  {
+    "date": "2026-08-12",
+    "headline": "Earnings Exposure: Why the Same AI Capex Story Produced Wildly Different Market Verdicts for Meta, Microsoft, Amazon, and Google"
+  },
+  {
+    "date": "2026-08-12",
+    "headline": "Financing Is Now the Binding Constraint on AI Scale \u2014 Bigger Than Chips or Power"
   }
 ]
