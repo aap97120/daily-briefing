@@ -150,5 +150,9 @@
   {
     "date": "2026-08-12",
     "topic": "XGBoost & Gradient Boosted Trees"
+  },
+  {
+    "date": "2026-08-13",
+    "topic": "Random Forests"
   }
 ]

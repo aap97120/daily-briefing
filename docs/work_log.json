@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-07-28",
-    "headline": "Gartner: $234 Billion in Enterprise SaaS Spend at Risk from Agentic AI Arbitrage by 2030"
-  },
-  {
-    "date": "2026-07-28",
-    "headline": "Zoom Acquires AI-Native GTM Intelligence Platform Common Room \u2014 Third Major Sales Tech Consolidation in Eight Months"
-  },
-  {
-    "date": "2026-07-28",
-    "headline": "Moody's Wins Two 2026 Risk Technology Awards \u2014 'Credit Data Provider of the Year' and 'Best Use of AI'"
-  },
-  {
-    "date": "2026-07-28",
-    "headline": "U.S. Treasury Releases AI Risk Management Framework for Financial Services \u2014 Signals Regulatory Floor for AI Credit Decisions"
-  },
-  {
-    "date": "2026-07-28",
-    "headline": "Big Tech's $182 Billion AI Bond Binge Pushes Credit Risk Into the Spotlight \u2014 A New Commercial Risk Monitoring Use Case"
-  },
-  {
     "date": "2026-07-29",
     "headline": "D&B Plugs Its Commercial Graph Directly into Cursor \u2014 Developers Can Now Build Agentic Workflows with Verified Business Data"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-08-12",
     "headline": "Salesforce Agentforce ARR Up 169% but the Data Grounding Problem Is Growing \u2014 Enterprises Struggle to Feed Agents Clean Context"
+  },
+  {
+    "date": "2026-08-13",
+    "headline": "Anthropic Embeds D&B, Verisk, Moody's and Experian as Native Data Connectors in Claude for Financial Services"
+  },
+  {
+    "date": "2026-08-13",
+    "headline": "Moody's Wins Two 2026 Risk Technology Awards \u2014 'Credit Data Provider of the Year' and 'Best Use of AI'"
+  },
+  {
+    "date": "2026-08-13",
+    "headline": "Federal Reserve Publishes New Research on Private Credit Risk Chains \u2014 Flags Data Opacity in Bank-to-BDC Lending"
+  },
+  {
+    "date": "2026-08-13",
+    "headline": "Bloomberg: Credit Markets Begin Questioning the AI Buildout's Financial Foundations"
+  },
+  {
+    "date": "2026-08-13",
+    "headline": "Agentic AI Hits a Production Gap: 80% of Enterprise Apps Embed an Agent, Only 31% Run One in Production"
   }
 ]

@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-07-19",
-    "headline": "SpaceX Acquires AI Coding Tool Cursor for $60 Billion \u2014 Largest Startup Acquisition Ever"
-  },
-  {
-    "date": "2026-07-19",
-    "headline": "Global VC Hits Record $510 Billion in H1 2026 \u2014 OpenAI and Anthropic Alone Took 43%"
-  },
-  {
-    "date": "2026-07-19",
-    "headline": "xAI's Grok Build CLI Confirmed Exfiltrating Full Repositories and Secrets Files \u2014 A New Category of Agentic Risk"
-  },
-  {
-    "date": "2026-07-19",
-    "headline": "EU AI Act Reaches Full Applicability on August 2 \u2014 Commission Adds Cybersecurity-AI Action Plan"
-  },
-  {
     "date": "2026-07-20",
     "headline": "SpaceXAI Ships Grok 4.5 \u2014 First Model Co-Trained with Cursor, Priced at Half Its Rivals"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-08-12",
     "headline": "China Issues First Fines Under Companion AI Rules \u2014 Enforcement Teeth Now Visible"
+  },
+  {
+    "date": "2026-08-13",
+    "headline": "EU AI Act's August 2 Deadline Delivered Less Than Expected \u2014 Digital Omnibus Defers High-Risk Rules to 2027"
+  },
+  {
+    "date": "2026-08-13",
+    "headline": "China Makes AI Agents a Distinct Regulated Category \u2014 World First"
+  },
+  {
+    "date": "2026-08-13",
+    "headline": "Gartner: Inference Spending to Overtake AI Training Spend for the First Time in 2026"
+  },
+  {
+    "date": "2026-08-13",
+    "headline": "Anthropic Files S-1 for IPO \u2014 Most Valued AI Startup Eyes Public Markets"
   }
 ]

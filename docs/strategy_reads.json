@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-07-19",
-    "headline": "$234 Billion in Enterprise SaaS Is at Risk from Agentic Arbitrage \u2014 Gartner, July 2026"
-  },
-  {
-    "date": "2026-07-19",
-    "headline": "Meta's AI Capex Is Not a Bet \u2014 It's the Business: Ben Thompson Rewrites the Bear Case"
-  },
-  {
-    "date": "2026-07-19",
-    "headline": "AI Eats the World: Capital Is Front-Loaded, Enterprise Deployment Is Structurally Lagging, and Nobody Knows Where Value Accrues"
-  },
-  {
     "date": "2026-07-20",
     "headline": "Ways to Think About Token Pricing: Why AI Labs Won't Stay High-Margin Forever"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-08-12",
     "headline": "Financing Is Now the Binding Constraint on AI Scale \u2014 Bigger Than Chips or Power"
+  },
+  {
+    "date": "2026-08-13",
+    "headline": "Anthropic's Watermarking, How It (Probably) Works, Worse Than It Seems"
+  },
+  {
+    "date": "2026-08-13",
+    "headline": "Microsoft's Plan for Platform Survival \u2014 Clarity of Strategy, Lower Costs, Tangibility of Application"
+  },
+  {
+    "date": "2026-08-13",
+    "headline": "Enterprise AI in August 2026: Past Experimentation, Now Scaling What Works \u2014 and Honestly Evaluating What Doesn't"
   }
 ]
