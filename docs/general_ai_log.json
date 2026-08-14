@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-07-20",
-    "headline": "SpaceXAI Ships Grok 4.5 \u2014 First Model Co-Trained with Cursor, Priced at Half Its Rivals"
-  },
-  {
-    "date": "2026-07-20",
-    "headline": "Illinois Signs the AI Safety Measures Act \u2014 First U.S. State to Mandate Independent Third-Party Audits of Frontier Models"
-  },
-  {
-    "date": "2026-07-20",
-    "headline": "FTC Proposes AI Accuracy Policy Statement \u2014 Suppressing Truthful AI Outputs Could Violate Section 5 of the FTC Act"
-  },
-  {
-    "date": "2026-07-20",
-    "headline": "AI Data Centers Are Going Data-Bound, Not Compute-Bound \u2014 Infrastructure Economics Shift in Mid-2026"
-  },
-  {
     "date": "2026-07-26",
     "headline": "EU AI Omnibus Regulation Enters into Force and Cloud & AI Development Act Published \u2014 Europe's Regulatory Stack Doubles Down"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-08-13",
     "headline": "Anthropic Files S-1 for IPO \u2014 Most Valued AI Startup Eyes Public Markets"
+  },
+  {
+    "date": "2026-08-14",
+    "headline": "DeepSeek Officially Releases V4-Pro Model \u2014 Then Raises Prices by Up to 1,100%"
+  },
+  {
+    "date": "2026-08-14",
+    "headline": "Gartner: AI Infrastructure-as-a-Service Spend to Nearly Double to $42B in 2026, Inference Overtakes Training"
+  },
+  {
+    "date": "2026-08-14",
+    "headline": "EU AI Act Transparency Rules Now in Force \u2014 Chatbot Disclosure and Deepfake Labelling Enforceable from August 2"
+  },
+  {
+    "date": "2026-08-14",
+    "headline": "SpaceXAI Releases Grok 4.6 as Frontier Model Cadence Hits an All-Time High"
   }
 ]

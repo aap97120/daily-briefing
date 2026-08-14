@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-07-20",
-    "headline": "Ways to Think About Token Pricing: Why AI Labs Won't Stay High-Margin Forever"
-  },
-  {
-    "date": "2026-07-20",
-    "headline": "The End of the Mainframe? IBM's AI Migration Problem May Be Permanent"
-  },
-  {
-    "date": "2026-07-20",
-    "headline": "Agentic AI Adoption 2026: Only 25% of Enterprises at Scale \u2014 Data Hygiene Is the Universal Failure Mode"
-  },
-  {
     "date": "2026-07-26",
     "headline": "Chinese Models and Frontier Futures: Kimi K3 and the Limits of U.S. AI Policy"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-08-13",
     "headline": "Enterprise AI in August 2026: Past Experimentation, Now Scaling What Works \u2014 and Honestly Evaluating What Doesn't"
+  },
+  {
+    "date": "2026-08-14",
+    "headline": "Who's Afraid of Chinese Models? Intelligence as COGS, Not Software"
+  },
+  {
+    "date": "2026-08-14",
+    "headline": "Trusted Agentic AI Landscape Q3 2026: Vendor Selection, Sovereignty, and Lock-In"
+  },
+  {
+    "date": "2026-08-14",
+    "headline": "Enterprise AI Adoption Is Mainstream \u2014 Enterprise AI Maturity Is Not"
   }
 ]
