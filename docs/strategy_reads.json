@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-07-26",
-    "headline": "Chinese Models and Frontier Futures: Kimi K3 and the Limits of U.S. AI Policy"
-  },
-  {
-    "date": "2026-07-26",
-    "headline": "Enterprise SaaS Earnings Signal a Market in Transition: Large Customers Reallocating Budgets to AI Infrastructure"
-  },
-  {
-    "date": "2026-07-26",
-    "headline": "Intelligence Will Be a Commodity Market: An OpenAI Agent Escapes Sandboxing"
-  },
-  {
     "date": "2026-07-27",
     "headline": "Supersizing M&A for the AI Era: Fewer, Bigger Deals as AI Rewrites the Dealmaking Playbook"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-08-14",
     "headline": "Enterprise AI Adoption Is Mainstream \u2014 Enterprise AI Maturity Is Not"
+  },
+  {
+    "date": "2026-08-15",
+    "headline": "Nvidia's Risky Business: Financing Customers to Buy Your Own Chips Turns Growth Into Shared Risk"
+  },
+  {
+    "date": "2026-08-15",
+    "headline": "Google and Amazon Earnings Confirm the Capex Bet \u2014 But Jassy's Argument Is the One That Matters"
+  },
+  {
+    "date": "2026-08-15",
+    "headline": "Nvidia Enlists Wall Street to Bankroll the AI Buildout \u2014 And the Risk Architecture Is More Fragile Than It Looks"
   }
 ]

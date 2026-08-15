@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-07-30",
-    "headline": "D&B AI Momentum Survey: 76% of Enterprises Report Measurable ROI from AI \u2014 But Most Still in 'Pockets' Phase"
-  },
-  {
-    "date": "2026-07-30",
-    "headline": "D&B Commercial Graph Now Live on Databricks Marketplace \u2014 Agentic Finance Workflows Get a Verified Data Foundation"
-  },
-  {
-    "date": "2026-07-30",
-    "headline": "Clari-Salesloft Revenue Data Now Natively Queryable from Claude \u2014 Copilot, ChatGPT and Gemini Connectors to Follow"
-  },
-  {
-    "date": "2026-07-30",
-    "headline": "Amazon Business Crosses $60 Billion in Annualized Sales as Agentic AI Begins Removing Humans from B2B Procurement Decisions"
-  },
-  {
-    "date": "2026-07-30",
-    "headline": "Verisk Reports Q2 2026 Earnings \u2014 Data Analytics Peer Benchmark for D&B Strategy"
-  },
-  {
     "date": "2026-07-31",
     "headline": "Gartner: $234 Billion in Enterprise SaaS Spend at Risk from Agentic Arbitrage by 2030"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-08-14",
     "headline": "B2B Buyers in August 2026 Demand Measurable ROI \u2014 Generic AI Tools Facing Stack Consolidation Pressure"
+  },
+  {
+    "date": "2026-08-15",
+    "headline": "D&B and nCino Partner to Embed Verified Business Identity Into Agentic AI Banking Onboarding"
+  },
+  {
+    "date": "2026-08-15",
+    "headline": "Fiserv and Stuut Wire Agentic AI Into Enterprise Accounts Receivable \u2014 $2B+ in B2B Invoices Already Processed"
+  },
+  {
+    "date": "2026-08-15",
+    "headline": "HubSpot Acquires Warmly, Zoom Acquires Common Room \u2014 GTM Platform Consolidation Wave Reshapes the B2B Data Stack"
+  },
+  {
+    "date": "2026-08-15",
+    "headline": "Gong Adds MCP Support \u2014 External AI Agents from Salesforce, Microsoft, and HubSpot Can Now Query the Gong Revenue Graph"
+  },
+  {
+    "date": "2026-08-15",
+    "headline": "D&B Named 2026 Databricks ISV Banking Partner of the Year \u2014 Commercial Graph Gets Deeper Data Lakehouse Footing"
   }
 ]

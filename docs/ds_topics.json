@@ -158,5 +158,9 @@
   {
     "date": "2026-08-14",
     "topic": "Knowledge Graphs"
+  },
+  {
+    "date": "2026-08-15",
+    "topic": "Multi-Agent Orchestration with the Model Context Protocol (MCP)"
   }
 ]

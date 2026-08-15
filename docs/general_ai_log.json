@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-07-26",
-    "headline": "EU AI Omnibus Regulation Enters into Force and Cloud & AI Development Act Published \u2014 Europe's Regulatory Stack Doubles Down"
-  },
-  {
-    "date": "2026-07-26",
-    "headline": "US Senate Passes 'Great American AI Act' with Federal Preemption Language \u2014 State Compliance Maps Now in Flux"
-  },
-  {
-    "date": "2026-07-26",
-    "headline": "Anthropic Releases Claude Opus 5 and Tops the Frontier Leaderboard \u2014 Enterprise Agentic Race Resets Again"
-  },
-  {
-    "date": "2026-07-26",
-    "headline": "EC Orders Google to Open Android to Rival AI Assistants and Share Search Data \u2014 DMA Ruling Is Biggest Antitrust Action in AI Yet"
-  },
-  {
     "date": "2026-07-27",
     "headline": "OpenAI Ships GPT-5.6 Family \u2014 Three-Tier 'Sol, Luna, Terra' Line Goes Live After White House Voluntary Review"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-08-14",
     "headline": "SpaceXAI Releases Grok 4.6 as Frontier Model Cadence Hits an All-Time High"
+  },
+  {
+    "date": "2026-08-15",
+    "headline": "OpenAI Acquires Presentation Startup NextSlide \u2014 Office Suite War Escalates"
+  },
+  {
+    "date": "2026-08-15",
+    "headline": "Nielsen Acquires DoubleVerify for $2.15 Billion \u2014 AI-Driven Measurement Consolidation Accelerates"
+  },
+  {
+    "date": "2026-08-15",
+    "headline": "NVIDIA Makes $3 Billion Bet on Lancium \u2014 Compute Tied Directly to Power Infrastructure"
+  },
+  {
+    "date": "2026-08-15",
+    "headline": "EU AI Act High-Risk System Obligations Now Enforceable \u2014 Credit Scoring and HR Tools in Scope"
   }
 ]
