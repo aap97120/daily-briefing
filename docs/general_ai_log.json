@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-07-27",
-    "headline": "OpenAI Ships GPT-5.6 Family \u2014 Three-Tier 'Sol, Luna, Terra' Line Goes Live After White House Voluntary Review"
-  },
-  {
-    "date": "2026-07-27",
-    "headline": "Meta Launches 'Meta Compute' \u2014 Pivots from AI Buyer to Cloud Seller, Wiping $200B from Chip Stocks"
-  },
-  {
-    "date": "2026-07-27",
-    "headline": "Moonshot AI Releases Kimi K3 \u2014 China's Largest Model at 2.8 Trillion Parameters Enters the Frontier Race"
-  },
-  {
-    "date": "2026-07-27",
-    "headline": "U.S. States Have Now Enacted 109 AI Laws in 2026 \u2014 California's AI Transparency Act Activates August 2"
-  },
-  {
     "date": "2026-07-28",
     "headline": "xAI Ships Grok 4.5 \u2014 First Model Co-Trained with Cursor Undercuts Rivals by 60%+"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-08-15",
     "headline": "EU AI Act High-Risk System Obligations Now Enforceable \u2014 Credit Scoring and HR Tools in Scope"
+  },
+  {
+    "date": "2026-08-16",
+    "headline": "EU AI Omnibus Enters Into Force \u2014 High-Risk Deadline Extended to Late 2027"
+  },
+  {
+    "date": "2026-08-16",
+    "headline": "Meta in Talks to Lease $10 Billion of Compute to Anthropic \u2014 The Accidental Cloud Provider"
+  },
+  {
+    "date": "2026-08-16",
+    "headline": "CoreWeave Revenue Backlog Hits $99.4 Billion \u2014 AI Compute Demand Now Dwarfs Supply"
+  },
+  {
+    "date": "2026-08-16",
+    "headline": "California AI Transparency Act Becomes Operative \u2014 State-Level Enforcement Era Begins"
   }
 ]

@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-07-31",
-    "headline": "Gartner: $234 Billion in Enterprise SaaS Spend at Risk from Agentic Arbitrage by 2030"
-  },
-  {
-    "date": "2026-07-31",
-    "headline": "Zoom Acquires AI-Native GTM Intelligence Platform Common Room \u2014 Third Major Sales-Tech Consolidation in Eight Months"
-  },
-  {
-    "date": "2026-07-31",
-    "headline": "D&B Agentic Compliance Capabilities Launched \u2014 Automates Onboarding, Screening and Due Diligence Inside Agent Workflows"
-  },
-  {
-    "date": "2026-07-31",
-    "headline": "Equifax Q2 Market Pulse: Shadow Risk and Small Business Financial Instability Emerge as Top Challenges"
-  },
-  {
-    "date": "2026-07-31",
-    "headline": "Regulators Move on BNPL, Stablecoins and Credit Supervision \u2014 New Rules Reshape Commercial Data Compliance Demands"
-  },
-  {
     "date": "2026-08-01",
     "headline": "Moody's and Salesforce Launch Joint 'Sales Acceleration Agent' \u2014 a Direct Signal to D&B"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-08-15",
     "headline": "D&B Named 2026 Databricks ISV Banking Partner of the Year \u2014 Commercial Graph Gets Deeper Data Lakehouse Footing"
+  },
+  {
+    "date": "2026-08-16",
+    "headline": "Salesforce's Agentic Enterprise Index Shows Tripling of Active Agents \u2014 Agent-First Beats Copilot Approach 43% to 36%"
+  },
+  {
+    "date": "2026-08-16",
+    "headline": "Moody's Wins 2026 Risk Technology Awards for Credit Data Provider of the Year and Best Use of AI"
+  },
+  {
+    "date": "2026-08-16",
+    "headline": "ZoomInfo Writes Down Q2 2026 Valuation as GTM Data Platform Consolidation Accelerates"
+  },
+  {
+    "date": "2026-08-16",
+    "headline": "Salesforce Completes Acquisition of Qualified, Supercharging Agentforce's Inbound Pipeline Generation"
+  },
+  {
+    "date": "2026-08-16",
+    "headline": "Moody's Analytics Data Reveals US Corporate Default Probability Fell to 7.9% \u2014 But Fragmentation and Private Credit Opacity Persist"
   }
 ]
