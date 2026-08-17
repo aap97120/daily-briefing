@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-08-01",
-    "headline": "Moody's and Salesforce Launch Joint 'Sales Acceleration Agent' \u2014 a Direct Signal to D&B"
-  },
-  {
-    "date": "2026-08-01",
-    "headline": "Fitch Flags AI Spending Correction as a Top Global Credit Risk in Q3 Outlook"
-  },
-  {
-    "date": "2026-08-01",
-    "headline": "Outreach Formalises Agentic AI Pivot \u2014 G2 Review Volume Spikes 17x as Users Abandon Salesloft"
-  },
-  {
-    "date": "2026-08-01",
-    "headline": "Salesforce Reports 200% Year-on-Year Surge in Agentic Search as AI Chat Becomes the New Sales Funnel Entry Point"
-  },
-  {
-    "date": "2026-08-01",
-    "headline": "Trade Credit Insurers Warn Sector-Level Risk Models Are Broken \u2014 Buyer-Level Data Now Essential"
-  },
-  {
     "date": "2026-08-02",
     "headline": "D&B Launches Risk Analytics Plugin for Cursor, Embedding D&B Commercial Graph Into AI Developer Workflows"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-08-16",
     "headline": "Moody's Analytics Data Reveals US Corporate Default Probability Fell to 7.9% \u2014 But Fragmentation and Private Credit Opacity Persist"
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "Anthropic Embeds D&B, Moody's, and Verisk Into Claude for Financial Services \u2014 Agentic Finance Stack Takes Shape"
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "Enterprise AI Hits ROI Reckoning \u2014 Governance and Explainability Now Boardroom Requirements for Agentic Deployments"
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "B2B E-Commerce Surges Past Overall Market in Q2 2026 \u2014 Wesco, Watsco, and Fastenal Report Double-Digit Digital Sales Growth"
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "Apollo Wins 2026 MarTech Breakthrough Award for Best AI-Powered Sales Solution \u2014 GTM Data Arms Race Intensifies"
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "Private Credit Data Gaps Flagged by Fed and FSB \u2014 Commercial Risk Intelligence Demand Set to Rise"
   }
 ]

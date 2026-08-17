@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-07-28",
-    "headline": "xAI Ships Grok 4.5 \u2014 First Model Co-Trained with Cursor Undercuts Rivals by 60%+"
-  },
-  {
-    "date": "2026-07-28",
-    "headline": "SpaceX Agrees to Acquire Cursor (Anysphere) for $60B \u2014 Largest VC-Backed Acquisition Ever Recorded"
-  },
-  {
-    "date": "2026-07-28",
-    "headline": "South Korea Announces $880B, 10-Year Semiconductor and AI Infrastructure Plan \u2014 Samsung and SK Hynix Commit $518B to New Fab Sites"
-  },
-  {
-    "date": "2026-07-28",
-    "headline": "EU AI Act August 2 Enforcement Deadline Now 5 Days Away \u2014 High-Risk and Transparency Rules Activate for General AI Deployments"
-  },
-  {
     "date": "2026-07-29",
     "headline": "Together AI Raises $800M Series C at $8.3B Valuation \u2014 GPU Cloud Bets Keep Flowing"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-08-16",
     "headline": "California AI Transparency Act Becomes Operative \u2014 State-Level Enforcement Era Begins"
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "Anthropic IPO Expectations Breach $2 Trillion \u2014 Investors Eye October Launch"
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "Gartner: Inference Spend Overtakes AI Training for the First Time in 2026"
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "China Becomes First Nation to Regulate AI Agents as a Distinct Legal Category"
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "NVIDIA Nemotron 3.5 Lightning Lands on Oracle Cloud \u2014 Built Specifically for Always-On AI Agents"
   }
 ]
