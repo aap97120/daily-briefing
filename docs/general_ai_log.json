@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-07-29",
-    "headline": "Together AI Raises $800M Series C at $8.3B Valuation \u2014 GPU Cloud Bets Keep Flowing"
-  },
-  {
-    "date": "2026-07-29",
-    "headline": "Great American AI Act Clears Senate \u2014 Federal Preemption of State AI Laws Now Headed for House"
-  },
-  {
-    "date": "2026-07-29",
-    "headline": "China Begins Enforcing Companion AI Rules \u2014 Emotional Support and Social AI Now Regulated"
-  },
-  {
-    "date": "2026-07-29",
-    "headline": "EU Launches AI Cybersecurity Action Plan \u2014 Shifts from Writing Rules to Testing AI in Live Environments"
-  },
-  {
     "date": "2026-07-30",
     "headline": "Anthropic Ships Claude Opus 5 \u2014 1M Context Window at Half the Price of Fable 5"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-08-17",
     "headline": "NVIDIA Nemotron 3.5 Lightning Lands on Oracle Cloud \u2014 Built Specifically for Always-On AI Agents"
+  },
+  {
+    "date": "2026-08-18",
+    "headline": "OpenAI S-1 Filing Imminent as Anthropic Posts First Profit \u2014 AI Lab IPO Race Accelerates"
+  },
+  {
+    "date": "2026-08-18",
+    "headline": "xAI Ships Grok 4.6 Targeting Agentic Workloads \u2014 Matches GPT-5.6 on Intelligence Index"
+  },
+  {
+    "date": "2026-08-18",
+    "headline": "GPT-5.6 Luna Becomes ChatGPT Free Default After 80% Price Cut \u2014 Frontier AI Commodity Pricing Arrives"
+  },
+  {
+    "date": "2026-08-18",
+    "headline": "EU AI Act Transparency Rules Now Live \u2014 Chatbots, Deepfakes, and Synthetic Content Face Active Enforcement"
   }
 ]

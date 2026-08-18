@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-08-02",
-    "headline": "D&B Launches Risk Analytics Plugin for Cursor, Embedding D&B Commercial Graph Into AI Developer Workflows"
-  },
-  {
-    "date": "2026-08-02",
-    "headline": "Anthropic Embeds D&B, Verisk, Moody's and Experian as Native Data Connectors in Claude for Financial Services"
-  },
-  {
-    "date": "2026-08-02",
-    "headline": "Gartner: 40% of Enterprise Apps Will Embed Task-Specific AI Agents by End of 2026 \u2014 But Most Are Stuck in Pilots"
-  },
-  {
-    "date": "2026-08-02",
-    "headline": "ZoomInfo Ships 'Copilot Workspace' in 2026 Repositioning From Contact Database to GTM Intelligence Platform"
-  },
-  {
-    "date": "2026-08-02",
-    "headline": "FSB Warns of Hidden Data Gaps in Private Credit Markets as Exposures May Be More Than Twice Official Estimates"
-  },
-  {
     "date": "2026-08-03",
     "headline": "ZoomInfo Executes Eight-Day Blitz to Become the 'Ground Truth' Data Layer Beneath All GTM Agents"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-08-17",
     "headline": "Private Credit Data Gaps Flagged by Fed and FSB \u2014 Commercial Risk Intelligence Demand Set to Rise"
+  },
+  {
+    "date": "2026-08-18",
+    "headline": "IDC: 80% of B2B Tech Buyers Now Use AI Agents in Purchasing \u2014 Both Sides of the Deal Are Automating Simultaneously"
+  },
+  {
+    "date": "2026-08-18",
+    "headline": "Apollo Acquires Pocus, Deepening Its Signal Intelligence Play Against ZoomInfo"
+  },
+  {
+    "date": "2026-08-18",
+    "headline": "Fiserv and Stuut Wire Agentic AI Into Enterprise Accounts Receivable, Targeting $2B+ B2B Invoice Backlog"
+  },
+  {
+    "date": "2026-08-18",
+    "headline": "D&B Launches Agentic AI Capabilities for Compliance and Third-Party Risk, Cutting Processing Times by Up to 90%"
+  },
+  {
+    "date": "2026-08-18",
+    "headline": "Big Tech's AI Debt Binge Is Distorting Credit Risk Metrics for Unrelated Safe-Haven Companies"
   }
 ]
