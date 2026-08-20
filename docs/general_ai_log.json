@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-07-31",
-    "headline": "Moonshot AI Releases Kimi K3 \u2014 The Largest Open-Weight Model Ever, at 2.8 Trillion Parameters"
-  },
-  {
-    "date": "2026-07-31",
-    "headline": "July's Frontier Model Avalanche: Four Labs Ship Major Models in Three Weeks"
-  },
-  {
-    "date": "2026-07-31",
-    "headline": "AMD and Core Scientific Formalise 2.5-Gigawatt AI Infrastructure Partnership"
-  },
-  {
-    "date": "2026-07-31",
-    "headline": "EU AI Act Amendments Pass: High-Risk Rules Delayed, But Transparency Trap Activates Now"
-  },
-  {
     "date": "2026-08-01",
     "headline": "DeepSeek Ships V4-Flash-0731 \u2014 Budget Model Now Beats Its Own Flagship on Agent Benchmarks"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-08-19",
     "headline": "Neocloud Axe Compute Reports Revenue Up 90x, Crosses $3B in Signed Customer Contracts"
+  },
+  {
+    "date": "2026-08-20",
+    "headline": "DeepSeek Ships V4 Pro Officially \u2014 Then Hikes API Prices by Up to 1,100%"
+  },
+  {
+    "date": "2026-08-20",
+    "headline": "AMD Launches Helios Rack-Scale AI System to Take On NVIDIA's NVL72"
+  },
+  {
+    "date": "2026-08-20",
+    "headline": "Wall Street's Biggest Alternative Asset Managers Form $500B Compute Financing Syndicate for NVIDIA Customers"
+  },
+  {
+    "date": "2026-08-20",
+    "headline": "Axe Compute Collects $317M in Customer Prepayments, Confirms $3B+ Contract Book Is Real Cash"
   }
 ]

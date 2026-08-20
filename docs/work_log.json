@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-08-04",
-    "headline": "McKinsey 2026 B2B Pulse: High-Growth Companies 3x More Likely to Have Doubled AI Investment \u2014 and They're Redesigning Workflows, Not Just Buying Tools"
-  },
-  {
-    "date": "2026-08-04",
-    "headline": "Salesforce Reports $800M Agentforce ARR and 29,000 Deals Closed \u2014 But Half of Enterprise AI Agents Still Operate in Isolated Silos"
-  },
-  {
-    "date": "2026-08-04",
-    "headline": "Amazon Business Hits $60 Billion Annualized Gross Sales as Agentic AI Forces B2B Suppliers to Rethink Product and Entity Data Infrastructure"
-  },
-  {
-    "date": "2026-08-04",
-    "headline": "Federal Reserve's 2026 Small Business Credit Survey: Tariff-Driven Cost Pressures Hitting 77% of Employer Firms \u2014 and Future Revenue Expectations Are Falling"
-  },
-  {
-    "date": "2026-08-04",
-    "headline": "Gartner Places Agentic AI in 'Trough of Disillusionment' for 2026 \u2014 40% of Projects Failing Due to Integration Gaps and Poor Data Foundations"
-  },
-  {
     "date": "2026-08-05",
     "headline": "ZoomInfo Reports Q2 2026 Earnings Today \u2014 Accelerating Revenue Decline and AI Disruption Fears Put B2B Data Model Under Pressure"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-08-19",
     "headline": "45% of Enterprise AI Projects Failing to Deliver \u2014 CIOs Demanding Governance as Precondition, Not Afterthought"
+  },
+  {
+    "date": "2026-08-20",
+    "headline": "Anthropic Embeds D&B, Moody's, and Verisk Into Claude for Financial Services \u2014 Establishing AI's Data Layer for Wall Street"
+  },
+  {
+    "date": "2026-08-20",
+    "headline": "96% of B2B Marketers Use AI But Only 44% Have the Data Infrastructure to Back It Up"
+  },
+  {
+    "date": "2026-08-20",
+    "headline": "Zoom Acquires Common Room in July, Completing a Wave of Four Major B2B Signal-Intelligence Deals in 2026"
+  },
+  {
+    "date": "2026-08-20",
+    "headline": "ZoomInfo Books a Q2 2026 Write-Down as GTM Stack Consolidation Squeezes Standalone Data Vendors"
+  },
+  {
+    "date": "2026-08-20",
+    "headline": "Gong and Clari Both Stuck at 'Suggestive' Autonomy \u2014 Neither Qualifies as a True AI Agent in 2026"
   }
 ]

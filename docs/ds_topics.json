@@ -174,5 +174,9 @@
   {
     "date": "2026-08-19",
     "topic": "dbt (data build tool) \u2014 Transforming Raw Data into Trusted Analytics"
+  },
+  {
+    "date": "2026-08-20",
+    "topic": "Reinforcement Learning from Human Feedback (RLHF)"
   }
 ]
