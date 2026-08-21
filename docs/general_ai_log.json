@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-01",
-    "headline": "DeepSeek Ships V4-Flash-0731 \u2014 Budget Model Now Beats Its Own Flagship on Agent Benchmarks"
-  },
-  {
-    "date": "2026-08-01",
-    "headline": "EU AI Act Transparency Rules Activate August 2, 2026 \u2014 European Commission Begins Enforcement"
-  },
-  {
-    "date": "2026-08-01",
-    "headline": "EU Launches AI Gigafactories Call \u2014 \u20ac30 Billion in Compute Investment on the Table"
-  },
-  {
-    "date": "2026-08-01",
-    "headline": "Global Startup Investment Hits Record $510 Billion in H1 2026 \u2014 AI Drives Biggest Exit Market Since 2021"
-  },
-  {
     "date": "2026-08-02",
     "headline": "Anthropic Files Confidential S-1, Eyes October IPO at Near-$1 Trillion Valuation"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-08-20",
     "headline": "Axe Compute Collects $317M in Customer Prepayments, Confirms $3B+ Contract Book Is Real Cash"
+  },
+  {
+    "date": "2026-08-21",
+    "headline": "China Becomes First Country to Regulate AI Agents as a Distinct Legal Category"
+  },
+  {
+    "date": "2026-08-21",
+    "headline": "EU AI Act Enforcement Goes Live \u2014 Commission and National Authorities Now Have Active Oversight Powers"
+  },
+  {
+    "date": "2026-08-21",
+    "headline": "Axe Compute Secures 55 MW of New U.S. Data Center Capacity with Duos Technologies"
+  },
+  {
+    "date": "2026-08-21",
+    "headline": "Six Frontier Models Ship in One Week \u2014 Grok 4.6, Gemini 3.7 Flash, GPT-5.6-Cyber, Meta Muse Glimmer, NVIDIA Nemotron 3.5, and DeepSeek V4 Pro Go GA"
   }
 ]

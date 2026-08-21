@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-08-01",
-    "headline": "Benedict Evans: Ways to Think About Token Pricing \u2014 From Supply Crunch to Commodity Infrastructure"
-  },
-  {
-    "date": "2026-08-01",
-    "headline": "'Pacing the Frontier': 1,178 AI Staff from OpenAI, Anthropic, Meta, and Google DeepMind Sign Joint Letter Calling for a Government-Backed AI Slowdown Mechanism"
-  },
-  {
-    "date": "2026-08-01",
-    "headline": "The Open Weights War: Jensen Huang's Coalition Letter Exposes the AI Industry's Deepest Fault Line \u2014 Control vs. Openness"
-  },
-  {
     "date": "2026-08-02",
     "headline": "The Copium Wars: Chinese Models, Frontier Futures, and What Actually Changed in AI"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-08-20",
     "headline": "Microsoft's Earnings Signal: Clarity of Strategy and Lower AI Costs Are the New Competitive Proof Points"
+  },
+  {
+    "date": "2026-08-21",
+    "headline": "The CapEx Train Keeps Rolling: What Happens When AI Runs Short on Capital?"
+  },
+  {
+    "date": "2026-08-21",
+    "headline": "Global AI Adoption Accelerates Past $194 Billion \u2014 But Enterprise Inflection Is Vertical and Uneven"
+  },
+  {
+    "date": "2026-08-21",
+    "headline": "Governed Data Is the Actual Bottleneck: Why Agentic AI Stalls Without Structured Foundations"
   }
 ]
