@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-02",
-    "headline": "Anthropic Files Confidential S-1, Eyes October IPO at Near-$1 Trillion Valuation"
-  },
-  {
-    "date": "2026-08-02",
-    "headline": "Inference Infrastructure Becomes the New Capital Magnet \u2014 Baseten and Fireworks AI Each Raise $1.5B"
-  },
-  {
-    "date": "2026-08-02",
-    "headline": "Claude Opus 5 Ships July 24 \u2014 Anthropic Builds Out a Full Model Tier Stack"
-  },
-  {
-    "date": "2026-08-02",
-    "headline": "California's AI Transparency Act Activates in August \u2014 State Law Fills the Federal Vacuum"
-  },
-  {
     "date": "2026-08-03",
     "headline": "EU AI Act 'AI Omnibus' Simplification Finalised: High-Risk Deadlines Pushed, New Deepfake Bans Added"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-08-21",
     "headline": "Six Frontier Models Ship in One Week \u2014 Grok 4.6, Gemini 3.7 Flash, GPT-5.6-Cyber, Meta Muse Glimmer, NVIDIA Nemotron 3.5, and DeepSeek V4 Pro Go GA"
+  },
+  {
+    "date": "2026-08-22",
+    "headline": "EU AI Act Transparency Rules Now Live \u2014 Fines Up to \u20ac15M for Non-Compliance"
+  },
+  {
+    "date": "2026-08-22",
+    "headline": "EU Launches AI Gigafactories Call \u2014 \u20ac30B+ to Build European Compute Sovereignty"
+  },
+  {
+    "date": "2026-08-22",
+    "headline": "Alibaba Qwen Ships Two Models in Two Weeks \u2014 Open Weights Promised on Qwen3.8-Max"
+  },
+  {
+    "date": "2026-08-22",
+    "headline": "TSMC Arizona Ramps 2nm Fabs \u2014 GPU and AI Accelerator Supply Starts Moving Onshore"
   }
 ]
