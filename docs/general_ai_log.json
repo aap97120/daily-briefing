@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-03",
-    "headline": "EU AI Act 'AI Omnibus' Simplification Finalised: High-Risk Deadlines Pushed, New Deepfake Bans Added"
-  },
-  {
-    "date": "2026-08-03",
-    "headline": "SpaceX Acquires Cursor (Anysphere) for $60 Billion \u2014 Largest Startup M&A Deal Ever"
-  },
-  {
-    "date": "2026-08-03",
-    "headline": "MGX Closes $49 Billion Fund I \u2014 Largest Dedicated AI Infrastructure Fund on Record"
-  },
-  {
-    "date": "2026-08-03",
-    "headline": "Open-Weights Models Close the Gap Further: Leading Closed Model Leads by Only 4 Index Points as of August 1"
-  },
-  {
     "date": "2026-08-04",
     "headline": "DeepSeek Drops V4-Flash-0731 \u2014 Halves API Pricing Again as Efficiency Race Heats Up"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-08-22",
     "headline": "TSMC Arizona Ramps 2nm Fabs \u2014 GPU and AI Accelerator Supply Starts Moving Onshore"
+  },
+  {
+    "date": "2026-08-23",
+    "headline": "AMD Helios Enters Full Production \u2014 Microsoft, Meta, OpenAI, Oracle All Signed Up"
+  },
+  {
+    "date": "2026-08-23",
+    "headline": "EU Formally Delays High-Risk AI Rules to 2027\u20132028 \u2014 Simplification Package Clears Council"
+  },
+  {
+    "date": "2026-08-23",
+    "headline": "Qwen Ships Qwen3.8-27B Open-Weight Model \u2014 Pushes Frontier Accessibility Further"
+  },
+  {
+    "date": "2026-08-23",
+    "headline": "ElevenLabs Crosses $500M ARR \u2014 Enterprise AI Voice Agents Drive Hypergrowth"
   }
 ]

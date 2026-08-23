@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-08-03",
-    "headline": "96% of Enterprises Run AI Agents \u2014 Only 12% Can Govern Them: The Real Contest in the Agentic Platform Wars"
-  },
-  {
-    "date": "2026-08-03",
-    "headline": "88% of Enterprise Agentic AI Pilots Never Reach Production \u2014 Cognizant EMEA Launch Targets the Execution Gap"
-  },
-  {
-    "date": "2026-08-03",
-    "headline": "Snowflake's Cortex AI Gateway: The Infrastructure Stack Bets on a 'Trusted Agentic Enterprise' Layer"
-  },
-  {
     "date": "2026-08-04",
     "headline": "Who's Afraid of Chinese Models? Open Weights, Marginal Costs, and the Real Structure of the AI Industry"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-08-22",
     "headline": "The State of Agentic AI, 2026: Companies Are Chasing, Few Are Catching"
+  },
+  {
+    "date": "2026-08-23",
+    "headline": "Anthropic's Watermarking Is a Terrible Idea \u2014 Philosophically and Practically"
+  },
+  {
+    "date": "2026-08-23",
+    "headline": "New York and the Power of the Network \u2014 Why Geographic Density Still Drives AI Value Creation"
+  },
+  {
+    "date": "2026-08-23",
+    "headline": "Trust and Lock-In: The Two Dimensions That Define Every Enterprise Agentic AI Vendor Decision in 2026"
   }
 ]
