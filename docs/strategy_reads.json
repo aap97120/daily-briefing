@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-08-04",
-    "headline": "Who's Afraid of Chinese Models? Open Weights, Marginal Costs, and the Real Structure of the AI Industry"
-  },
-  {
-    "date": "2026-08-04",
-    "headline": "The AI Moat Is Moving and Most Enterprises Are Looking in the Wrong Place"
-  },
-  {
-    "date": "2026-08-04",
-    "headline": "July 2026 Monthly Learnings: Frontier Model Convergence Is Shifting the Moat to Proprietary Data and Tightly-Integrated Workflows"
-  },
-  {
     "date": "2026-08-05",
     "headline": "Microsoft Earnings, Microsoft vs. Meta, The Efficiency Payoff \u2014 Microsoft's AI Clarity Is the Benchmark Others Must Meet"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-08-23",
     "headline": "Trust and Lock-In: The Two Dimensions That Define Every Enterprise Agentic AI Vendor Decision in 2026"
+  },
+  {
+    "date": "2026-08-24",
+    "headline": "The CapEx Train Keeps Rolling \u2014 What Happens When AI Runs Out of Capital, Not Just Compute?"
+  },
+  {
+    "date": "2026-08-24",
+    "headline": "Enterprise AI Adoption Is Mainstream \u2014 Enterprise AI Maturity Is Not: The Gap That Defines 2026"
+  },
+  {
+    "date": "2026-08-24",
+    "headline": "Trusted Agentic AI Landscape Q3 2026: Vendor Selection, Sovereignty, and Lock-In Are Now the Central Enterprise AI Decision"
   }
 ]

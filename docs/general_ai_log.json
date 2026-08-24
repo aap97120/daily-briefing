@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-04",
-    "headline": "DeepSeek Drops V4-Flash-0731 \u2014 Halves API Pricing Again as Efficiency Race Heats Up"
-  },
-  {
-    "date": "2026-08-04",
-    "headline": "EU AI Act Is Now Fully Active \u2014 High-Risk System Enforcement Began August 2"
-  },
-  {
-    "date": "2026-08-04",
-    "headline": "China Issues First Fines Under Companion AI Rules; Agentic AI Becomes a Distinct Regulated Category"
-  },
-  {
-    "date": "2026-08-04",
-    "headline": "UK AI Regulation and Safety Bill Clears House of Commons \u2014 Royal Assent Expected by October"
-  },
-  {
     "date": "2026-08-05",
     "headline": "Google Ships Three New Gemini Models in July \u2014 But Flagship 3.5 Pro Remains Missing in Action"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-08-23",
     "headline": "ElevenLabs Crosses $500M ARR \u2014 Enterprise AI Voice Agents Drive Hypergrowth"
+  },
+  {
+    "date": "2026-08-24",
+    "headline": "Frontier AI Price War Erupts \u2014 OpenAI Cuts GPT-5.6 Luna 80%, DeepSeek Raises Prices as Gemini Crosses 1 Billion Users"
+  },
+  {
+    "date": "2026-08-24",
+    "headline": "China Becomes First Country to Regulate AI Agents as a Distinct Legal Category"
+  },
+  {
+    "date": "2026-08-24",
+    "headline": "Anthropic Hits First-Ever Profit and Files Confidential S-1 \u2014 IPO Targeting October 2026 at Near-$1 Trillion Valuation"
+  },
+  {
+    "date": "2026-08-24",
+    "headline": "AI Infrastructure Scarcity Shifts From GPUs to Energised Power Capacity \u2014 Grid Bottlenecks Now the Binding Constraint"
   }
 ]

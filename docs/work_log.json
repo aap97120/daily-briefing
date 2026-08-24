@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-08-08",
-    "headline": "Agentic Enterprise Goes Mainstream for GTM Teams \u2014 Forbes Declares 'New Phase' of AI-Driven Business Execution"
-  },
-  {
-    "date": "2026-08-08",
-    "headline": "Federal Reserve's 2026 Small Business Credit Survey: Tariff Costs Hit 4-in-10 Firms, Revenue Expectations Fall"
-  },
-  {
-    "date": "2026-08-08",
-    "headline": "D&B and Finquest Launch 'Cofinder' \u2014 AI-Powered Deal Sourcing Platform for Investment Firms"
-  },
-  {
-    "date": "2026-08-08",
-    "headline": "B2B Buyers in August 2026 Demand Proof Over Promise \u2014 Generic AI Tools Face Stack Scrutiny"
-  },
-  {
-    "date": "2026-08-08",
-    "headline": "Agentforce Data Dependency Problem Becomes Visible \u2014 Enterprise Buyers Warned That CRM Data Gaps Cripple AI Agent Quality"
-  },
-  {
     "date": "2026-08-09",
     "headline": "Apollo Acquires Pocus to Deepen AI Signal Intelligence Inside Its GTM Platform"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-08-23",
     "headline": "Gartner: 40% of Enterprise Apps Will Have Task-Specific AI Agents Embedded by End of 2026 \u2014 Up from Under 5% Last Year"
+  },
+  {
+    "date": "2026-08-24",
+    "headline": "Google's A2A Protocol Moves to Agentic AI Foundation, Unifying Agent Interoperability Standards Under Neutral Governance"
+  },
+  {
+    "date": "2026-08-24",
+    "headline": "80% of B2B Tech Buyers Now Use AI Agents in Purchasing \u2014 Forcing Enterprise Sales Teams to Restructure Deal Execution"
+  },
+  {
+    "date": "2026-08-24",
+    "headline": "Anthropic Positions D&B Commercial Graph and DUNS Number as the Identity Foundation for AI Agents in Financial Services"
+  },
+  {
+    "date": "2026-08-24",
+    "headline": "AWS Pushes Bedrock AgentCore Web Search to General Availability \u2014 Raising the Bar for In-Agent Data Freshness"
+  },
+  {
+    "date": "2026-08-24",
+    "headline": "Logicalis 2026 CIO Report: 60% of Global CIOs Plan to Buy AI Agents in the Next 12 Months \u2014 But Enterprise Budgets Are Shifting from Experiments to Commitments"
   }
 ]
