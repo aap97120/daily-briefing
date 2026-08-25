@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-08-05",
-    "headline": "Microsoft Earnings, Microsoft vs. Meta, The Efficiency Payoff \u2014 Microsoft's AI Clarity Is the Benchmark Others Must Meet"
-  },
-  {
-    "date": "2026-08-05",
-    "headline": "Vibe-Porting and Meta Enterprise \u2014 The Open-Weights Gambit Is Now a Full Enterprise Strategy"
-  },
-  {
-    "date": "2026-08-05",
-    "headline": "The Battle for Verifiable Data Is Increasingly Defining the AI Race \u2014 From Meta to Grok to the Frontier Labs"
-  },
-  {
     "date": "2026-08-06",
     "headline": "The Agentic AI Agent Guide: Delegate, Iterate, and Actually Learn"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-08-24",
     "headline": "Trusted Agentic AI Landscape Q3 2026: Vendor Selection, Sovereignty, and Lock-In Are Now the Central Enterprise AI Decision"
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "Stripe Acquiring OpenRouter: Aggregating AI Models and Flipping the Infrastructure Business Model"
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "Autonomy and Innovation: Why Startups Will Out-AI Incumbents \u2014 Same Tools, Different Incentives"
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "Stripe Bets Over $8 Billion on OpenRouter's AI Model Traffic \u2014 What the Infrastructure Layer Premium Means for Enterprise AI"
   }
 ]

@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-08-09",
-    "headline": "Apollo Acquires Pocus to Deepen AI Signal Intelligence Inside Its GTM Platform"
-  },
-  {
-    "date": "2026-08-09",
-    "headline": "B2B Sales Stack Consolidation Accelerates in 2026: HubSpot Takes Warmly, Zoom Takes Common Room, Salesforce Closes Qualified"
-  },
-  {
-    "date": "2026-08-09",
-    "headline": "Moody's Launches Maxsight Unified Risk Platform as It Embeds Full Credit Data into Anthropic's Claude"
-  },
-  {
-    "date": "2026-08-09",
-    "headline": "Tariff Volatility and Rising Delinquencies Are Forcing Lenders to Lean Harder on Alternative Commercial Data"
-  },
-  {
-    "date": "2026-08-09",
-    "headline": "AI Sales Agents Cut Prospect Research Time by 34% But Enterprises Keep Humans at the Wheel"
-  },
-  {
     "date": "2026-08-10",
     "headline": "D&B Launches Agentic AI for Compliance Workflows, Cutting Processing Times by Up to 90%"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-08-24",
     "headline": "Logicalis 2026 CIO Report: 60% of Global CIOs Plan to Buy AI Agents in the Next 12 Months \u2014 But Enterprise Budgets Are Shifting from Experiments to Commitments"
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "Moody's Embeds Full Platform Into Claude as Native App \u2014 Covering 600M+ Companies"
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "Gong Adds Salesforce Agentforce MCP Connection \u2014 Conversation Data Now Agent-Readable"
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "Enterprise AI ROI Gap Widens: 88% Deploy AI, Only 6% Qualify as True High Performers"
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "Credit Benchmark Flags AI Winners and Losers by Sector in July 2026 Credit Review"
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "B2B Buyers Complete 60\u201370% of Tech Research Before Talking to a Vendor \u2014 Agentic Discovery Now Reshaping GTM"
   }
 ]

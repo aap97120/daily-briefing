@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-05",
-    "headline": "Google Ships Three New Gemini Models in July \u2014 But Flagship 3.5 Pro Remains Missing in Action"
-  },
-  {
-    "date": "2026-08-05",
-    "headline": "\"Great American AI Act\" Stalls in the House Over State Preemption Clause"
-  },
-  {
-    "date": "2026-08-05",
-    "headline": "China's Agentic AI Regulation Becomes Enforceable \u2014 First National Policy to Define AI Agents as a Distinct Regulated Category"
-  },
-  {
-    "date": "2026-08-05",
-    "headline": "Global Venture Investment Hit Record $510B in H1 2026 \u2014 AI Accounts for the Majority of Capital"
-  },
-  {
     "date": "2026-08-06",
     "headline": "Alibaba Drops Qwen3.8-Max \u2014 2.4 Trillion Parameters, Open Weights Incoming, Priced at a Fraction of Anthropic"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-08-24",
     "headline": "AI Infrastructure Scarcity Shifts From GPUs to Energised Power Capacity \u2014 Grid Bottlenecks Now the Binding Constraint"
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "EU AI Act Enforcement Goes Live \u2014 Transparency Rules Now in Force Across All Markets"
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "Gartner: Inference Spending Beats Training for First Time in History \u2014 Agentic AI Is the Driver"
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "Six Frontier Models Ship in a Single Week \u2014 xAI, Google, DeepSeek, OpenAI, Meta, NVIDIA All Drop Releases"
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "Copper Emerges as the New AI Chokepoint \u2014 Critical Minerals Join Power and Permitting as Infrastructure Constraints"
   }
 ]
