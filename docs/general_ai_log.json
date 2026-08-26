@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-06",
-    "headline": "Alibaba Drops Qwen3.8-Max \u2014 2.4 Trillion Parameters, Open Weights Incoming, Priced at a Fraction of Anthropic"
-  },
-  {
-    "date": "2026-08-06",
-    "headline": "Big Tech AI Capex Crosses $1 Trillion Combined \u2014 Morgan Stanley Sees Ultimate Ceiling Near $1.4T"
-  },
-  {
-    "date": "2026-08-06",
-    "headline": "EU AI Act's 'Digital Omnibus' Deferral Quietly Shifts High-Risk Compliance Runway Beyond August 2026"
-  },
-  {
-    "date": "2026-08-06",
-    "headline": "Asana Acquires StackAI and Autodesk Eyes MaintainX \u2014 Workflow SaaS Giants Race to Bundle Agentic AI"
-  },
-  {
     "date": "2026-08-07",
     "headline": "EU AI Act Fully Live \u2014 High-Risk System Obligations Now Enforceable After August 2 Deadline"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-08-25",
     "headline": "Copper Emerges as the New AI Chokepoint \u2014 Critical Minerals Join Power and Permitting as Infrastructure Constraints"
+  },
+  {
+    "date": "2026-08-26",
+    "headline": "Databricks Raises $5B at $190B Valuation \u2014 AI Data Infrastructure Hits New Altitude"
+  },
+  {
+    "date": "2026-08-26",
+    "headline": "Physical AI Funding Hits $47B in H1 2026 \u2014 Robotics and Embodied AI Now Rival Pure Software Plays"
+  },
+  {
+    "date": "2026-08-26",
+    "headline": "EU AI Act High-Risk Deadline Quietly Slipped \u2014 but Transparency Rules Are Already Live and Enforceable"
+  },
+  {
+    "date": "2026-08-26",
+    "headline": "Sovereign AI Compute Spend Approaches $100B \u2014 Nations Race to Own the Stack"
   }
 ]

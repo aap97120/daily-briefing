@@ -198,5 +198,9 @@
   {
     "date": "2026-08-25",
     "topic": "Retrieval-Augmented Generation (RAG)"
+  },
+  {
+    "date": "2026-08-26",
+    "topic": "Bayesian Inference & Probabilistic Modeling"
   }
 ]
