@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-07",
-    "headline": "EU AI Act Fully Live \u2014 High-Risk System Obligations Now Enforceable After August 2 Deadline"
-  },
-  {
-    "date": "2026-08-07",
-    "headline": "Anthropic Overtakes OpenAI as Most Valuable Private AI Company \u2014 Files Confidentially for October IPO"
-  },
-  {
-    "date": "2026-08-07",
-    "headline": "NSF Launches $100M AI Infrastructure Hubs to Expand Scientific Compute Access"
-  },
-  {
-    "date": "2026-08-07",
-    "headline": "Forbes AI 50 2026: OpenAI and Anthropic Hold 80% of Top Private AI Funding \u2014 Vertical Specialists Now Generating Real Revenue"
-  },
-  {
     "date": "2026-08-08",
     "headline": "Demis Hassabis Steps Down as Google DeepMind CEO \u2014 Jeff Dean Leaves to Found AGI Startup"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-08-26",
     "headline": "Sovereign AI Compute Spend Approaches $100B \u2014 Nations Race to Own the Stack"
+  },
+  {
+    "date": "2026-08-27",
+    "headline": "Thomson Reuters Launches Proprietary LLM 'Thomson' for $40M \u2014 Trained on Its Own Legal Data"
+  },
+  {
+    "date": "2026-08-27",
+    "headline": "Nvidia Reports Q2 Earnings: AI Data Center ROI Now Under One Year, VC Funding Tops $400B in H1"
+  },
+  {
+    "date": "2026-08-27",
+    "headline": "Emerald AI Raises $150M Series A at $1B Valuation \u2014 AI Meets Energy Grid"
+  },
+  {
+    "date": "2026-08-27",
+    "headline": "US States Move to Regulate AI in High-Stakes Decisions \u2014 Employment, Housing, Finance in Scope"
   }
 ]

@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-08-11",
-    "headline": "EU AI Act High-Risk Provisions Go Live \u2014 Agentic AI Deployments Become a Compliance Matter Overnight"
-  },
-  {
-    "date": "2026-08-11",
-    "headline": "Moody's Posts 15.1% Revenue Growth in Q2 2026, Validates AI-Powered Risk Data Premium"
-  },
-  {
-    "date": "2026-08-11",
-    "headline": "Alibaba's Accio Platform Gains Autonomous Sourcing Agents, Putting Entity and Supplier Data at the Centre of B2B Commerce"
-  },
-  {
-    "date": "2026-08-11",
-    "headline": "Federal Reserve's 2026 Small Business Credit Survey Finds Tariff Costs Hit 4-in-10 Firms, Revenue Outlook Falls"
-  },
-  {
-    "date": "2026-08-11",
-    "headline": "Salesforce Frames Dreamforce 2026 Around the 'Agentic Enterprise' \u2014 Agentforce and Data 360 Take Centre Stage"
-  },
-  {
     "date": "2026-08-12",
     "headline": "ZoomInfo Posts Flat Q2 2026 Revenue as It Bets on GTM.AI \u2014 The 'Headless' Data Layer for AI Agents"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-08-26",
     "headline": "Credit Benchmark Publishes August 2026 Forward-Looking Risk Report on Non-Bank Financial Exposure"
+  },
+  {
+    "date": "2026-08-27",
+    "headline": "Google's A2A Protocol Joins Linux Foundation's Agentic AI Foundation, Unifying Agent Standards With Anthropic's MCP"
+  },
+  {
+    "date": "2026-08-27",
+    "headline": "IDC: 80% of B2B Tech Buyers Are Now Using AI Agents in Their Purchasing Process"
+  },
+  {
+    "date": "2026-08-27",
+    "headline": "AWS Pushes Amazon Bedrock AgentCore Web Search to General Availability"
+  },
+  {
+    "date": "2026-08-27",
+    "headline": "D&B Launches Agentic AI Capabilities for Compliance and Third-Party Risk, Cutting Processing Times by Up to 90%"
+  },
+  {
+    "date": "2026-08-27",
+    "headline": "S&P Global Flags Slowing Commercial Credit Growth Globally as Geopolitical Stress Bites Central Europe and China"
   }
 ]
