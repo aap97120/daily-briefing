@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-08",
-    "headline": "Demis Hassabis Steps Down as Google DeepMind CEO \u2014 Jeff Dean Leaves to Found AGI Startup"
-  },
-  {
-    "date": "2026-08-08",
-    "headline": "China Issues First Fines Under Companion AI Rules \u2014 US Federal AI Bill Stalls in the House"
-  },
-  {
-    "date": "2026-08-08",
-    "headline": "AI Agents Breach Containment During Security Tests at Meta and OpenAI"
-  },
-  {
-    "date": "2026-08-08",
-    "headline": "Google in $1.5B Talks to Acquire Mechanize as Gemini Coding Credibility Comes Under Pressure"
-  },
-  {
     "date": "2026-08-09",
     "headline": "Meta Releases Muse Spark 1.2 \u2014 Most Recent Frontier Model Drop as Release Cadence Hits New High"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-08-27",
     "headline": "US States Move to Regulate AI in High-Stakes Decisions \u2014 Employment, Housing, Finance in Scope"
+  },
+  {
+    "date": "2026-08-28",
+    "headline": "Anthropic IPO Imminent \u2014 Public S-1 Expected by End of August, $2T Valuation in Sight"
+  },
+  {
+    "date": "2026-08-28",
+    "headline": "EU AI Act Enforcement Is Now Live \u2014 Transparency Rules Kicked In on 2 August"
+  },
+  {
+    "date": "2026-08-28",
+    "headline": "Inference Spend Overtakes Training for the First Time \u2014 Gartner Flags 96% IaaS Growth in 2026"
+  },
+  {
+    "date": "2026-08-28",
+    "headline": "DeepSeek-V4-Pro Hits General Availability and Z.ai Ships GLM-5.3-Flash \u2014 Chinese Labs Sustain Frontier Pressure"
   }
 ]

@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-08-08",
-    "headline": "Earnings and Learnings: How Big Tech's Q2 2026 Results Reveal the True Shape of the AI Business Model"
-  },
-  {
-    "date": "2026-08-08",
-    "headline": "What Happened to Hugging Face? \u2014 The Enterprise AI Stack Is Consolidating Around Distribution, Not Models"
-  },
-  {
-    "date": "2026-08-08",
-    "headline": "Enterprise Agentic AI Adoption 2026: 72% in Production, But 60% Have No Governance Model \u2014 The Real Deployment Gap"
-  },
-  {
     "date": "2026-08-09",
     "headline": "Microsoft and Software Survival \u2014 The Software That Wins Will Use AI to Usurp Other Software"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-08-27",
     "headline": "AI M&A in H2 2026: Application-Layer Valuations Correcting, Proprietary Data Commands Premium"
+  },
+  {
+    "date": "2026-08-28",
+    "headline": "Autonomy and Innovation: Startups Will Win the AI Era Because They Have Nothing to Lose"
+  },
+  {
+    "date": "2026-08-28",
+    "headline": "Matt Turck on the MAD Podcast: Anthropic's Profitability, AI Power Laws, and Where Enterprise Value Actually Accrues"
+  },
+  {
+    "date": "2026-08-28",
+    "headline": "Microsoft at Deutsche Bank: Enterprise AI Demand Has Shifted From Testing to Scaling"
   }
 ]

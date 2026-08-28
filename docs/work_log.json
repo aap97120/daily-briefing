@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-08-12",
-    "headline": "ZoomInfo Posts Flat Q2 2026 Revenue as It Bets on GTM.AI \u2014 The 'Headless' Data Layer for AI Agents"
-  },
-  {
-    "date": "2026-08-12",
-    "headline": "D&B Brings Agentic Credit and Portfolio Management Workflows to Databricks Marketplace"
-  },
-  {
-    "date": "2026-08-12",
-    "headline": "Microsoft Copilot Surpasses 30 Million Paid Seats as Salesforce Agentforce ARR Grows 169% Year-on-Year"
-  },
-  {
-    "date": "2026-08-12",
-    "headline": "Only 12% of Companies Funding AI for Two Years Can Show Measurable Business Impact \u2014 New Enterprise Survey"
-  },
-  {
-    "date": "2026-08-12",
-    "headline": "Salesforce Agentforce ARR Up 169% but the Data Grounding Problem Is Growing \u2014 Enterprises Struggle to Feed Agents Clean Context"
-  },
-  {
     "date": "2026-08-13",
     "headline": "Anthropic Embeds D&B, Verisk, Moody's and Experian as Native Data Connectors in Claude for Financial Services"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-08-27",
     "headline": "S&P Global Flags Slowing Commercial Credit Growth Globally as Geopolitical Stress Bites Central Europe and China"
+  },
+  {
+    "date": "2026-08-28",
+    "headline": "Big Tech's AI Borrowing Binge Is Distorting Credit Risk Signals for Unrelated Companies"
+  },
+  {
+    "date": "2026-08-28",
+    "headline": "Moody's Maxsight Unified Risk Platform Now Live \u2014 Consolidating Credit, Third-Party and Trade Risk in One Surface"
+  },
+  {
+    "date": "2026-08-28",
+    "headline": "Anthropic Embeds Moody's, D&B and Verisk Into Claude for Financial Services as AI Finance Agent Benchmark Heats Up"
+  },
+  {
+    "date": "2026-08-28",
+    "headline": "Demandbase Launches MCP Server to Feed AI Agents Directly \u2014 A Playbook D&B Has Already Executed on Risk, Now Needs for Sales"
+  },
+  {
+    "date": "2026-08-28",
+    "headline": "Logicalis: 60% of Global CIOs Plan to Buy AI Agents in the Next 12 Months \u2014 But 45% of Enterprise AI Projects Are Still Failing"
   }
 ]

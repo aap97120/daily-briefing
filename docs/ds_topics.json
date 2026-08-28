@@ -206,5 +206,9 @@
   {
     "date": "2026-08-27",
     "topic": "Feature Stores"
+  },
+  {
+    "date": "2026-08-28",
+    "topic": "XGBoost & Gradient Boosting Machines"
   }
 ]
