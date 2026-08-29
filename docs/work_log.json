@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-08-13",
-    "headline": "Anthropic Embeds D&B, Verisk, Moody's and Experian as Native Data Connectors in Claude for Financial Services"
-  },
-  {
-    "date": "2026-08-13",
-    "headline": "Moody's Wins Two 2026 Risk Technology Awards \u2014 'Credit Data Provider of the Year' and 'Best Use of AI'"
-  },
-  {
-    "date": "2026-08-13",
-    "headline": "Federal Reserve Publishes New Research on Private Credit Risk Chains \u2014 Flags Data Opacity in Bank-to-BDC Lending"
-  },
-  {
-    "date": "2026-08-13",
-    "headline": "Bloomberg: Credit Markets Begin Questioning the AI Buildout's Financial Foundations"
-  },
-  {
-    "date": "2026-08-13",
-    "headline": "Agentic AI Hits a Production Gap: 80% of Enterprise Apps Embed an Agent, Only 31% Run One in Production"
-  },
-  {
     "date": "2026-08-14",
     "headline": "Apollo Acquires Pocus to Build Agentic Signal Intelligence Into Its GTM Platform"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-08-28",
     "headline": "Logicalis: 60% of Global CIOs Plan to Buy AI Agents in the Next 12 Months \u2014 But 45% of Enterprise AI Projects Are Still Failing"
+  },
+  {
+    "date": "2026-08-29",
+    "headline": "Salesforce and Anthropic Launch 'Claudeforce' \u2014 Claude Becomes Default Reasoning Engine Across Agentforce"
+  },
+  {
+    "date": "2026-08-29",
+    "headline": "96% of B2B Marketers Use AI \u2014 But Only 44% Have the Data Infrastructure to Support It"
+  },
+  {
+    "date": "2026-08-29",
+    "headline": "Gong's 'Mission Andromeda' Bets on Conversational AI Across the Full Revenue Stack \u2014 But Still Has No Data Layer"
+  },
+  {
+    "date": "2026-08-29",
+    "headline": "Agentic AI Hits Production Scale in B2B \u2014 But 45% of Use Cases Are Failing ROI Targets"
+  },
+  {
+    "date": "2026-08-29",
+    "headline": "Clari-Salesloft Integration Still Incomplete Eight Months After Merger Close \u2014 Buyers Left Navigating Four Overlapping Products"
   }
 ]
