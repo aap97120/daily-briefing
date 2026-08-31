@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-11",
-    "headline": "Meta Releases Muse Glimmer \u2014 Open-Weight Agent Model That Runs on a Single Laptop GPU"
-  },
-  {
-    "date": "2026-08-11",
-    "headline": "EU AI Act High-Risk Enforcement Now Live \u2014 Article 50 Transparency Obligations Took Effect August 2"
-  },
-  {
-    "date": "2026-08-11",
-    "headline": "US Federal AI Preemption Bill Stalls in House \u2014 State-Level Patchwork Accelerates"
-  },
-  {
-    "date": "2026-08-11",
-    "headline": "NVIDIA Launches New Business Model to Broaden Compute Access for AI Startups and Regional Players"
-  },
-  {
     "date": "2026-08-12",
     "headline": "OpenAI Acquires AI Presentation Startup NextSlide \u2014 ChatGPT Eyes the Office Suite"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-08-30",
     "headline": "Amazon's Mechanical Turk Shuts Down After 20 Years \u2014 AI-Native Data Labelling Players Take Over"
+  },
+  {
+    "date": "2026-08-31",
+    "headline": "Anthropic Ships Claude Opus 5 With Effort Controls and Self-Verification"
+  },
+  {
+    "date": "2026-08-31",
+    "headline": "AMD Launches Helios Rack-Scale AI System, Books 14 GW in Customer Orders"
+  },
+  {
+    "date": "2026-08-31",
+    "headline": "EU AI Act Transparency Rules Go Live \u2014 Chatbots Must Disclose AI Identity, Deepfakes Must Be Labelled"
+  },
+  {
+    "date": "2026-08-31",
+    "headline": "Emerald AI Raises $150M Series A at $1B+ Valuation to Power AI Data Centers With Clean Energy"
   }
 ]

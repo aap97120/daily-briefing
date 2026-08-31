@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-08-11",
-    "headline": "The Battle for Verifiable Data Is Defining the AI Race \u2014 Ben Thompson, Stratechery (July 9, 2026)"
-  },
-  {
-    "date": "2026-08-11",
-    "headline": "Dithering: 'Vibe-Porting and Meta Enterprise' \u2014 Ben Thompson & John Gruber (August 4, 2026)"
-  },
-  {
-    "date": "2026-08-11",
-    "headline": "AI Eats the World: Distribution and Product Wrapping Matter More Than Raw Model Capability \u2014 Benedict Evans (May 2026, widely recirculated August 2026)"
-  },
-  {
     "date": "2026-08-12",
     "headline": "Nvidia Is Now a Bank: The $500 Billion Bet That Turns Compute Into an Asset Class"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-08-30",
     "headline": "AI Adoption's Structural Ceiling: Organizations Are Engineered for a Narrow Band of Human Output \u2014 AI Blows Past It"
+  },
+  {
+    "date": "2026-08-31",
+    "headline": "OpenAI, Zoom, and the Data Monetization Fault Line in Enterprise AI"
+  },
+  {
+    "date": "2026-08-31",
+    "headline": "Most Enterprise AI Is a Context Problem, Not a Frontier-Intelligence Problem \u2014 Route Accordingly"
+  },
+  {
+    "date": "2026-08-31",
+    "headline": "Enterprise Agentic AI 2026: Vendor Lock-In Is Compounding at Every Layer of the Stack"
   }
 ]
