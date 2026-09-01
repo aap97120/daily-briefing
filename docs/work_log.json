@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-08-16",
-    "headline": "Salesforce's Agentic Enterprise Index Shows Tripling of Active Agents \u2014 Agent-First Beats Copilot Approach 43% to 36%"
-  },
-  {
-    "date": "2026-08-16",
-    "headline": "Moody's Wins 2026 Risk Technology Awards for Credit Data Provider of the Year and Best Use of AI"
-  },
-  {
-    "date": "2026-08-16",
-    "headline": "ZoomInfo Writes Down Q2 2026 Valuation as GTM Data Platform Consolidation Accelerates"
-  },
-  {
-    "date": "2026-08-16",
-    "headline": "Salesforce Completes Acquisition of Qualified, Supercharging Agentforce's Inbound Pipeline Generation"
-  },
-  {
-    "date": "2026-08-16",
-    "headline": "Moody's Analytics Data Reveals US Corporate Default Probability Fell to 7.9% \u2014 But Fragmentation and Private Credit Opacity Persist"
-  },
-  {
     "date": "2026-08-17",
     "headline": "Anthropic Embeds D&B, Moody's, and Verisk Into Claude for Financial Services \u2014 Agentic Finance Stack Takes Shape"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-08-31",
     "headline": "Global Credit Growth Slows Sharply \u2014 S&P and Credit Benchmark Flag Rising Risk in Emerging Markets and Central Europe"
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "Fiserv and Stuut Deploy Agentic AI Across Enterprise Receivables \u2014 $2B+ in B2B Invoices Already Processed"
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "96% of B2B Marketers Use AI, But Only 44% Have the Data Infrastructure to Support It"
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "Demandbase Launches MCP for AI Agents \u2014 Giving Claude, ChatGPT and Others Native Access to B2B Intelligence"
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "Verisk Acquires McKenzie Intelligence Services, Posts Q2 Revenue Up 4.4% \u2014 But Margins Compress"
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "45% of Enterprise AI Projects Are Failing to Deliver Results \u2014 CIOs Demand Governance and Clearer ROI"
   }
 ]

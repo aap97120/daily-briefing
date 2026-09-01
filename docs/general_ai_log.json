@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-12",
-    "headline": "OpenAI Acquires AI Presentation Startup NextSlide \u2014 ChatGPT Eyes the Office Suite"
-  },
-  {
-    "date": "2026-08-12",
-    "headline": "OpenAI Releases GPT-5.6-Cyber \u2014 A Specialist Security-Focused Model"
-  },
-  {
-    "date": "2026-08-12",
-    "headline": "UK Appoints First Dedicated Cabinet-Level Minister for AI \u2014 Signals Regulatory Shift"
-  },
-  {
-    "date": "2026-08-12",
-    "headline": "China Issues First Fines Under Companion AI Rules \u2014 Enforcement Teeth Now Visible"
-  },
-  {
     "date": "2026-08-13",
     "headline": "EU AI Act's August 2 Deadline Delivered Less Than Expected \u2014 Digital Omnibus Defers High-Risk Rules to 2027"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-08-31",
     "headline": "Emerald AI Raises $150M Series A at $1B+ Valuation to Power AI Data Centers With Clean Energy"
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "SpaceXAI Launches Grok 4.6, Matching GPT-5.6 Sol on Global Intelligence Rankings"
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "EU AI Act's High-Risk Provisions Take Full Effect \u2014 Deployers Now in the Frame"
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "EU Launches AI Gigafactories Call, Unlocking \u20ac30B+ to Close the Compute Gap With the US and China"
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "AI Liability Goes Mainstream: Meta's $17.1B Teen Safety Settlement Signals Nine-Figure Governance Risk"
   }
 ]

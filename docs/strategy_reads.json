@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-08-12",
-    "headline": "Nvidia Is Now a Bank: The $500 Billion Bet That Turns Compute Into an Asset Class"
-  },
-  {
-    "date": "2026-08-12",
-    "headline": "Earnings Exposure: Why the Same AI Capex Story Produced Wildly Different Market Verdicts for Meta, Microsoft, Amazon, and Google"
-  },
-  {
-    "date": "2026-08-12",
-    "headline": "Financing Is Now the Binding Constraint on AI Scale \u2014 Bigger Than Chips or Power"
-  },
-  {
     "date": "2026-08-13",
     "headline": "Anthropic's Watermarking, How It (Probably) Works, Worse Than It Seems"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-08-31",
     "headline": "Enterprise Agentic AI 2026: Vendor Lock-In Is Compounding at Every Layer of the Stack"
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "Stripe Acquiring OpenRouter, Aggregating AI? \u2014 Flipping the Business Model"
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "Only 15% of US Enterprises Have Achieved Scaled Multi-Agent Adoption \u2014 The Gap Between Deployment and Orchestration Is the Defining Enterprise AI Fault Line"
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "How AI Will Rewrite Enterprise Strategy: AI Is Transitioning from Productivity Tool to Core Infrastructure"
   }
 ]
