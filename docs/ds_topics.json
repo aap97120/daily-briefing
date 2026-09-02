@@ -226,5 +226,9 @@
   {
     "date": "2026-09-01",
     "topic": "Apache Spark \u2014 Distributed Data Processing at Scale"
+  },
+  {
+    "date": "2026-09-02",
+    "topic": "Vector Databases"
   }
 ]

@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-08-13",
-    "headline": "Anthropic's Watermarking, How It (Probably) Works, Worse Than It Seems"
-  },
-  {
-    "date": "2026-08-13",
-    "headline": "Microsoft's Plan for Platform Survival \u2014 Clarity of Strategy, Lower Costs, Tangibility of Application"
-  },
-  {
-    "date": "2026-08-13",
-    "headline": "Enterprise AI in August 2026: Past Experimentation, Now Scaling What Works \u2014 and Honestly Evaluating What Doesn't"
-  },
-  {
     "date": "2026-08-14",
     "headline": "Who's Afraid of Chinese Models? Intelligence as COGS, Not Software"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-09-01",
     "headline": "How AI Will Rewrite Enterprise Strategy: AI Is Transitioning from Productivity Tool to Core Infrastructure"
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "Nvidia Is Expanding the Risk of the AI Buildout \u2014 Not Just Funding It"
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "Agentic AI Is Rewriting Enterprise Strategy \u2014 But Governance Is the Bottleneck, Not the Model"
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "Enterprise AI Adoption Is Mainstream \u2014 Enterprise AI Maturity Is Not: The Gap Is Structural"
   }
 ]

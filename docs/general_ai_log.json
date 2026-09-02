@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-13",
-    "headline": "EU AI Act's August 2 Deadline Delivered Less Than Expected \u2014 Digital Omnibus Defers High-Risk Rules to 2027"
-  },
-  {
-    "date": "2026-08-13",
-    "headline": "China Makes AI Agents a Distinct Regulated Category \u2014 World First"
-  },
-  {
-    "date": "2026-08-13",
-    "headline": "Gartner: Inference Spending to Overtake AI Training Spend for the First Time in 2026"
-  },
-  {
-    "date": "2026-08-13",
-    "headline": "Anthropic Files S-1 for IPO \u2014 Most Valued AI Startup Eyes Public Markets"
-  },
-  {
     "date": "2026-08-14",
     "headline": "DeepSeek Officially Releases V4-Pro Model \u2014 Then Raises Prices by Up to 1,100%"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-09-01",
     "headline": "AI Liability Goes Mainstream: Meta's $17.1B Teen Safety Settlement Signals Nine-Figure Governance Risk"
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "Fireworks AI Raises $1.5B Series D at $17.5B Valuation as Enterprise Demand for Cheaper Inference Surges"
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "Safe Superintelligence Lands $5B Nvidia Investment at $32B Valuation \u2014 Largest Pure-Research AI Deal of 2026"
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "OpenAI Cuts GPT-5.6 Luna Pricing 80% as Inference Price War Intensifies"
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "Texas TRAIGA Complaint Mechanism Goes Live in September 2026, Adding Teeth to US State AI Enforcement"
   }
 ]

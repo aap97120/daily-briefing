@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-08-17",
-    "headline": "Anthropic Embeds D&B, Moody's, and Verisk Into Claude for Financial Services \u2014 Agentic Finance Stack Takes Shape"
-  },
-  {
-    "date": "2026-08-17",
-    "headline": "Enterprise AI Hits ROI Reckoning \u2014 Governance and Explainability Now Boardroom Requirements for Agentic Deployments"
-  },
-  {
-    "date": "2026-08-17",
-    "headline": "B2B E-Commerce Surges Past Overall Market in Q2 2026 \u2014 Wesco, Watsco, and Fastenal Report Double-Digit Digital Sales Growth"
-  },
-  {
-    "date": "2026-08-17",
-    "headline": "Apollo Wins 2026 MarTech Breakthrough Award for Best AI-Powered Sales Solution \u2014 GTM Data Arms Race Intensifies"
-  },
-  {
-    "date": "2026-08-17",
-    "headline": "Private Credit Data Gaps Flagged by Fed and FSB \u2014 Commercial Risk Intelligence Demand Set to Rise"
-  },
-  {
     "date": "2026-08-18",
     "headline": "IDC: 80% of B2B Tech Buyers Now Use AI Agents in Purchasing \u2014 Both Sides of the Deal Are Automating Simultaneously"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-09-01",
     "headline": "45% of Enterprise AI Projects Are Failing to Deliver Results \u2014 CIOs Demand Governance and Clearer ROI"
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "D&B Completes Clearlake Privatization \u2014 Stephen Tulenko Takes Helm as CEO"
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "Agentic AI Crosses from Pilot to Production \u2014 But 'Operating Is Hard,' Analysts Warn"
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "Moody's Embeds Entity Intelligence Inside Google Cloud's AI for Financial Services"
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "Clari-Salesloft Integration Stalls \u2014 Buyers Navigating Four Overlapping Products 9 Months Post-Merger"
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "S&P Global Launches GenAI Credit Analyst Tool \u2014 'CreditCompanion' Automates Memo Prep and Portfolio Surveillance"
   }
 ]
