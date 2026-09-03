@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-14",
-    "headline": "DeepSeek Officially Releases V4-Pro Model \u2014 Then Raises Prices by Up to 1,100%"
-  },
-  {
-    "date": "2026-08-14",
-    "headline": "Gartner: AI Infrastructure-as-a-Service Spend to Nearly Double to $42B in 2026, Inference Overtakes Training"
-  },
-  {
-    "date": "2026-08-14",
-    "headline": "EU AI Act Transparency Rules Now in Force \u2014 Chatbot Disclosure and Deepfake Labelling Enforceable from August 2"
-  },
-  {
-    "date": "2026-08-14",
-    "headline": "SpaceXAI Releases Grok 4.6 as Frontier Model Cadence Hits an All-Time High"
-  },
-  {
     "date": "2026-08-15",
     "headline": "OpenAI Acquires Presentation Startup NextSlide \u2014 Office Suite War Escalates"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-09-02",
     "headline": "Texas TRAIGA Complaint Mechanism Goes Live in September 2026, Adding Teeth to US State AI Enforcement"
+  },
+  {
+    "date": "2026-09-03",
+    "headline": "Gartner: Inference Spend Overtakes AI Training for First Time in 2026"
+  },
+  {
+    "date": "2026-09-03",
+    "headline": "Connecticut Becomes Latest State to Enact Comprehensive AI Law, Adding to Enterprise Compliance Stack"
+  },
+  {
+    "date": "2026-09-03",
+    "headline": "DeepInfra Deploys 1,000+ NVIDIA B300 GPU Cluster for Frontier Lab humans& \u2014 Signalling B300 Era Has Arrived"
+  },
+  {
+    "date": "2026-09-03",
+    "headline": "Alibaba's Qwen Drops Qwen3.8-Max-0902 \u2014 Open-Weight Model Cadence Keeps Accelerating"
   }
 ]

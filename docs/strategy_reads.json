@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-08-14",
-    "headline": "Who's Afraid of Chinese Models? Intelligence as COGS, Not Software"
-  },
-  {
-    "date": "2026-08-14",
-    "headline": "Trusted Agentic AI Landscape Q3 2026: Vendor Selection, Sovereignty, and Lock-In"
-  },
-  {
-    "date": "2026-08-14",
-    "headline": "Enterprise AI Adoption Is Mainstream \u2014 Enterprise AI Maturity Is Not"
-  },
-  {
     "date": "2026-08-15",
     "headline": "Nvidia's Risky Business: Financing Customers to Buy Your Own Chips Turns Growth Into Shared Risk"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-09-02",
     "headline": "Enterprise AI Adoption Is Mainstream \u2014 Enterprise AI Maturity Is Not: The Gap Is Structural"
+  },
+  {
+    "date": "2026-09-03",
+    "headline": "Amazon's Inference-Era Durability: How the Shift from Training to Agents Rehabilitates AWS's AI Position"
+  },
+  {
+    "date": "2026-09-03",
+    "headline": "AI Capex: 'AI Better Deliver Before It's Too Late' \u2014 The Debt-Market Moment for Enterprise AI"
+  },
+  {
+    "date": "2026-09-03",
+    "headline": "AI Eats the World, May 2026: Enterprise Rollouts Are Still Mostly Pilots \u2014 Capital Is Real, Deployment Is Not"
   }
 ]
