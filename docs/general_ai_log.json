@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-15",
-    "headline": "OpenAI Acquires Presentation Startup NextSlide \u2014 Office Suite War Escalates"
-  },
-  {
-    "date": "2026-08-15",
-    "headline": "Nielsen Acquires DoubleVerify for $2.15 Billion \u2014 AI-Driven Measurement Consolidation Accelerates"
-  },
-  {
-    "date": "2026-08-15",
-    "headline": "NVIDIA Makes $3 Billion Bet on Lancium \u2014 Compute Tied Directly to Power Infrastructure"
-  },
-  {
-    "date": "2026-08-15",
-    "headline": "EU AI Act High-Risk System Obligations Now Enforceable \u2014 Credit Scoring and HR Tools in Scope"
-  },
-  {
     "date": "2026-08-16",
     "headline": "EU AI Omnibus Enters Into Force \u2014 High-Risk Deadline Extended to Late 2027"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-09-03",
     "headline": "Alibaba's Qwen Drops Qwen3.8-Max-0902 \u2014 Open-Weight Model Cadence Keeps Accelerating"
+  },
+  {
+    "date": "2026-09-04",
+    "headline": "OpenAI Launches GPT-6 Astra \u2014 First Model to Hit 'Critical' Cyber Threshold, Brockman Declares 'AGI Era'"
+  },
+  {
+    "date": "2026-09-04",
+    "headline": "PwC: Global AI Infrastructure Spend to Reach $31.6 Trillion Through 2050, With Power as the Decisive Constraint"
+  },
+  {
+    "date": "2026-09-04",
+    "headline": "US Pushes AI Deregulation at G20 Ministerial as US-EU Regulatory Split Hardens"
+  },
+  {
+    "date": "2026-09-04",
+    "headline": "Anthropic Ships Claude Fable 5.1 and Mythos 5.1 \u2014 Gated 'Defender' Tier Signals New Architecture for Dual-Use AI"
   }
 ]

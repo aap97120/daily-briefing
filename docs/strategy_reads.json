@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-08-15",
-    "headline": "Nvidia's Risky Business: Financing Customers to Buy Your Own Chips Turns Growth Into Shared Risk"
-  },
-  {
-    "date": "2026-08-15",
-    "headline": "Google and Amazon Earnings Confirm the Capex Bet \u2014 But Jassy's Argument Is the One That Matters"
-  },
-  {
-    "date": "2026-08-15",
-    "headline": "Nvidia Enlists Wall Street to Bankroll the AI Buildout \u2014 And the Risk Architecture Is More Fragile Than It Looks"
-  },
-  {
     "date": "2026-08-16",
     "headline": "Anthropic's Watermarking, How It (Probably) Works, Worse Than It Seems"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-09-03",
     "headline": "AI Eats the World, May 2026: Enterprise Rollouts Are Still Mostly Pilots \u2014 Capital Is Real, Deployment Is Not"
+  },
+  {
+    "date": "2026-09-04",
+    "headline": "Anthropic Blinks on Data Retention \u2014 Enterprise Trust Is Now the Key AI Business Model Variable"
+  },
+  {
+    "date": "2026-09-04",
+    "headline": "Stripe Acquiring OpenRouter: Aggregating AI and Flipping the Business Model"
+  },
+  {
+    "date": "2026-09-04",
+    "headline": "From AI Table Stakes to AI Advantage: Building Competitive Moats Requires Proprietary Data in Closed-Loop Systems"
   }
 ]
