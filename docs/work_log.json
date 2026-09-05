@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-08-20",
-    "headline": "Anthropic Embeds D&B, Moody's, and Verisk Into Claude for Financial Services \u2014 Establishing AI's Data Layer for Wall Street"
-  },
-  {
-    "date": "2026-08-20",
-    "headline": "96% of B2B Marketers Use AI But Only 44% Have the Data Infrastructure to Back It Up"
-  },
-  {
-    "date": "2026-08-20",
-    "headline": "Zoom Acquires Common Room in July, Completing a Wave of Four Major B2B Signal-Intelligence Deals in 2026"
-  },
-  {
-    "date": "2026-08-20",
-    "headline": "ZoomInfo Books a Q2 2026 Write-Down as GTM Stack Consolidation Squeezes Standalone Data Vendors"
-  },
-  {
-    "date": "2026-08-20",
-    "headline": "Gong and Clari Both Stuck at 'Suggestive' Autonomy \u2014 Neither Qualifies as a True AI Agent in 2026"
-  },
-  {
     "date": "2026-08-21",
     "headline": "IDC: 80% of B2B Tech Buyers Now Using AI Agents in Procurement \u2014 Reshaping How Enterprise Deals Get Done"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-09-04",
     "headline": "D&B's Own Data Arm Flags Late-Payment Crisis: 47\u201357% of B2B Invoices Overdue in Key European Markets"
+  },
+  {
+    "date": "2026-09-05",
+    "headline": "Salesforce Agentforce Hits $1.5B ARR, Up 240% YoY \u2014 Signalling Agentic AI Has Left the Pilot Phase"
+  },
+  {
+    "date": "2026-09-05",
+    "headline": "Enterprise AI Lock-In Shifts from Model Layer to Stack Layer as Vendor Landscape Matures \u2014 Q3 2026 Analysis"
+  },
+  {
+    "date": "2026-09-05",
+    "headline": "Clari-Salesloft Merger Integration Remains Incomplete Eight Months On, Creating Buyer Uncertainty"
+  },
+  {
+    "date": "2026-09-05",
+    "headline": "Moody's Analytics Publishes Mid-Year US Credit Risk Outlook, Flags Private Credit and Yield Shift Risks for 2026\u20132027"
+  },
+  {
+    "date": "2026-09-05",
+    "headline": "Informa TechTarget Launches B2B AI Authority Index to Track Brand Visibility Inside AI Search Engines"
   }
 ]

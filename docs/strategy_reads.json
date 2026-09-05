@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-08-16",
-    "headline": "Anthropic's Watermarking, How It (Probably) Works, Worse Than It Seems"
-  },
-  {
-    "date": "2026-08-16",
-    "headline": "Apple Earnings, More on Amazon's: Chip Shortages Are the Real AI Constraint \u2014 Not Memory"
-  },
-  {
-    "date": "2026-08-16",
-    "headline": "Databricks 2026 State of AI Agents: Multi-Agent Systems Grew 327% in Four Months \u2014 Governance Is the Chokepoint"
-  },
-  {
     "date": "2026-08-17",
     "headline": "Microsoft's AI Earnings Signal: Strategy Clarity Over Raw Growth"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-09-04",
     "headline": "From AI Table Stakes to AI Advantage: Building Competitive Moats Requires Proprietary Data in Closed-Loop Systems"
+  },
+  {
+    "date": "2026-09-05",
+    "headline": "AI, Tools and Transformation: The Automation Gap Nobody Sees"
+  },
+  {
+    "date": "2026-09-05",
+    "headline": "Autonomy and Innovation: Startups Will Automate Everything \u2014 Incumbents Will Hesitate Too Long"
+  },
+  {
+    "date": "2026-09-05",
+    "headline": "Nvidia Acquires Hugging Face for $12.9B: The AI Stack Consolidates Around Open-Source Control"
   }
 ]

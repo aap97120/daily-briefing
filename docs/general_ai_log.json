@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-16",
-    "headline": "EU AI Omnibus Enters Into Force \u2014 High-Risk Deadline Extended to Late 2027"
-  },
-  {
-    "date": "2026-08-16",
-    "headline": "Meta in Talks to Lease $10 Billion of Compute to Anthropic \u2014 The Accidental Cloud Provider"
-  },
-  {
-    "date": "2026-08-16",
-    "headline": "CoreWeave Revenue Backlog Hits $99.4 Billion \u2014 AI Compute Demand Now Dwarfs Supply"
-  },
-  {
-    "date": "2026-08-16",
-    "headline": "California AI Transparency Act Becomes Operative \u2014 State-Level Enforcement Era Begins"
-  },
-  {
     "date": "2026-08-17",
     "headline": "Anthropic IPO Expectations Breach $2 Trillion \u2014 Investors Eye October Launch"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-09-04",
     "headline": "Anthropic Ships Claude Fable 5.1 and Mythos 5.1 \u2014 Gated 'Defender' Tier Signals New Architecture for Dual-Use AI"
+  },
+  {
+    "date": "2026-09-05",
+    "headline": "Google Ships Gemini 3.8 Flash to Stable GA, Adds Gated Cyber Tier via Fairwind Program"
+  },
+  {
+    "date": "2026-09-05",
+    "headline": "Meta's Muse Spark 1.3 Launches \u2014 First Release from Current Flagship Line Since Llama Replacement"
+  },
+  {
+    "date": "2026-09-05",
+    "headline": "Anthropic Prepares to Publish Full IPO Prospectus Post-Labor Day, Eyes Late September or October Debut"
+  },
+  {
+    "date": "2026-09-05",
+    "headline": "Crusoe Signs ~$13B Five-Year AI Cloud Deal With Jane Street, More Than Doubling Trader's CoreWeave Commitment"
   }
 ]
