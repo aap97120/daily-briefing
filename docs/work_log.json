@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-08-21",
-    "headline": "IDC: 80% of B2B Tech Buyers Now Using AI Agents in Procurement \u2014 Reshaping How Enterprise Deals Get Done"
-  },
-  {
-    "date": "2026-08-21",
-    "headline": "O'Reilly: 'When Your Buyer Is an AI Agent' \u2014 B2B Sellers Must Rebuild Commercial Infrastructure for Machine-Speed Evaluation"
-  },
-  {
-    "date": "2026-08-21",
-    "headline": "D&B Launches Agentic AI Capabilities for Compliance and Third-Party Risk \u2014 Cuts Processing Times by 70\u201390%"
-  },
-  {
-    "date": "2026-08-21",
-    "headline": "Credit Benchmark: 'AI Winners & Losers' Segment Review Flags Diverging Credit Risk Profiles Across AI-Exposed Industries"
-  },
-  {
-    "date": "2026-08-21",
-    "headline": "Agentforce Data Quality Gap Exposed: Salesforce's AI Agents Inherit CRM Limitations Without External Enrichment"
-  },
-  {
     "date": "2026-08-22",
     "headline": "Fiserv and Stuut Deploy Agentic AI Across Enterprise Accounts Receivable \u2014 $2B+ in B2B Invoices Already Processed"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-09-05",
     "headline": "Informa TechTarget Launches B2B AI Authority Index to Track Brand Visibility Inside AI Search Engines"
+  },
+  {
+    "date": "2026-09-06",
+    "headline": "D&B and FedEx Dataworks Launch Predictive Retail Supply-and-Demand Tracking Tool"
+  },
+  {
+    "date": "2026-09-06",
+    "headline": "Moody's Launches Maxsight Unified Risk Platform, Consolidating Third-Party and Trade Credit Intelligence"
+  },
+  {
+    "date": "2026-09-06",
+    "headline": "Agentic AI Production Gap Widens: 80% of Enterprise Apps Have an Agent, Only 31% Run One in Production"
+  },
+  {
+    "date": "2026-09-06",
+    "headline": "PwC Private Credit Survey 2026: 54% of Lenders Now Using AI in Underwriting, But Explainability Remains the Key Barrier"
+  },
+  {
+    "date": "2026-09-06",
+    "headline": "B2B SaaS Buyers in September 2026 Prioritise Trust Design and Data Lineage Over Feature Volume"
   }
 ]

@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-08-17",
-    "headline": "Microsoft's AI Earnings Signal: Strategy Clarity Over Raw Growth"
-  },
-  {
-    "date": "2026-08-17",
-    "headline": "AI Supply Crunch Today \u2014 But What Happens When It Ends? Model Labs Face a Commodity Cliff"
-  },
-  {
-    "date": "2026-08-17",
-    "headline": "Enterprise AI Agent Adoption 2026: 31% in Production, but the Governance Gap Is the Real Story"
-  },
-  {
     "date": "2026-08-18",
     "headline": "The CapEx Train Keeps Rolling: How Wall Street Is Re-Rating AI Spend After Big Tech Q2 Earnings"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-09-05",
     "headline": "Nvidia Acquires Hugging Face for $12.9B: The AI Stack Consolidates Around Open-Source Control"
+  },
+  {
+    "date": "2026-09-06",
+    "headline": "AI, Tools and Transformation: The Task Automation Gap Nobody Can See From the Inside"
+  },
+  {
+    "date": "2026-09-06",
+    "headline": "Intelligence Will Be a Commodity Market \u2014 But the Data Layer Won't Be"
+  },
+  {
+    "date": "2026-09-06",
+    "headline": "Halt and Catch Ire: Why Enterprise AI Governance Is Becoming the Central Business Problem"
   }
 ]

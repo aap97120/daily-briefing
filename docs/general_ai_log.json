@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-17",
-    "headline": "Anthropic IPO Expectations Breach $2 Trillion \u2014 Investors Eye October Launch"
-  },
-  {
-    "date": "2026-08-17",
-    "headline": "Gartner: Inference Spend Overtakes AI Training for the First Time in 2026"
-  },
-  {
-    "date": "2026-08-17",
-    "headline": "China Becomes First Nation to Regulate AI Agents as a Distinct Legal Category"
-  },
-  {
-    "date": "2026-08-17",
-    "headline": "NVIDIA Nemotron 3.5 Lightning Lands on Oracle Cloud \u2014 Built Specifically for Always-On AI Agents"
-  },
-  {
     "date": "2026-08-18",
     "headline": "OpenAI S-1 Filing Imminent as Anthropic Posts First Profit \u2014 AI Lab IPO Race Accelerates"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-09-05",
     "headline": "Crusoe Signs ~$13B Five-Year AI Cloud Deal With Jane Street, More Than Doubling Trader's CoreWeave Commitment"
+  },
+  {
+    "date": "2026-09-06",
+    "headline": "Anthropic Signs $35B Cloud Deal With Nvidia-Backed Lambda \u2014 Nvidia Now Holds the Lease"
+  },
+  {
+    "date": "2026-09-06",
+    "headline": "Moonshot AI's Kimi K3 Breaks Into Frontier Top 4 \u2014 Chinese Open-Weight Lab Claims Verified Benchmark Spot"
+  },
+  {
+    "date": "2026-09-06",
+    "headline": "European Defence Officials Openly Resist Brussels' Push to Cut Reliance on US Cloud and AI"
+  },
+  {
+    "date": "2026-09-06",
+    "headline": "Pennsylvania Governor Calls Data Centres 'Predatory,' Imposes New Guardrails \u2014 First Major US State Pushback on AI Infrastructure Siting"
   }
 ]
