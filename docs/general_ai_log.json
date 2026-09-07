@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-18",
-    "headline": "OpenAI S-1 Filing Imminent as Anthropic Posts First Profit \u2014 AI Lab IPO Race Accelerates"
-  },
-  {
-    "date": "2026-08-18",
-    "headline": "xAI Ships Grok 4.6 Targeting Agentic Workloads \u2014 Matches GPT-5.6 on Intelligence Index"
-  },
-  {
-    "date": "2026-08-18",
-    "headline": "GPT-5.6 Luna Becomes ChatGPT Free Default After 80% Price Cut \u2014 Frontier AI Commodity Pricing Arrives"
-  },
-  {
-    "date": "2026-08-18",
-    "headline": "EU AI Act Transparency Rules Now Live \u2014 Chatbots, Deepfakes, and Synthetic Content Face Active Enforcement"
-  },
-  {
     "date": "2026-08-19",
     "headline": "ElevenLabs Closes Series D with BlackRock and NVIDIA, Crosses $500M ARR"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-09-06",
     "headline": "Pennsylvania Governor Calls Data Centres 'Predatory,' Imposes New Guardrails \u2014 First Major US State Pushback on AI Infrastructure Siting"
+  },
+  {
+    "date": "2026-09-07",
+    "headline": "OpenAI Ships GPT-6 Astra, Declares 'AGI Era' \u2014 But Safety Team Flags Monitorability Regression"
+  },
+  {
+    "date": "2026-09-07",
+    "headline": "xAI Launches Grok Bot for Enterprise \u2014 Persistent Agents with Cloud Computers Now a Shipping Product"
+  },
+  {
+    "date": "2026-09-07",
+    "headline": "PwC Projects $31.6 Trillion in AI Infrastructure Spend Through 2050 \u2014 Data Centre Capex to More Than Double by Mid-Century"
+  },
+  {
+    "date": "2026-09-07",
+    "headline": "Connecticut's CART Act Creates New Frontier-Developer Duties \u2014 Texas AG Complaint Mechanism Goes Live in September"
   }
 ]
