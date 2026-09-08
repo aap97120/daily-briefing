@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-19",
-    "headline": "ElevenLabs Closes Series D with BlackRock and NVIDIA, Crosses $500M ARR"
-  },
-  {
-    "date": "2026-08-19",
-    "headline": "Alibaba Ships Qwen3.8-27B to Open API \u2014 Frontier Open-Weight Race Intensifies"
-  },
-  {
-    "date": "2026-08-19",
-    "headline": "EU Delays High-Risk AI Act Deadlines to 2027\u20132028 After Last-Minute Legislative Fix"
-  },
-  {
-    "date": "2026-08-19",
-    "headline": "Neocloud Axe Compute Reports Revenue Up 90x, Crosses $3B in Signed Customer Contracts"
-  },
-  {
     "date": "2026-08-20",
     "headline": "DeepSeek Ships V4 Pro Officially \u2014 Then Hikes API Prices by Up to 1,100%"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-09-07",
     "headline": "Connecticut's CART Act Creates New Frontier-Developer Duties \u2014 Texas AG Complaint Mechanism Goes Live in September"
+  },
+  {
+    "date": "2026-09-08",
+    "headline": "US Champions AI Deregulation at G20, Widening Transatlantic Policy Rift"
+  },
+  {
+    "date": "2026-09-08",
+    "headline": "Google Ships Gemini 3.8 Flash With Gated Cyber Variant; Anthropic Drops Claude Fable 5.1 and Mythos 5.1 \u2014 Densest Frontier Release Window of 2026"
+  },
+  {
+    "date": "2026-09-08",
+    "headline": "Legora Raises $550M and Nexthop AI Raises $500M \u2014 Vertical AI and Network Infrastructure Capture September's Biggest Checks"
+  },
+  {
+    "date": "2026-09-08",
+    "headline": "Connecticut's SB 5 Now Signed Law \u2014 CART Act Export Controls on Claude Mythos and Fable 5 Also Triggered by Trump Administration"
   }
 ]

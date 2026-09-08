@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-08-19",
-    "headline": "Stripe Acquiring OpenRouter, Aggregating AI?, Flipping the Business Model"
-  },
-  {
-    "date": "2026-08-19",
-    "headline": "Nvidia's Risky Business: Finding New Ways for Customers to Raise Money Expands AI Buildout Risk Significantly"
-  },
-  {
-    "date": "2026-08-19",
-    "headline": "Trusted Agentic AI Landscape Q3 2026: Enterprise Vendor Selection, Sovereignty, and Lock-in"
-  },
-  {
     "date": "2026-08-20",
     "headline": "Anthropic's Watermarking Move Is a Bad Idea \u2014 and a Preview of AI's Governance Fracture"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-09-07",
     "headline": "Trusted Agentic AI Landscape Q3 2026: Lock-In Has Shifted From the Model Layer to the Stack Layer"
+  },
+  {
+    "date": "2026-09-08",
+    "headline": "The Task Automation Blind Spot: Why Enterprise AI Adoption Is Stalling at the Point of Deployment"
+  },
+  {
+    "date": "2026-09-08",
+    "headline": "Autonomy and Innovation: Startups Will Automate Everything \u2014 Incumbents Will Keep Humans in the Wrong Loop"
+  },
+  {
+    "date": "2026-09-08",
+    "headline": "Agency and Agents: The 'Twilight Factory' \u2014 Why the Next Design Problem for Enterprise AI Is Who Holds Initiative"
   }
 ]
