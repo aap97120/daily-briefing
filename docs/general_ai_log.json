@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-20",
-    "headline": "DeepSeek Ships V4 Pro Officially \u2014 Then Hikes API Prices by Up to 1,100%"
-  },
-  {
-    "date": "2026-08-20",
-    "headline": "AMD Launches Helios Rack-Scale AI System to Take On NVIDIA's NVL72"
-  },
-  {
-    "date": "2026-08-20",
-    "headline": "Wall Street's Biggest Alternative Asset Managers Form $500B Compute Financing Syndicate for NVIDIA Customers"
-  },
-  {
-    "date": "2026-08-20",
-    "headline": "Axe Compute Collects $317M in Customer Prepayments, Confirms $3B+ Contract Book Is Real Cash"
-  },
-  {
     "date": "2026-08-21",
     "headline": "China Becomes First Country to Regulate AI Agents as a Distinct Legal Category"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-09-08",
     "headline": "Connecticut's SB 5 Now Signed Law \u2014 CART Act Export Controls on Claude Mythos and Fable 5 Also Triggered by Trump Administration"
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "Anthropic Locks In $35B Compute Deal With Nvidia-Backed Lambda \u2014 Plus a $45B Nscale Lease \u2014 Totalling $135B+ in Cloud Contracts This Year"
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "Anthropic IPO Prep Confirmed \u2014 Filing Reportedly Imminent, Racing OpenAI to Market"
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "EU Digital Omnibus Proposal Would Weaken AI Act High-Risk Obligations and Data Protections"
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "South Africa Withdraws National AI Policy After Discovering It Cited Fictitious Sources \u2014 a Live Case for AI Explainability Risk"
   }
 ]

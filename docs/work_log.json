@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-08-24",
-    "headline": "Google's A2A Protocol Moves to Agentic AI Foundation, Unifying Agent Interoperability Standards Under Neutral Governance"
-  },
-  {
-    "date": "2026-08-24",
-    "headline": "80% of B2B Tech Buyers Now Use AI Agents in Purchasing \u2014 Forcing Enterprise Sales Teams to Restructure Deal Execution"
-  },
-  {
-    "date": "2026-08-24",
-    "headline": "Anthropic Positions D&B Commercial Graph and DUNS Number as the Identity Foundation for AI Agents in Financial Services"
-  },
-  {
-    "date": "2026-08-24",
-    "headline": "AWS Pushes Bedrock AgentCore Web Search to General Availability \u2014 Raising the Bar for In-Agent Data Freshness"
-  },
-  {
-    "date": "2026-08-24",
-    "headline": "Logicalis 2026 CIO Report: 60% of Global CIOs Plan to Buy AI Agents in the Next 12 Months \u2014 But Enterprise Budgets Are Shifting from Experiments to Commitments"
-  },
-  {
     "date": "2026-08-25",
     "headline": "Moody's Embeds Full Platform Into Claude as Native App \u2014 Covering 600M+ Companies"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-09-08",
     "headline": "Fed Small Business Credit Survey 2026: Tariffs and Rising Costs Push 4-in-10 Firms into Financial Stress"
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "Salesforce and Anthropic Launch 'Claudeforce' \u2014 Putting CRM Inside Claude and Claude Inside Salesforce"
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "Salesforce Agentforce ARR Hits $1.5 Billion \u2014 Up 240% Year-on-Year \u2014 as Per-Seat SaaS Model Cracks"
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "Microsoft Releases September Copilot Partner Update \u2014 Adds Multi-Tenant Agent Management and New AI Monetisation Tiers"
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "Moody's Analytics Mid-Year Update: Private Credit Risk 'Fragmented and Fragile' as Default Probability Stays Elevated"
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "ZoomInfo Issues 1.38 Million RSUs to 92 New Hires in Aggressive September Talent Push"
   }
 ]
