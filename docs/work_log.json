@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-08-25",
-    "headline": "Moody's Embeds Full Platform Into Claude as Native App \u2014 Covering 600M+ Companies"
-  },
-  {
-    "date": "2026-08-25",
-    "headline": "Gong Adds Salesforce Agentforce MCP Connection \u2014 Conversation Data Now Agent-Readable"
-  },
-  {
-    "date": "2026-08-25",
-    "headline": "Enterprise AI ROI Gap Widens: 88% Deploy AI, Only 6% Qualify as True High Performers"
-  },
-  {
-    "date": "2026-08-25",
-    "headline": "Credit Benchmark Flags AI Winners and Losers by Sector in July 2026 Credit Review"
-  },
-  {
-    "date": "2026-08-25",
-    "headline": "B2B Buyers Complete 60\u201370% of Tech Research Before Talking to a Vendor \u2014 Agentic Discovery Now Reshaping GTM"
-  },
-  {
     "date": "2026-08-26",
     "headline": "Fiserv and Stuut Wire Agentic AI Into Enterprise Receivables, Crossing $2B in B2B Invoices Processed"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-09-09",
     "headline": "ZoomInfo Issues 1.38 Million RSUs to 92 New Hires in Aggressive September Talent Push"
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "Accenture and Google Cloud Launch Gemini Enterprise Business Group to Scale Agentic AI"
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "Verisk Launches U.S. Data Center Exposure Database as AI Infrastructure Risk Surges"
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "Forrester: One-Third of B2B Transactions Will Involve Autonomous Agents Managing Invoicing and Reconciliation by End of 2026"
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "Apollo.io Embeds Sales Intelligence Directly into Perplexity Computer via Native Connector"
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "Gartner Reaffirms: 40% of Enterprise Apps Will Feature Task-Specific AI Agents by End of 2026 \u2014 Up from Under 5% in 2025"
   }
 ]

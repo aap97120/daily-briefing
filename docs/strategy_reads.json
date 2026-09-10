@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-08-21",
-    "headline": "The CapEx Train Keeps Rolling: What Happens When AI Runs Short on Capital?"
-  },
-  {
-    "date": "2026-08-21",
-    "headline": "Global AI Adoption Accelerates Past $194 Billion \u2014 But Enterprise Inflection Is Vertical and Uneven"
-  },
-  {
-    "date": "2026-08-21",
-    "headline": "Governed Data Is the Actual Bottleneck: Why Agentic AI Stalls Without Structured Foundations"
-  },
-  {
     "date": "2026-08-22",
     "headline": "Stripe Acquiring OpenRouter, Aggregating AI?, Flipping the Business Model"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-09-09",
     "headline": "Enterprise AI Adoption 2026: 97% Have Deployed Agents, But Only 29% Are Getting Real Results \u2014 and It's Tearing Companies Apart"
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "AI, Tools and Transformation: The Hidden Problem of Task Visibility in Enterprise AI"
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "AI Better Deliver Before It's Too Late: The AGI Definition War and the Real Risk of Enterprise Disappointment"
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "Stripe Acquires OpenRouter for $7B+: Neutral Infrastructure Beats Model Lock-In"
   }
 ]

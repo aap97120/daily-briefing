@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-21",
-    "headline": "China Becomes First Country to Regulate AI Agents as a Distinct Legal Category"
-  },
-  {
-    "date": "2026-08-21",
-    "headline": "EU AI Act Enforcement Goes Live \u2014 Commission and National Authorities Now Have Active Oversight Powers"
-  },
-  {
-    "date": "2026-08-21",
-    "headline": "Axe Compute Secures 55 MW of New U.S. Data Center Capacity with Duos Technologies"
-  },
-  {
-    "date": "2026-08-21",
-    "headline": "Six Frontier Models Ship in One Week \u2014 Grok 4.6, Gemini 3.7 Flash, GPT-5.6-Cyber, Meta Muse Glimmer, NVIDIA Nemotron 3.5, and DeepSeek V4 Pro Go GA"
-  },
-  {
     "date": "2026-08-22",
     "headline": "EU AI Act Transparency Rules Now Live \u2014 Fines Up to \u20ac15M for Non-Compliance"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-09-09",
     "headline": "South Africa Withdraws National AI Policy After Discovering It Cited Fictitious Sources \u2014 a Live Case for AI Explainability Risk"
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "OpenAI Ships GPT-6 Astra \u2014 Declares 'AGI Era' While Flagging Its Own Model as a Critical Cyber Risk"
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "Inference Overtakes Training as Primary AI Compute Workload \u2014 Shifting the Economics of the Entire Stack"
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "Cerebras and Compute Nordic Announce 165 MW AI Data Centre in Finland \u2014 Nordic Sovereign Compute Push Accelerates"
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "IDC Research Reframes AI Infrastructure Economics: Persistent Data, Not Just Compute, Is the Scarce Resource"
   }
 ]
