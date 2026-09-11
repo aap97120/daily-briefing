@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-22",
-    "headline": "EU AI Act Transparency Rules Now Live \u2014 Fines Up to \u20ac15M for Non-Compliance"
-  },
-  {
-    "date": "2026-08-22",
-    "headline": "EU Launches AI Gigafactories Call \u2014 \u20ac30B+ to Build European Compute Sovereignty"
-  },
-  {
-    "date": "2026-08-22",
-    "headline": "Alibaba Qwen Ships Two Models in Two Weeks \u2014 Open Weights Promised on Qwen3.8-Max"
-  },
-  {
-    "date": "2026-08-22",
-    "headline": "TSMC Arizona Ramps 2nm Fabs \u2014 GPU and AI Accelerator Supply Starts Moving Onshore"
-  },
-  {
     "date": "2026-08-23",
     "headline": "AMD Helios Enters Full Production \u2014 Microsoft, Meta, OpenAI, Oracle All Signed Up"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-09-10",
     "headline": "IDC Research Reframes AI Infrastructure Economics: Persistent Data, Not Just Compute, Is the Scarce Resource"
+  },
+  {
+    "date": "2026-09-11",
+    "headline": "PwC Projects $31.6 Trillion in Global AI Infrastructure Investment Through 2050 \u2014 Power Flagged as Decisive Constraint"
+  },
+  {
+    "date": "2026-09-11",
+    "headline": "Labs Race to Gate Dangerous Cyber Capabilities \u2014 Tiered Access Becomes September's Defining Model Architecture Move"
+  },
+  {
+    "date": "2026-09-11",
+    "headline": "NVIDIA Mobilises Australian Data Centre Ecosystem for Up to 2-Gigawatt AI Buildout by 2027"
+  },
+  {
+    "date": "2026-09-11",
+    "headline": "Texas TRAIGA Complaint Mechanism Goes Live in September \u2014 State AI Enforcement Era Formally Begins"
   }
 ]

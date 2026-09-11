@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-08-22",
-    "headline": "Stripe Acquiring OpenRouter, Aggregating AI?, Flipping the Business Model"
-  },
-  {
-    "date": "2026-08-22",
-    "headline": "Nvidia's Risky Business: Customers Raising Money to Buy Chips Expands Systemic AI Buildout Risk"
-  },
-  {
-    "date": "2026-08-22",
-    "headline": "The State of Agentic AI, 2026: Companies Are Chasing, Few Are Catching"
-  },
-  {
     "date": "2026-08-23",
     "headline": "Anthropic's Watermarking Is a Terrible Idea \u2014 Philosophically and Practically"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-09-10",
     "headline": "Stripe Acquires OpenRouter for $7B+: Neutral Infrastructure Beats Model Lock-In"
+  },
+  {
+    "date": "2026-09-11",
+    "headline": "Nvidia Buys Hugging Face: What It Means When the Chip Maker Owns the Model Marketplace"
+  },
+  {
+    "date": "2026-09-11",
+    "headline": "2026 State of AI Agents: Multi-Agent Systems Grew 327% \u2014 But Governance Is the Blocker"
+  },
+  {
+    "date": "2026-09-11",
+    "headline": "Trusted Agentic AI Landscape Q3 2026: Lock-In Is Moving from the Model Layer to the Stack Layer"
   }
 ]
