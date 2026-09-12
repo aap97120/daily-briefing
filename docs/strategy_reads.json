@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-08-23",
-    "headline": "Anthropic's Watermarking Is a Terrible Idea \u2014 Philosophically and Practically"
-  },
-  {
-    "date": "2026-08-23",
-    "headline": "New York and the Power of the Network \u2014 Why Geographic Density Still Drives AI Value Creation"
-  },
-  {
-    "date": "2026-08-23",
-    "headline": "Trust and Lock-In: The Two Dimensions That Define Every Enterprise Agentic AI Vendor Decision in 2026"
-  },
-  {
     "date": "2026-08-24",
     "headline": "The CapEx Train Keeps Rolling \u2014 What Happens When AI Runs Out of Capital, Not Just Compute?"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-09-11",
     "headline": "Trusted Agentic AI Landscape Q3 2026: Lock-In Is Moving from the Model Layer to the Stack Layer"
+  },
+  {
+    "date": "2026-09-12",
+    "headline": "AI, Tools and Transformation: The Hidden Problem of Task Visibility in Enterprise"
+  },
+  {
+    "date": "2026-09-12",
+    "headline": "Agency and Agents: Who Holds Initiative Will Determine AI's Next Phase"
+  },
+  {
+    "date": "2026-09-12",
+    "headline": "Enterprise AI Adoption 2026: 79% Face Challenges Even as Agent Deployment Hits Near-Universal Levels"
   }
 ]

@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-23",
-    "headline": "AMD Helios Enters Full Production \u2014 Microsoft, Meta, OpenAI, Oracle All Signed Up"
-  },
-  {
-    "date": "2026-08-23",
-    "headline": "EU Formally Delays High-Risk AI Rules to 2027\u20132028 \u2014 Simplification Package Clears Council"
-  },
-  {
-    "date": "2026-08-23",
-    "headline": "Qwen Ships Qwen3.8-27B Open-Weight Model \u2014 Pushes Frontier Accessibility Further"
-  },
-  {
-    "date": "2026-08-23",
-    "headline": "ElevenLabs Crosses $500M ARR \u2014 Enterprise AI Voice Agents Drive Hypergrowth"
-  },
-  {
     "date": "2026-08-24",
     "headline": "Frontier AI Price War Erupts \u2014 OpenAI Cuts GPT-5.6 Luna 80%, DeepSeek Raises Prices as Gemini Crosses 1 Billion Users"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-09-11",
     "headline": "Texas TRAIGA Complaint Mechanism Goes Live in September \u2014 State AI Enforcement Era Formally Begins"
+  },
+  {
+    "date": "2026-09-12",
+    "headline": "Labs Converge on Tiered Cyber-Capability Model as September's Defining Architectural Pattern"
+  },
+  {
+    "date": "2026-09-12",
+    "headline": "Positron Raises $875M at $5B Valuation to Build Inference Chips That Directly Challenge NVIDIA"
+  },
+  {
+    "date": "2026-09-12",
+    "headline": "OpenAI's Agents API Enters Public Beta \u2014 Puts Codex Engine Directly in Developers' Hands"
+  },
+  {
+    "date": "2026-09-12",
+    "headline": "Ayar Labs Closes $150M Extension \u2014 Brings 2026 Total to $650M as Co-Packaged Optics Bets Accelerate"
   }
 ]
