@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-08-28",
-    "headline": "Big Tech's AI Borrowing Binge Is Distorting Credit Risk Signals for Unrelated Companies"
-  },
-  {
-    "date": "2026-08-28",
-    "headline": "Moody's Maxsight Unified Risk Platform Now Live \u2014 Consolidating Credit, Third-Party and Trade Risk in One Surface"
-  },
-  {
-    "date": "2026-08-28",
-    "headline": "Anthropic Embeds Moody's, D&B and Verisk Into Claude for Financial Services as AI Finance Agent Benchmark Heats Up"
-  },
-  {
-    "date": "2026-08-28",
-    "headline": "Demandbase Launches MCP Server to Feed AI Agents Directly \u2014 A Playbook D&B Has Already Executed on Risk, Now Needs for Sales"
-  },
-  {
-    "date": "2026-08-28",
-    "headline": "Logicalis: 60% of Global CIOs Plan to Buy AI Agents in the Next 12 Months \u2014 But 45% of Enterprise AI Projects Are Still Failing"
-  },
-  {
     "date": "2026-08-29",
     "headline": "Salesforce and Anthropic Launch 'Claudeforce' \u2014 Claude Becomes Default Reasoning Engine Across Agentforce"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-09-12",
     "headline": "Moody's Analytics Flags Agentic AI as Emerging Cyber Risk Vector for Enterprises in 2026 Digital Economy Outlook"
+  },
+  {
+    "date": "2026-09-13",
+    "headline": "Verisk Analytics Posts Q2 2026 Beat But Stock Slips on Guidance Caution"
+  },
+  {
+    "date": "2026-09-13",
+    "headline": "Moody's Launches Maxsight Unified Risk Platform \u2014 Consolidates Third-Party, Trade Credit and Entity Risk Into One Layer"
+  },
+  {
+    "date": "2026-09-13",
+    "headline": "Agentic AI Is Breaking the Per-Seat SaaS Model \u2014 And B2B Data Is the Next Battleground"
+  },
+  {
+    "date": "2026-09-13",
+    "headline": "Apollo Launches MCP Server for AI-Native Headless GTM \u2014 Sales Data Enters the Agent Stack"
+  },
+  {
+    "date": "2026-09-13",
+    "headline": "Moody's Stages First-Ever Briefing at Rendez-Vous de Septembre \u2014 Signals AI and Private Credit as Twin Priorities"
   }
 ]
