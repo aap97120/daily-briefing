@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-25",
-    "headline": "EU AI Act Enforcement Goes Live \u2014 Transparency Rules Now in Force Across All Markets"
-  },
-  {
-    "date": "2026-08-25",
-    "headline": "Gartner: Inference Spending Beats Training for First Time in History \u2014 Agentic AI Is the Driver"
-  },
-  {
-    "date": "2026-08-25",
-    "headline": "Six Frontier Models Ship in a Single Week \u2014 xAI, Google, DeepSeek, OpenAI, Meta, NVIDIA All Drop Releases"
-  },
-  {
-    "date": "2026-08-25",
-    "headline": "Copper Emerges as the New AI Chokepoint \u2014 Critical Minerals Join Power and Permitting as Infrastructure Constraints"
-  },
-  {
     "date": "2026-08-26",
     "headline": "Databricks Raises $5B at $190B Valuation \u2014 AI Data Infrastructure Hits New Altitude"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-09-13",
     "headline": "California AI Transparency Act Takes Effect \u2014 State-Level AI Disclosure Era Arrives"
+  },
+  {
+    "date": "2026-09-14",
+    "headline": "Cognition AI Raises $2B Series E at $48B Valuation \u2014 Autonomous Coding Agents Hit Hypergrowth"
+  },
+  {
+    "date": "2026-09-14",
+    "headline": "Crusoe Locks In $3B+ Financing Package at $30B Valuation to Scale AI Data Center Capacity"
+  },
+  {
+    "date": "2026-09-14",
+    "headline": "PwC Projects $31.6 Trillion in AI Infrastructure Capex Through 2050 \u2014 Power Becomes the Decisive Constraint"
+  },
+  {
+    "date": "2026-09-14",
+    "headline": "US Pushes AI Deregulation at G20 While Connecticut CART Act Adds New Enterprise Obligations"
   }
 ]

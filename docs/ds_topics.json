@@ -1,9 +1,5 @@
 [
   {
-    "date": "2026-07-09",
-    "topic": "Multi-Agent Orchestration with LangGraph"
-  },
-  {
     "date": "2026-07-10",
     "topic": "dbt (data build tool) \u2014 Analytics Engineering in Practice"
   },
@@ -238,5 +234,9 @@
   {
     "date": "2026-09-13",
     "topic": "Model Monitoring & Data Drift Detection"
+  },
+  {
+    "date": "2026-09-14",
+    "topic": "Knowledge Graphs"
   }
 ]

@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-08-25",
-    "headline": "Stripe Acquiring OpenRouter: Aggregating AI Models and Flipping the Infrastructure Business Model"
-  },
-  {
-    "date": "2026-08-25",
-    "headline": "Autonomy and Innovation: Why Startups Will Out-AI Incumbents \u2014 Same Tools, Different Incentives"
-  },
-  {
-    "date": "2026-08-25",
-    "headline": "Stripe Bets Over $8 Billion on OpenRouter's AI Model Traffic \u2014 What the Infrastructure Layer Premium Means for Enterprise AI"
-  },
-  {
     "date": "2026-08-26",
     "headline": "Nvidia's Risky Business: How GPU Financing Is Expanding the AI Buildout's Risk Profile"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-09-13",
     "headline": "Enterprise AI Adoption 2026: 88% Use AI, But Only 39% See EBIT Impact \u2014 The Data Layer Gap"
+  },
+  {
+    "date": "2026-09-14",
+    "headline": "The CapEx Train Keeps Rolling: Why AI Infrastructure Spending Has No Visible Ceiling"
+  },
+  {
+    "date": "2026-09-14",
+    "headline": "Multi-Agent Scale Breaks the Cost Curve \u2014 and the Governance Framework"
+  },
+  {
+    "date": "2026-09-14",
+    "headline": "The Battle for the Agentic Enterprise: Task-Level Disruption Is the Right Unit of Analysis"
   }
 ]
