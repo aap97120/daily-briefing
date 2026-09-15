@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-26",
-    "headline": "Databricks Raises $5B at $190B Valuation \u2014 AI Data Infrastructure Hits New Altitude"
-  },
-  {
-    "date": "2026-08-26",
-    "headline": "Physical AI Funding Hits $47B in H1 2026 \u2014 Robotics and Embodied AI Now Rival Pure Software Plays"
-  },
-  {
-    "date": "2026-08-26",
-    "headline": "EU AI Act High-Risk Deadline Quietly Slipped \u2014 but Transparency Rules Are Already Live and Enforceable"
-  },
-  {
-    "date": "2026-08-26",
-    "headline": "Sovereign AI Compute Spend Approaches $100B \u2014 Nations Race to Own the Stack"
-  },
-  {
     "date": "2026-08-27",
     "headline": "Thomson Reuters Launches Proprietary LLM 'Thomson' for $40M \u2014 Trained on Its Own Legal Data"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-09-14",
     "headline": "US Pushes AI Deregulation at G20 While Connecticut CART Act Adds New Enterprise Obligations"
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "Jane Street Signs $13B AI Cloud Contract With Crusoe \u2014 Trading Firm Now Holds More Committed Compute Than Most Model Labs"
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "Etched Raises $700M for Rack-Scale AI Inference Silicon \u2014 Custom Chip Bet Lands Its First Customer Delivery"
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "European Defence Officials Openly Resist Brussels' Push to Cut Reliance on US Cloud and AI Giants"
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "Texas TRAIGA Complaint Mechanism Goes Live in September 2026 \u2014 New AI Accountability Pressure Point for Enterprise Vendors"
   }
 ]

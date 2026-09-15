@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-08-30",
-    "headline": "D&B Launches Agentic AI Compliance Capabilities \u2014 Cuts Onboarding and Due Diligence Processing Times by Up to 90%"
-  },
-  {
-    "date": "2026-08-30",
-    "headline": "ZoomInfo Q2 2026: Revenue Barely Grows, $651M Goodwill Write-Down Hits, But GTM.AI Launch Signals Pivot to Agentic Data Infrastructure"
-  },
-  {
-    "date": "2026-08-30",
-    "headline": "Apollo Acquires Pocus to Deepen AI Signal Intelligence \u2014 B2B Data Consolidation Wave Accelerates in 2026"
-  },
-  {
-    "date": "2026-08-30",
-    "headline": "Enterprise AI Budget Shift: CFOs Move Spend from Model Training to Operations \u2014 But 25% of Projects Hit Unexpected Cost Blowouts"
-  },
-  {
-    "date": "2026-08-30",
-    "headline": "The Production Gap: 80% of Enterprise Apps Embed an AI Agent, But Only 31% Are Running One in Production"
-  },
-  {
     "date": "2026-08-31",
     "headline": "80% of B2B Tech Buyers Now Use AI Agents in Purchasing \u2014 Forcing Sellers to Rebuild How Enterprise Deals Get Done"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-09-14",
     "headline": "Federal Reserve Small Business Credit Survey: Tariffs Now a Financial Challenge for 4 in 10 U.S. Employer Firms"
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "Anthropic Embeds D&B, Verisk, Experian and Moody's as Native Data Connectors in Claude for Financial Services"
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "96% of B2B Marketers Use AI But Only 44% Have Data Infrastructure Ready to Support It"
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "Salesforce Agentforce Hits $800M ARR and 29,000 Deals \u2014 Agentic AI Spend Now a Budget Line, Not a Pilot"
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "Verisk Cuts Price Target as Barclays Downgrades \u2014 CHRO Also Departs in Leadership Shuffle"
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "Clari + Salesloft Integration Still Incomplete Nine Months After Merger \u2014 Buyers Left Navigating Four Overlapping Products"
   }
 ]

@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-08-26",
-    "headline": "Nvidia's Risky Business: How GPU Financing Is Expanding the AI Buildout's Risk Profile"
-  },
-  {
-    "date": "2026-08-26",
-    "headline": "The Agentic Leap Is Real \u2014 And It's Already Obsoleting Last Year's AI Roadmaps"
-  },
-  {
-    "date": "2026-08-26",
-    "headline": "Intelligence Will Be a Commodity Market \u2014 The Chinese Model Conundrum and What It Means for Enterprise AI Strategy"
-  },
-  {
     "date": "2026-08-27",
     "headline": "Microsoft's AI Earnings Signal: Clarity of Strategy, Lower Costs, Tangible Applications"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-09-14",
     "headline": "The Battle for the Agentic Enterprise: Task-Level Disruption Is the Right Unit of Analysis"
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "Stripe Acquires OpenRouter for $7B+: The Neutral Infrastructure Play That Reframes the AI Business Model"
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "Databricks 2026 State of AI Agents: Multi-Agent Systems Grew 327% in Four Months \u2014 and Governance Is Now the 12x Differentiator"
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "Trusted Agentic AI Landscape Q3 2026: Lock-In Has Shifted from the Model Layer to the Stack Layer \u2014 and That Changes Everything"
   }
 ]
