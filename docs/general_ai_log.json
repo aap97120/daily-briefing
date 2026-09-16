@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-27",
-    "headline": "Thomson Reuters Launches Proprietary LLM 'Thomson' for $40M \u2014 Trained on Its Own Legal Data"
-  },
-  {
-    "date": "2026-08-27",
-    "headline": "Nvidia Reports Q2 Earnings: AI Data Center ROI Now Under One Year, VC Funding Tops $400B in H1"
-  },
-  {
-    "date": "2026-08-27",
-    "headline": "Emerald AI Raises $150M Series A at $1B Valuation \u2014 AI Meets Energy Grid"
-  },
-  {
-    "date": "2026-08-27",
-    "headline": "US States Move to Regulate AI in High-Stakes Decisions \u2014 Employment, Housing, Finance in Scope"
-  },
-  {
     "date": "2026-08-28",
     "headline": "Anthropic IPO Imminent \u2014 Public S-1 Expected by End of August, $2T Valuation in Sight"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-09-15",
     "headline": "Texas TRAIGA Complaint Mechanism Goes Live in September 2026 \u2014 New AI Accountability Pressure Point for Enterprise Vendors"
+  },
+  {
+    "date": "2026-09-16",
+    "headline": "Labs Trigger September Model Sprint: GPT-6 Astra, Claude Fable 5.1, Gemini 3.8 Flash All Land Within 72 Hours"
+  },
+  {
+    "date": "2026-09-16",
+    "headline": "UK Jurisdiction Taskforce Publishes Landmark Legal Statement on AI Liability Under English Law"
+  },
+  {
+    "date": "2026-09-16",
+    "headline": "China Moves to Regulate AI Agents and Generative AI Privacy \u2014 New Rules Imminent for Agentic Workflows"
+  },
+  {
+    "date": "2026-09-16",
+    "headline": "NVIDIA Partners With Australian Data Center Ecosystem for Up to 2-Gigawatt AI Factory Buildout by 2027"
   }
 ]
