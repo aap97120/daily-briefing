@@ -1,9 +1,5 @@
 [
   {
-    "date": "2026-07-12",
-    "topic": "MLflow \u2014 Experiment Tracking & Model Registry"
-  },
-  {
     "date": "2026-07-14",
     "topic": "Reinforcement Learning from Human Feedback (RLHF)"
   },
@@ -238,5 +234,9 @@
   {
     "date": "2026-09-16",
     "topic": "A/B Testing & Experimentation at Scale"
+  },
+  {
+    "date": "2026-09-17",
+    "topic": "Apache Spark \u2014 Distributed Data Processing at Scale"
   }
 ]

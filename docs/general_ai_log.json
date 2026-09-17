@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-28",
-    "headline": "Anthropic IPO Imminent \u2014 Public S-1 Expected by End of August, $2T Valuation in Sight"
-  },
-  {
-    "date": "2026-08-28",
-    "headline": "EU AI Act Enforcement Is Now Live \u2014 Transparency Rules Kicked In on 2 August"
-  },
-  {
-    "date": "2026-08-28",
-    "headline": "Inference Spend Overtakes Training for the First Time \u2014 Gartner Flags 96% IaaS Growth in 2026"
-  },
-  {
-    "date": "2026-08-28",
-    "headline": "DeepSeek-V4-Pro Hits General Availability and Z.ai Ships GLM-5.3-Flash \u2014 Chinese Labs Sustain Frontier Pressure"
-  },
-  {
     "date": "2026-08-29",
     "headline": "Meta Goes Open Again \u2014 Releases Muse Glimmer and Pledges to Open Muse Spark 1.2 Weights"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-09-16",
     "headline": "NVIDIA Partners With Australian Data Center Ecosystem for Up to 2-Gigawatt AI Factory Buildout by 2027"
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "OpenAI's GPT-6 Astra Arrives at $10/$50 Per Million Tokens \u2014 Frontier Pricing Jumps Sharply"
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "US FTC Chair Ferguson Publicly Warns Against AI Industry Self-Regulation Capture"
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "California Governor Newsom Signs Child AI Chatbot Protection Laws on September 10"
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "Inference Now Dominates Global AI Compute \u2014 Spending on Running Models Overtakes Training in 2026"
   }
 ]

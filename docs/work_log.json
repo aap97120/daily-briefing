@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-09-01",
-    "headline": "Fiserv and Stuut Deploy Agentic AI Across Enterprise Receivables \u2014 $2B+ in B2B Invoices Already Processed"
-  },
-  {
-    "date": "2026-09-01",
-    "headline": "96% of B2B Marketers Use AI, But Only 44% Have the Data Infrastructure to Support It"
-  },
-  {
-    "date": "2026-09-01",
-    "headline": "Demandbase Launches MCP for AI Agents \u2014 Giving Claude, ChatGPT and Others Native Access to B2B Intelligence"
-  },
-  {
-    "date": "2026-09-01",
-    "headline": "Verisk Acquires McKenzie Intelligence Services, Posts Q2 Revenue Up 4.4% \u2014 But Margins Compress"
-  },
-  {
-    "date": "2026-09-01",
-    "headline": "45% of Enterprise AI Projects Are Failing to Deliver Results \u2014 CIOs Demand Governance and Clearer ROI"
-  },
-  {
     "date": "2026-09-02",
     "headline": "D&B Completes Clearlake Privatization \u2014 Stephen Tulenko Takes Helm as CEO"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-09-16",
     "headline": "Moody's Analytics Flags Fragile, Fragmented U.S. Credit Risk \u2014 Smaller Unrated Firms Showing Persistent Stress"
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "Cohere and Aleph Alpha Sign Definitive Merger Agreement, Creating Transatlantic Enterprise AI Challenger"
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "Equifax Canada Q2 Data: Business Debt Up 7.3%, Delinquencies Hit Seven-Year High as Tariffs Bite"
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "Gartner: Over 40% of Agentic AI Projects at Risk of Cancellation by 2027 as CFOs Demand Hard ROI"
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "Apollo Launches MCP-Native Access, Positioning as the Default Data Layer for AI-Built GTM Workflows"
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "LexisNexis Risk: Alternative Commercial Data 'No Longer Optional' as Tariff Volatility Distorts Traditional Credit Signals"
   }
 ]
