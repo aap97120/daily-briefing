@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-09-02",
-    "headline": "D&B Completes Clearlake Privatization \u2014 Stephen Tulenko Takes Helm as CEO"
-  },
-  {
-    "date": "2026-09-02",
-    "headline": "Agentic AI Crosses from Pilot to Production \u2014 But 'Operating Is Hard,' Analysts Warn"
-  },
-  {
-    "date": "2026-09-02",
-    "headline": "Moody's Embeds Entity Intelligence Inside Google Cloud's AI for Financial Services"
-  },
-  {
-    "date": "2026-09-02",
-    "headline": "Clari-Salesloft Integration Stalls \u2014 Buyers Navigating Four Overlapping Products 9 Months Post-Merger"
-  },
-  {
-    "date": "2026-09-02",
-    "headline": "S&P Global Launches GenAI Credit Analyst Tool \u2014 'CreditCompanion' Automates Memo Prep and Portfolio Surveillance"
-  },
-  {
     "date": "2026-09-03",
     "headline": "ZoomInfo Cuts Revenue Guidance and Launches $45M\u2013$60M Restructuring as Enterprise Data Competition Bites"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-09-17",
     "headline": "LexisNexis Risk: Alternative Commercial Data 'No Longer Optional' as Tariff Volatility Distorts Traditional Credit Signals"
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "D&B Introduces Agentic AI for Compliance and Third-Party Risk \u2014 Cuts Workflow Time From Days to Seconds"
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "D&B and OpenAI Collaborate to Power Finance Workflows for Enterprises and Small Businesses"
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "Moody's Launches MCP App Delivering Credit Ratings and Data on 600M+ Companies to AI Agents"
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "Salesforce Agentforce Hits $800M ARR, Up 169% Year-Over-Year \u2014 Agentic AI Moves From Pilot to Core Budget Line"
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "Canadian Business Debt Rises 7.3%, 60-Day Delinquencies Hit Seven-Year High as Tariff Stress Deepens \u2014 Equifax Q2 2026"
   }
 ]

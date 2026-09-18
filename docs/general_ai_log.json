@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-29",
-    "headline": "Meta Goes Open Again \u2014 Releases Muse Glimmer and Pledges to Open Muse Spark 1.2 Weights"
-  },
-  {
-    "date": "2026-08-29",
-    "headline": "China Becomes First Nation to Formally Regulate AI Agents as a Distinct Category"
-  },
-  {
-    "date": "2026-08-29",
-    "headline": "FTC Moves to Enforce Against Undisclosed AI-Powered Personalised Pricing"
-  },
-  {
-    "date": "2026-08-29",
-    "headline": "EU Digital Omnibus Quietly Deferred High-Risk AI Deadlines \u2014 Standalone Systems Now Have Until December 2027"
-  },
-  {
     "date": "2026-08-30",
     "headline": "OpenAI's Custom Inference Chip 'Jalape\u00f1o' Detailed \u2014 Taped Out With Broadcom in 16 Months on TSMC N3P"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-09-17",
     "headline": "Inference Now Dominates Global AI Compute \u2014 Spending on Running Models Overtakes Training in 2026"
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "Anthropic Names Alibaba, DeepSeek & Moonshot in Industrial-Scale Claude Distillation Attack"
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "US and EU Collide at G20 Over AI Regulation \u2014 Washington Pushes Deregulation, Brussels Pushes New Law"
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "California Governor Newsom Signs SB 1050 \u2014 AI Synthetic Performer Disclosure Now Law"
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "PwC Projects $31.6 Trillion in Global AI Infrastructure Investment Through 2050"
   }
 ]
