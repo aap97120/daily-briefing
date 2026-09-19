@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-30",
-    "headline": "OpenAI's Custom Inference Chip 'Jalape\u00f1o' Detailed \u2014 Taped Out With Broadcom in 16 Months on TSMC N3P"
-  },
-  {
-    "date": "2026-08-30",
-    "headline": "Gemini Crosses 1 Billion Monthly Active Users \u2014 Google's Distribution Moat Becomes Undeniable"
-  },
-  {
-    "date": "2026-08-30",
-    "headline": "FLI Summer 2026 AI Safety Index: No Major Lab Scores Above C+ \u2014 Safety Commitments Weakening"
-  },
-  {
-    "date": "2026-08-30",
-    "headline": "Amazon's Mechanical Turk Shuts Down After 20 Years \u2014 AI-Native Data Labelling Players Take Over"
-  },
-  {
     "date": "2026-08-31",
     "headline": "Anthropic Ships Claude Opus 5 With Effort Controls and Self-Verification"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-09-18",
     "headline": "PwC Projects $31.6 Trillion in Global AI Infrastructure Investment Through 2050"
+  },
+  {
+    "date": "2026-09-19",
+    "headline": "Labs Race to Gate Cyber AI Capabilities \u2014 Anthropic, Google, and OpenAI All Ship 'Defender' Model Tiers in September"
+  },
+  {
+    "date": "2026-09-19",
+    "headline": "OpenAI Opens Managed Agents API in Public Beta \u2014 Turns ChatGPT Work Infrastructure Into Developer Platform"
+  },
+  {
+    "date": "2026-09-19",
+    "headline": "EU AI Act High-Risk Enforcement Goes Live \u2014 European AI Office Begins Formal Audits in September"
+  },
+  {
+    "date": "2026-09-19",
+    "headline": "Connecticut Passes Most Comprehensive US State AI Law of 2026 \u2014 Mandatory Transparency Obligations Now Live"
   }
 ]
