@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-31",
-    "headline": "Anthropic Ships Claude Opus 5 With Effort Controls and Self-Verification"
-  },
-  {
-    "date": "2026-08-31",
-    "headline": "AMD Launches Helios Rack-Scale AI System, Books 14 GW in Customer Orders"
-  },
-  {
-    "date": "2026-08-31",
-    "headline": "EU AI Act Transparency Rules Go Live \u2014 Chatbots Must Disclose AI Identity, Deepfakes Must Be Labelled"
-  },
-  {
-    "date": "2026-08-31",
-    "headline": "Emerald AI Raises $150M Series A at $1B+ Valuation to Power AI Data Centers With Clean Energy"
-  },
-  {
     "date": "2026-09-01",
     "headline": "SpaceXAI Launches Grok 4.6, Matching GPT-5.6 Sol on Global Intelligence Rankings"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-09-19",
     "headline": "Connecticut Passes Most Comprehensive US State AI Law of 2026 \u2014 Mandatory Transparency Obligations Now Live"
+  },
+  {
+    "date": "2026-09-20",
+    "headline": "GPT-6 Astra Lands \u2014 OpenAI Ships New Flagship as Labs Flood September With Frontier Releases"
+  },
+  {
+    "date": "2026-09-20",
+    "headline": "US FTC Chair Says He's 'Suspicious' of AI Firms Seeking Regulation \u2014 While China Drafts Agent-Specific Privacy Rules"
+  },
+  {
+    "date": "2026-09-20",
+    "headline": "Council of Europe Adopts First Legally Binding International AI Treaty \u2014 Covering Both Public and Private Actors"
+  },
+  {
+    "date": "2026-09-20",
+    "headline": "Nvidia Shows $279B in Supply Commitments as Powered Data-Centre Capacity Becomes the AI Bottleneck"
   }
 ]
