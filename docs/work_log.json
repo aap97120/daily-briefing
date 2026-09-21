@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-09-05",
-    "headline": "Salesforce Agentforce Hits $1.5B ARR, Up 240% YoY \u2014 Signalling Agentic AI Has Left the Pilot Phase"
-  },
-  {
-    "date": "2026-09-05",
-    "headline": "Enterprise AI Lock-In Shifts from Model Layer to Stack Layer as Vendor Landscape Matures \u2014 Q3 2026 Analysis"
-  },
-  {
-    "date": "2026-09-05",
-    "headline": "Clari-Salesloft Merger Integration Remains Incomplete Eight Months On, Creating Buyer Uncertainty"
-  },
-  {
-    "date": "2026-09-05",
-    "headline": "Moody's Analytics Publishes Mid-Year US Credit Risk Outlook, Flags Private Credit and Yield Shift Risks for 2026\u20132027"
-  },
-  {
-    "date": "2026-09-05",
-    "headline": "Informa TechTarget Launches B2B AI Authority Index to Track Brand Visibility Inside AI Search Engines"
-  },
-  {
     "date": "2026-09-06",
     "headline": "D&B and FedEx Dataworks Launch Predictive Retail Supply-and-Demand Tracking Tool"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-09-20",
     "headline": "Alternative Data Moves From 'Nice to Have' to Essential in Commercial Credit as Tariff Volatility Exposes Traditional Model Gaps"
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "D&B Completes Clearlake Privatisation, Moody's Veteran Stephen Tulenko Takes CEO Role"
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "Informa TechTarget Launches B2B AI Authority Index to Track Brand Visibility Inside AI Search Engines"
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "Equifax Canada: Business Debt Up 7.3%, 60-Day Delinquencies Hit Highest Since 2019 as Tariff Stress Mounts"
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "Clari-Salesloft Integration Still a 'Multi-Year Effort' as Combined Platform Remains Fragmented Eight Months Post-Merger"
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "Moody's Ratings Flags Data Centre Build-Out Outpacing Grid Capacity as Emerging Credit Risk"
   }
 ]

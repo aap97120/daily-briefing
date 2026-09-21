@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-09-01",
-    "headline": "Stripe Acquiring OpenRouter, Aggregating AI? \u2014 Flipping the Business Model"
-  },
-  {
-    "date": "2026-09-01",
-    "headline": "Only 15% of US Enterprises Have Achieved Scaled Multi-Agent Adoption \u2014 The Gap Between Deployment and Orchestration Is the Defining Enterprise AI Fault Line"
-  },
-  {
-    "date": "2026-09-01",
-    "headline": "How AI Will Rewrite Enterprise Strategy: AI Is Transitioning from Productivity Tool to Core Infrastructure"
-  },
-  {
     "date": "2026-09-02",
     "headline": "Nvidia Is Expanding the Risk of the AI Buildout \u2014 Not Just Funding It"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-09-20",
     "headline": "Doom Debates Go Mainstream: AI Religion, the Economic Future, and the China Question \u2014 Why the Safety-vs-Progress Frame Is Now a Mass-Market Conversation"
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "Salesforce Agentforce 360: Seven Named Agents and a Governance Layer Signal the End of the 'Do Everything Copilot'"
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "Startups Will Automate Everything; Incumbents Will Keep Humans in the Wrong Loop \u2014 Ben Thompson on the Asymmetric Incentives of Agentic AI"
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "The Trusted Agentic AI Landscape Q3 2026: Lock-In Has Shifted from the Model Layer to the Stack Layer"
   }
 ]

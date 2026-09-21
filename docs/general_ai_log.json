@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-09-01",
-    "headline": "SpaceXAI Launches Grok 4.6, Matching GPT-5.6 Sol on Global Intelligence Rankings"
-  },
-  {
-    "date": "2026-09-01",
-    "headline": "EU AI Act's High-Risk Provisions Take Full Effect \u2014 Deployers Now in the Frame"
-  },
-  {
-    "date": "2026-09-01",
-    "headline": "EU Launches AI Gigafactories Call, Unlocking \u20ac30B+ to Close the Compute Gap With the US and China"
-  },
-  {
-    "date": "2026-09-01",
-    "headline": "AI Liability Goes Mainstream: Meta's $17.1B Teen Safety Settlement Signals Nine-Figure Governance Risk"
-  },
-  {
     "date": "2026-09-02",
     "headline": "Fireworks AI Raises $1.5B Series D at $17.5B Valuation as Enterprise Demand for Cheaper Inference Surges"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-09-20",
     "headline": "Nvidia Shows $279B in Supply Commitments as Powered Data-Centre Capacity Becomes the AI Bottleneck"
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "Anthropic Accuses Moonshot AI of Secretly Routing Kimi Users to Claude \u2014 Then Passing Off Answers as Its Own"
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "Cohere Expands Aleph Alpha Merger Into European Sovereign AI Play With $600M Schwarz Gruppe Backing"
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "China Moves to Regulate AI Agents and Generative AI Privacy as Data Risks Escalate"
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "US Congress Introduces Sectoral AI Governance Act \u2014 Federal Agencies Would Get Rulemaking Power Over Algorithmic Systems"
   }
 ]
