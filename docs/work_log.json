@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-09-06",
-    "headline": "D&B and FedEx Dataworks Launch Predictive Retail Supply-and-Demand Tracking Tool"
-  },
-  {
-    "date": "2026-09-06",
-    "headline": "Moody's Launches Maxsight Unified Risk Platform, Consolidating Third-Party and Trade Credit Intelligence"
-  },
-  {
-    "date": "2026-09-06",
-    "headline": "Agentic AI Production Gap Widens: 80% of Enterprise Apps Have an Agent, Only 31% Run One in Production"
-  },
-  {
-    "date": "2026-09-06",
-    "headline": "PwC Private Credit Survey 2026: 54% of Lenders Now Using AI in Underwriting, But Explainability Remains the Key Barrier"
-  },
-  {
-    "date": "2026-09-06",
-    "headline": "B2B SaaS Buyers in September 2026 Prioritise Trust Design and Data Lineage Over Feature Volume"
-  },
-  {
     "date": "2026-09-07",
     "headline": "Gong Launches 'Mission Andromeda' Platform Overhaul, Targeting Full Revenue Workflow Automation"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-09-21",
     "headline": "Moody's Ratings Flags Data Centre Build-Out Outpacing Grid Capacity as Emerging Credit Risk"
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "Salesforce Agentforce Hits $800M ARR With 169% Growth, Processing 2.4 Billion Agentic Work Units"
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "Anthropic Embeds D&B, Moody's, Verisk and Experian as Native Data Connectors Inside Claude for Financial Services"
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "Gong Rolls Out September 2026 Feature Drop: External Data Enrichment and Natural-Language Agent Builder"
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "Demandbase Launches MCP for AI Agents, Giving Claude, ChatGPT and VS Code Native Access to B2B Intelligence"
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "Private Credit Stress Deepens: Fitch Forecasts 4.5\u20135% Loan Default Rates as 2021\u20132022 Vintages Crack"
   }
 ]

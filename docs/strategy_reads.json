@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-09-02",
-    "headline": "Nvidia Is Expanding the Risk of the AI Buildout \u2014 Not Just Funding It"
-  },
-  {
-    "date": "2026-09-02",
-    "headline": "Agentic AI Is Rewriting Enterprise Strategy \u2014 But Governance Is the Bottleneck, Not the Model"
-  },
-  {
-    "date": "2026-09-02",
-    "headline": "Enterprise AI Adoption Is Mainstream \u2014 Enterprise AI Maturity Is Not: The Gap Is Structural"
-  },
-  {
     "date": "2026-09-03",
     "headline": "Amazon's Inference-Era Durability: How the Shift from Training to Agents Rehabilitates AWS's AI Position"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-09-21",
     "headline": "The Trusted Agentic AI Landscape Q3 2026: Lock-In Has Shifted from the Model Layer to the Stack Layer"
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "AI, Tools and Transformation: Why Enterprise AI Deployment Is Stuck in the Productivity Gap"
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "AGI Claims and the Accountability Gap: AI Better Deliver Before It's Too Late"
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "AI M&A Is Maturing: Buyers Are Getting Selective, and Data Infrastructure Is the Durable Bet"
   }
 ]

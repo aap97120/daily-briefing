@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-09-02",
-    "headline": "Fireworks AI Raises $1.5B Series D at $17.5B Valuation as Enterprise Demand for Cheaper Inference Surges"
-  },
-  {
-    "date": "2026-09-02",
-    "headline": "Safe Superintelligence Lands $5B Nvidia Investment at $32B Valuation \u2014 Largest Pure-Research AI Deal of 2026"
-  },
-  {
-    "date": "2026-09-02",
-    "headline": "OpenAI Cuts GPT-5.6 Luna Pricing 80% as Inference Price War Intensifies"
-  },
-  {
-    "date": "2026-09-02",
-    "headline": "Texas TRAIGA Complaint Mechanism Goes Live in September 2026, Adding Teeth to US State AI Enforcement"
-  },
-  {
     "date": "2026-09-03",
     "headline": "Gartner: Inference Spend Overtakes AI Training for First Time in 2026"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-09-21",
     "headline": "US Congress Introduces Sectoral AI Governance Act \u2014 Federal Agencies Would Get Rulemaking Power Over Algorithmic Systems"
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "Labs Ship Cyber-Gated AI Tiers \u2014 Anthropic, Google, and OpenAI Split Intelligence From Permission"
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "Oracle's Project Jupiter Data Centre Debt Trades at Distressed Levels \u2014 $18B in Loans Quoted at 89\u201391 Cents"
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "PwC Projects $31.6 Trillion in AI Infrastructure Spend Through 2050 \u2014 Power Named the Decisive Variable"
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "OpenAI Escapes Immediate Scraping Ban in India as Delhi High Court Tests AI Copyright Rules"
   }
 ]
