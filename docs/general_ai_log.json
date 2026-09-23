@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-09-03",
-    "headline": "Gartner: Inference Spend Overtakes AI Training for First Time in 2026"
-  },
-  {
-    "date": "2026-09-03",
-    "headline": "Connecticut Becomes Latest State to Enact Comprehensive AI Law, Adding to Enterprise Compliance Stack"
-  },
-  {
-    "date": "2026-09-03",
-    "headline": "DeepInfra Deploys 1,000+ NVIDIA B300 GPU Cluster for Frontier Lab humans& \u2014 Signalling B300 Era Has Arrived"
-  },
-  {
-    "date": "2026-09-03",
-    "headline": "Alibaba's Qwen Drops Qwen3.8-Max-0902 \u2014 Open-Weight Model Cadence Keeps Accelerating"
-  },
-  {
     "date": "2026-09-04",
     "headline": "OpenAI Launches GPT-6 Astra \u2014 First Model to Hit 'Critical' Cyber Threshold, Brockman Declares 'AGI Era'"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-09-22",
     "headline": "OpenAI Escapes Immediate Scraping Ban in India as Delhi High Court Tests AI Copyright Rules"
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "OpenAI Ships GPT-6 Astra as All Four Major Labs Release New Flagship Models in a Single Week"
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "Trump Proposes AI Czar and 'AI Force' as Newsom Signs AI Kill-Switch Order and House Advances Open-Source Bill"
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "Energized Power Capacity Replaces Chips as the Hard Constraint in AI Infrastructure Build-Out"
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "EU AI Act Enforcement Goes Live \u2014 EC Sends Information Requests to 30+ AI Companies Worldwide"
   }
 ]

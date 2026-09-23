@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-09-03",
-    "headline": "Amazon's Inference-Era Durability: How the Shift from Training to Agents Rehabilitates AWS's AI Position"
-  },
-  {
-    "date": "2026-09-03",
-    "headline": "AI Capex: 'AI Better Deliver Before It's Too Late' \u2014 The Debt-Market Moment for Enterprise AI"
-  },
-  {
-    "date": "2026-09-03",
-    "headline": "AI Eats the World, May 2026: Enterprise Rollouts Are Still Mostly Pilots \u2014 Capital Is Real, Deployment Is Not"
-  },
-  {
     "date": "2026-09-04",
     "headline": "Anthropic Blinks on Data Retention \u2014 Enterprise Trust Is Now the Key AI Business Model Variable"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-09-22",
     "headline": "AI M&A Is Maturing: Buyers Are Getting Selective, and Data Infrastructure Is the Durable Bet"
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "Frontier Overhangs: AI Model Supremacy Is No Longer a Sustainable Moat"
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "Some of All Fears: The AI Safety Debate Is a Business Strategy Argument in Disguise"
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "OpenAI Astra in the Enterprise: Governance Is the Product Gap, Not Capability"
   }
 ]
