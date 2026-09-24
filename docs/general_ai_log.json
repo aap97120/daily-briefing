@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-09-04",
-    "headline": "OpenAI Launches GPT-6 Astra \u2014 First Model to Hit 'Critical' Cyber Threshold, Brockman Declares 'AGI Era'"
-  },
-  {
-    "date": "2026-09-04",
-    "headline": "PwC: Global AI Infrastructure Spend to Reach $31.6 Trillion Through 2050, With Power as the Decisive Constraint"
-  },
-  {
-    "date": "2026-09-04",
-    "headline": "US Pushes AI Deregulation at G20 Ministerial as US-EU Regulatory Split Hardens"
-  },
-  {
-    "date": "2026-09-04",
-    "headline": "Anthropic Ships Claude Fable 5.1 and Mythos 5.1 \u2014 Gated 'Defender' Tier Signals New Architecture for Dual-Use AI"
-  },
-  {
     "date": "2026-09-05",
     "headline": "Google Ships Gemini 3.8 Flash to Stable GA, Adds Gated Cyber Tier via Fairwind Program"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-09-23",
     "headline": "EU AI Act Enforcement Goes Live \u2014 EC Sends Information Requests to 30+ AI Companies Worldwide"
+  },
+  {
+    "date": "2026-09-24",
+    "headline": "OpenRouter Acquired for $7B+ Months After $1.3B Valuation \u2014 Platform Assembly M&A Era Arrives"
+  },
+  {
+    "date": "2026-09-24",
+    "headline": "Snorkel AI Raises $350M at $3.5B Valuation \u2014 Nearly 3x in 16 Months \u2014 as AI Training Data Infrastructure Heats Up"
+  },
+  {
+    "date": "2026-09-24",
+    "headline": "US Champions AI Deregulation at G20 as EU-US Split Hardens Into Global Fault Line"
+  },
+  {
+    "date": "2026-09-24",
+    "headline": "California SB 1047 Clears Legislature \u2014 Newsom Has Until September 30 to Sign or Veto Frontier AI Bill"
   }
 ]
