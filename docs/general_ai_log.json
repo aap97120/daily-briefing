@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-09-05",
-    "headline": "Google Ships Gemini 3.8 Flash to Stable GA, Adds Gated Cyber Tier via Fairwind Program"
-  },
-  {
-    "date": "2026-09-05",
-    "headline": "Meta's Muse Spark 1.3 Launches \u2014 First Release from Current Flagship Line Since Llama Replacement"
-  },
-  {
-    "date": "2026-09-05",
-    "headline": "Anthropic Prepares to Publish Full IPO Prospectus Post-Labor Day, Eyes Late September or October Debut"
-  },
-  {
-    "date": "2026-09-05",
-    "headline": "Crusoe Signs ~$13B Five-Year AI Cloud Deal With Jane Street, More Than Doubling Trader's CoreWeave Commitment"
-  },
-  {
     "date": "2026-09-06",
     "headline": "Anthropic Signs $35B Cloud Deal With Nvidia-Backed Lambda \u2014 Nvidia Now Holds the Lease"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-09-24",
     "headline": "California SB 1047 Clears Legislature \u2014 Newsom Has Until September 30 to Sign or Veto Frontier AI Bill"
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "Nvidia Acquires Hugging Face for $12.9B in Landmark Open-Source AI Bet"
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "Cohere and Aleph Alpha Sign Definitive Merger Agreement, Creating a Transatlantic AI Champion"
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "Oracle's Project Jupiter AI Campus Debt Trades at a Discount as Infrastructure Stress Emerges"
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "Bipartisan Bill Introduced in Congress to Rein In Autonomous AI Agents"
   }
 ]

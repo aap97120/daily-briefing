@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-09-09",
-    "headline": "Salesforce and Anthropic Launch 'Claudeforce' \u2014 Putting CRM Inside Claude and Claude Inside Salesforce"
-  },
-  {
-    "date": "2026-09-09",
-    "headline": "Salesforce Agentforce ARR Hits $1.5 Billion \u2014 Up 240% Year-on-Year \u2014 as Per-Seat SaaS Model Cracks"
-  },
-  {
-    "date": "2026-09-09",
-    "headline": "Microsoft Releases September Copilot Partner Update \u2014 Adds Multi-Tenant Agent Management and New AI Monetisation Tiers"
-  },
-  {
-    "date": "2026-09-09",
-    "headline": "Moody's Analytics Mid-Year Update: Private Credit Risk 'Fragmented and Fragile' as Default Probability Stays Elevated"
-  },
-  {
-    "date": "2026-09-09",
-    "headline": "ZoomInfo Issues 1.38 Million RSUs to 92 New Hires in Aggressive September Talent Push"
-  },
-  {
     "date": "2026-09-10",
     "headline": "Accenture and Google Cloud Launch Gemini Enterprise Business Group to Scale Agentic AI"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-09-24",
     "headline": "Private Credit Stress Concentrates in 2021\u20132022 Vintages as Software Sector Faces AI Disruption Premium"
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "Demandbase Launches MCP for AI Agents, Giving Claude, ChatGPT and Others Native B2B Data Access"
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "Federal Reserve Raises Rates for First Time in Three Years as 10-Year Treasury Crosses 5% \u2014 Commercial Credit Stress Deepens"
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "Apollo Confirms It Uses LeadSift (Not Bombora) for Buying Intent \u2014 Exposing a Key Gap vs. ZoomInfo"
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "Gartner: 40% of Enterprise Apps to Embed Task-Specific AI Agents by Year-End 2026 \u2014 But Only 31% Are Live in Production"
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "Canadian Business Insolvencies Tick Up Sequentially in Q2 2026 as Tariff and Cost Pressures Persist"
   }
 ]

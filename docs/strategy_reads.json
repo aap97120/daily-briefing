@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-09-05",
-    "headline": "AI, Tools and Transformation: The Automation Gap Nobody Sees"
-  },
-  {
-    "date": "2026-09-05",
-    "headline": "Autonomy and Innovation: Startups Will Automate Everything \u2014 Incumbents Will Hesitate Too Long"
-  },
-  {
-    "date": "2026-09-05",
-    "headline": "Nvidia Acquires Hugging Face for $12.9B: The AI Stack Consolidates Around Open-Source Control"
-  },
-  {
     "date": "2026-09-06",
     "headline": "AI, Tools and Transformation: The Task Automation Gap Nobody Can See From the Inside"
   },
@@ -238,5 +226,17 @@
   {
     "date": "2026-09-24",
     "headline": "The Chatbot Era Is Over \u2014 And 79% of Enterprises Are Structurally Unprepared for What Comes Next"
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "AI, Tools and Transformation: Why Giving Everyone a Copilot Is Not a Transformation Strategy"
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "The AI Agent Harness: Where Vendor Lock-in Went After the Model Became Swappable"
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "2026 State of AI Agents: Governance Is Now the Multiplier \u2014 Not Deployment Volume"
   }
 ]
