@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-09-06",
-    "headline": "Anthropic Signs $35B Cloud Deal With Nvidia-Backed Lambda \u2014 Nvidia Now Holds the Lease"
-  },
-  {
-    "date": "2026-09-06",
-    "headline": "Moonshot AI's Kimi K3 Breaks Into Frontier Top 4 \u2014 Chinese Open-Weight Lab Claims Verified Benchmark Spot"
-  },
-  {
-    "date": "2026-09-06",
-    "headline": "European Defence Officials Openly Resist Brussels' Push to Cut Reliance on US Cloud and AI"
-  },
-  {
-    "date": "2026-09-06",
-    "headline": "Pennsylvania Governor Calls Data Centres 'Predatory,' Imposes New Guardrails \u2014 First Major US State Pushback on AI Infrastructure Siting"
-  },
-  {
     "date": "2026-09-07",
     "headline": "OpenAI Ships GPT-6 Astra, Declares 'AGI Era' \u2014 But Safety Team Flags Monitorability Regression"
   },
@@ -318,5 +302,21 @@
   {
     "date": "2026-09-25",
     "headline": "Bipartisan Bill Introduced in Congress to Rein In Autonomous AI Agents"
+  },
+  {
+    "date": "2026-09-26",
+    "headline": "Cognition AI Doubles to $48B Valuation in Four Months, Raising $2B Series E for Devin Coding Agent"
+  },
+  {
+    "date": "2026-09-26",
+    "headline": "GPT-6 Astra Launches Alongside Claude Fable 5.1 and Gemini 3.8 Flash in Densest Frontier Release Wave of 2026"
+  },
+  {
+    "date": "2026-09-26",
+    "headline": "PwC Projects $31.6 Trillion in Global AI Infrastructure Spend Through 2050 \u2014 Power Identified as the Decisive Bottleneck"
+  },
+  {
+    "date": "2026-09-26",
+    "headline": "Trump Announces AI Czar and 'AI Force' While Newsom Issues Executive Order on AI Kill Switch \u2014 US Policy Fractures Along Federal-State Lines"
   }
 ]

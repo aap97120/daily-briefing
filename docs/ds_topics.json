@@ -1,9 +1,5 @@
 [
   {
-    "date": "2026-07-27",
-    "topic": "Feature Stores"
-  },
-  {
     "date": "2026-07-28",
     "topic": "XGBoost \u2014 Gradient Boosted Trees in Depth"
   },
@@ -238,5 +234,9 @@
   {
     "date": "2026-09-25",
     "topic": "Bayesian Inference"
+  },
+  {
+    "date": "2026-09-26",
+    "topic": "Feature Stores"
   }
 ]

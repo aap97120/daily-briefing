@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-09-10",
-    "headline": "Accenture and Google Cloud Launch Gemini Enterprise Business Group to Scale Agentic AI"
-  },
-  {
-    "date": "2026-09-10",
-    "headline": "Verisk Launches U.S. Data Center Exposure Database as AI Infrastructure Risk Surges"
-  },
-  {
-    "date": "2026-09-10",
-    "headline": "Forrester: One-Third of B2B Transactions Will Involve Autonomous Agents Managing Invoicing and Reconciliation by End of 2026"
-  },
-  {
-    "date": "2026-09-10",
-    "headline": "Apollo.io Embeds Sales Intelligence Directly into Perplexity Computer via Native Connector"
-  },
-  {
-    "date": "2026-09-10",
-    "headline": "Gartner Reaffirms: 40% of Enterprise Apps Will Feature Task-Specific AI Agents by End of 2026 \u2014 Up from Under 5% in 2025"
-  },
-  {
     "date": "2026-09-11",
     "headline": "Gong Launches 'Mission Big Dipper' \u2014 Adds Agentic Execution Layer to Revenue AI Operating System"
   },
@@ -318,5 +298,25 @@
   {
     "date": "2026-09-25",
     "headline": "Canadian Business Insolvencies Tick Up Sequentially in Q2 2026 as Tariff and Cost Pressures Persist"
+  },
+  {
+    "date": "2026-09-26",
+    "headline": "D&B Introduces Agentic AI for Compliance and Third-Party Risk \u2014 Cutting Workflow Time from Days to Seconds"
+  },
+  {
+    "date": "2026-09-26",
+    "headline": "Moody's Launches MCP App Giving AI Agents Direct Access to Credit Ratings on 600M+ Companies"
+  },
+  {
+    "date": "2026-09-26",
+    "headline": "Salesforce Agentforce Hits $800M ARR, Up 169% Year-over-Year \u2014 Proof Enterprise Agent Spend Is Now Committed Budget"
+  },
+  {
+    "date": "2026-09-26",
+    "headline": "Gong Rolls Out September 2026 Agent Updates: Natural-Language Agent Builder and Enriched Account Data Integration"
+  },
+  {
+    "date": "2026-09-26",
+    "headline": "U.S. Small Business Bankruptcy Filings Surge 63% Year-over-Year in August 2026 as Tariff and Cost Pressures Bite"
   }
 ]
